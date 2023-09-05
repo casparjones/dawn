@@ -4,5 +4,16 @@
     "market": "austria"
   },
   "sections": {
+    "main": {
+      "settings": {
+      },
+      "blocks": {
+        "caption": {
+          "settings": {
+            "text": "{{ product.vendor }}"
+          }
+        }
+      }
+    }
   }
 }
