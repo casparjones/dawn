@@ -5,6 +5,7 @@
   },
   "sections": {
     "rich_text": {
+      "disabled": false,
       "settings": {
       },
       "blocks": {
@@ -15,5 +16,13 @@
         }
       }
     }
-  }
+  },
+  "order": [
+    "rich_text",
+    "image_banner",
+    "featured_collection",
+    "collage",
+    "video",
+    "multicolumn"
+  ]
 }
