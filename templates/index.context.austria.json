@@ -4,5 +4,16 @@
     "market": "austria"
   },
   "sections": {
+    "rich_text": {
+      "settings": {
+      },
+      "blocks": {
+        "heading": {
+          "settings": {
+            "heading": "Talk about your brand Blub"
+          }
+        }
+      }
+    }
   }
 }
