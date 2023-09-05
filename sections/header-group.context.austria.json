@@ -5,12 +5,13 @@
   },
   "sections": {
     "announcement-bar": {
+      "disabled": false,
       "settings": {
       },
       "blocks": {
         "announcement-bar-0": {
           "settings": {
-            "text": "Welcome to our in austria"
+            "text": "Welcome to our store in austria"
           }
         }
       }
