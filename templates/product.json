@@ -18,7 +18,7 @@
         "db761b10-a997-4fd9-8ebf-dd28a15e38c3": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "{% assign preorder_text = product.metafields.translation.preorder-custom %}\n{{ preorder_text }}"
+            "custom_liquid": "{% assign preorder_text = product.metafields.translation.preorder-custom %}\n{% assign inventory = product.variants.first.inventory_quantity %}\n{{ preorder_text | replace: '#inventory#', inventory }}"
           }
         },
         "caption": {
