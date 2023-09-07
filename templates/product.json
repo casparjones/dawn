@@ -15,6 +15,12 @@
           "settings": {
           }
         },
+        "db761b10-a997-4fd9-8ebf-dd28a15e38c3": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<p style=color:#fa9900><b>Only {{ product.variants.first.inventory_quantity | plus:150 }} left available for pre-order at the discounted price!<\/b><\/p>"
+          }
+        },
         "caption": {
           "type": "text",
           "settings": {
@@ -96,6 +102,7 @@
       "block_order": [
         "vendor",
         "title",
+        "db761b10-a997-4fd9-8ebf-dd28a15e38c3",
         "caption",
         "price",
         "variant_picker",
