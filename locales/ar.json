@@ -1,6 +1,7 @@
 {
   "accessibility": {
     "skip_to_text": "تخطى الى المحتوى",
-    "skip_to_product_info": "انتقل إلى معلومات المنتج"
+    "skip_to_product_info": "انتقل إلى معلومات المنتج",
+    "close": "يغلق"
   }
 }
