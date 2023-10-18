@@ -1,1 +1,1 @@
-{{ 'sections.cart.new_estimated_total' | t }}: {{ cart.total_price | money_with_currency }}
+{{ 'sections.cart.new_estimated_total' | t }}: {%comment%}gc--[{%endcomment%}{%- capture geolizr_prepend_code -%}{%- render 'geolizr-currency', geolizr_price: cart.total_price -%}{% endcapture %}{%comment%}]--gc{%endcomment%}{{ cart.total_price | money_with_currency | prepend: geolizr_prepend_code | append: "</span>"}}
