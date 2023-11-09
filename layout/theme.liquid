@@ -340,14 +340,12 @@
     <script>
       Geolizr.addEventListener('currency.api', () => {
         let gcm = document.querySelectorAll('.geolizr_custom_money');
-  debugger;
         for(let element of gcm) {
           let price = element.innerText.replace(/\D+/gm, '');
           let convert = Geolizr.convert(1000, "EUR", Shopify.currency.active)
           element.setAttribute('data-price', price);
           element.setAttribute('data-price-convert', convert);
           element.innerText = Geolizr.shopifyFormatMoney(convert, Geolizr.money_format);
-          debugger;
         }
       });
     </script>
