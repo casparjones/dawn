@@ -80,7 +80,7 @@
                     {{ order.fulfillment_status_label }}
                   </td>
                   <td headers="RowOrder ColumnTotal" role="cell" data-label="{{ 'customer.orders.total' | t }}">
-                    {%comment%}gc--[{%endcomment%}{%- capture geolizr_prepend_code -%}{%- render 'geolizr-currency', geolizr_price: order.total_net_amount -%}{% endcapture %}{%comment%}]--gc{%endcomment%}{{ order.total_net_amount | money_with_currency | prepend: geolizr_prepend_code | append: "</span>"}}
+                    {{ order.total_net_amount | money_with_currency }}
                   </td>
                 </tr>
               {%- endfor -%}
