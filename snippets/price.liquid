@@ -64,9 +64,9 @@
             <span>
               <s class="price-item price-item--regular variant-item__old-price">
                 {% if settings.currency_code_enabled %}
-                  {%comment%}gc--[{%endcomment%}{%- capture geolizr_prepend_code -%}{%- render 'geolizr-currency', geolizr_price: compare_at_price -%}{% endcapture %}{%comment%}]--gc{%endcomment%}{{ compare_at_price | money_with_currency | prepend: geolizr_prepend_code | append: "</span>"}}
+                  {{ compare_at_price | money_with_currency }}
                 {% else %}
-                  {%comment%}gc--[{%endcomment%}{%- capture geolizr_prepend_code -%}{%- render 'geolizr-currency', geolizr_price: compare_at_price -%}{% endcapture %}{%comment%}]--gc{%endcomment%}{{ compare_at_price | money | prepend: geolizr_prepend_code | append: "</span>"}}
+                  {{ compare_at_price | money }}
                 {% endif %}
               </s>
             </span>
@@ -79,7 +79,7 @@
       {%- else -%}
         <span class="visually-hidden visually-hidden--inline">{{ 'products.product.price.regular_price' | t }}</span>
         <span class="price-item price-item--regular">
-          {%comment%}gc--[{%endcomment%}{%- capture geolizr_prepend_code -%}{%- render 'geolizr-currency', geolizr_price: price -%}{% endcapture %}{%comment%}]--gc{%endcomment%}{{ price | money | prepend: geolizr_prepend_code | append: "</span>"}}
+          {{ price | money }}
         </span>
       {%- endif -%}
     </div>
@@ -89,22 +89,22 @@
         <span>
           <s class="price-item price-item--regular">
             {% if settings.currency_code_enabled %}
-              {%comment%}gc--[{%endcomment%}{%- capture geolizr_prepend_code -%}{%- render 'geolizr-currency', geolizr_price: compare_at_price -%}{% endcapture %}{%comment%}]--gc{%endcomment%}{{ compare_at_price | money_with_currency | prepend: geolizr_prepend_code | append: "</span>"}}
+              {{ compare_at_price | money_with_currency }}
             {% else %}
-              {%comment%}gc--[{%endcomment%}{%- capture geolizr_prepend_code -%}{%- render 'geolizr-currency', geolizr_price: compare_at_price -%}{% endcapture %}{%comment%}]--gc{%endcomment%}{{ compare_at_price | money | prepend: geolizr_prepend_code | append: "</span>"}}
+              {{ compare_at_price | money }}
             {% endif %}
           </s>
         </span>
       {%- endunless -%}
       <span class="visually-hidden visually-hidden--inline">{{ 'products.product.price.sale_price' | t }}</span>
       <span class="price-item price-item--sale price-item--last">
-        {%comment%}gc--[{%endcomment%}{%- capture geolizr_prepend_code -%}{%- render 'geolizr-currency', geolizr_price: price -%}{% endcapture %}{%comment%}]--gc{%endcomment%}{{ price | money | prepend: geolizr_prepend_code | append: "</span>"}}
+        {{ price | money }}
       </span>
     </div>
     <small class="unit-price caption{% if product.selected_or_first_available_variant.unit_price_measurement == nil %} hidden{% endif %}">
       <span class="visually-hidden">{{ 'products.product.price.unit_price' | t }}</span>
       <span class="price-item price-item--last">
-        <span>{%comment%}gc--[{%endcomment%}{%- capture geolizr_prepend_code -%}{%- render 'geolizr-currency', geolizr_price: product.selected_or_first_available_variant.unit_price -%}{% endcapture %}{%comment%}]--gc{%endcomment%}{{- product.selected_or_first_available_variant.unit_price | money | prepend: geolizr_prepend_code | append: "</span>"-}}</span>
+        <span>{{- product.selected_or_first_available_variant.unit_price | money -}}</span>
         <span aria-hidden="true">/</span>
         <span class="visually-hidden">&nbsp;{{ 'accessibility.unit_price_separator' | t }}&nbsp;</span>
         <span>
