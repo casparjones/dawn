@@ -287,18 +287,18 @@
                               </dt>
                               <dd>
                                 <s class="variant-item__old-price">
-                                  {%comment%}gc--[{%endcomment%}{%- capture geolizr_prepend_code -%}{%- render 'geolizr-currency', geolizr_price: variant_price_compare -%}{% endcapture %}{%comment%}]--gc{%endcomment%}{{ variant_price_compare | money_with_currency | prepend: geolizr_prepend_code | append: "</span>"}}
+                                  {{ variant_price_compare | money_with_currency }}
                                 </s>
                               </dd>
                             </dl>
                           {%- endif -%}
                           {%- if current_qty_for_volume_pricing < volume_pricing_array.last.minimum_quantity -%}
-                            {%comment%}gc--[{%endcomment%}{%- capture geolizr_prepend_code -%}{%- render 'geolizr-currency', geolizr_price: product.selected_or_first_available_variant.price -%}{% endcapture %}{%comment%}]--gc{%endcomment%}{%- assign variant_price = product.selected_or_first_available_variant.price | money_with_currency | prepend: geolizr_prepend_code | append: "</span>"-%}
+                            {%- assign variant_price = product.selected_or_first_available_variant.price | money_with_currency -%}
                             <span class="price-per-item--current">{{ 'products.product.volume_pricing.price_at_each' | t: price: variant_price }}</span>
                           {%- else -%}
                             {%- for price_break in volume_pricing_array -%}
                               {%- if current_qty_for_volume_pricing >= price_break.minimum_quantity -%}
-                                {%comment%}gc--[{%endcomment%}{%- capture geolizr_prepend_code -%}{%- render 'geolizr-currency', geolizr_price: price_break.price -%}{% endcapture %}{%comment%}]--gc{%endcomment%}{%- assign price_break_price = price_break.price | money_with_currency | prepend: geolizr_prepend_code | append: "</span>"-%}
+                                {%- assign price_break_price = price_break.price | money_with_currency -%}
                                 <span class="price-per-item--current">{{ 'products.product.volume_pricing.price_at_each' | t: price: price_break_price }}</span>
                                 {%- break -%}
                               {%- endif -%}
@@ -306,7 +306,7 @@
                           {%- endif -%}
                         </div>
                       {%- else -%}
-                        {%comment%}gc--[{%endcomment%}{%- capture geolizr_prepend_code -%}{%- render 'geolizr-currency', geolizr_price: product.selected_or_first_available_variant.price -%}{% endcapture %}{%comment%}]--gc{%endcomment%}{%- assign variant_price = product.selected_or_first_available_variant.price | money_with_currency | prepend: geolizr_prepend_code | append: "</span>"-%}
+                        {%- assign variant_price = product.selected_or_first_available_variant.price | money_with_currency -%}
                         {%- assign variant_price_compare = product.selected_or_first_available_variant.compare_at_price -%}
                         <div class="price-per-item">
                           {%- if variant_price_compare -%}
@@ -316,7 +316,7 @@
                               </dt>
                               <dd>
                                 <s class="variant-item__old-price">
-                                  {%comment%}gc--[{%endcomment%}{%- capture geolizr_prepend_code -%}{%- render 'geolizr-currency', geolizr_price: variant_price_compare -%}{% endcapture %}{%comment%}]--gc{%endcomment%}{{ variant_price_compare | money_with_currency | prepend: geolizr_prepend_code | append: "</span>"}}
+                                  {{ variant_price_compare | money_with_currency }}
                                 </s>
                               </dd>
                               <dt class="visually-hidden">
@@ -367,11 +367,11 @@
                       <ul class="list-unstyled no-js-hidden">
                         <li>
                           <span>{{ product.selected_or_first_available_variant.quantity_rule.min }}+</span>
-                          {%comment%}gc--[{%endcomment%}{%- capture geolizr_prepend_code -%}{%- render 'geolizr-currency', geolizr_price: product.selected_or_first_available_variant.price -%}{% endcapture %}{%comment%}]--gc{%endcomment%}{%- assign price = product.selected_or_first_available_variant.price | money_with_currency | prepend: geolizr_prepend_code | append: "</span>"-%}
+                          {%- assign price = product.selected_or_first_available_variant.price | money_with_currency -%}
                           <span data-text="{{ 'products.product.volume_pricing.price_at_each' | t: price: variant_price }}">{{ 'sections.quick_order_list.each' | t: money: price }}</span>
                         </li>
                         {%- for price_break in product.selected_or_first_available_variant.quantity_price_breaks -%}
-                          {%comment%}gc--[{%endcomment%}{%- capture geolizr_prepend_code -%}{%- render 'geolizr-currency', geolizr_price: price_break.price -%}{% endcapture %}{%comment%}]--gc{%endcomment%}{%- assign price_break_price = price_break.price | money_with_currency | prepend: geolizr_prepend_code | append: "</span>"-%}
+                          {%- assign price_break_price = price_break.price | money_with_currency -%}
                           <li class="{%- if forloop.index >= 3 -%}show-more-item hidden{%- endif -%}">
                             <span>{{ price_break.minimum_quantity }}<span aria-hidden="true">+</span></span>
                             <span data-text="{{ 'products.product.volume_pricing.price_at_each' | t: price: price_break_price }}">{{ 'sections.quick_order_list.each' | t: money: price_break_price }}</span>

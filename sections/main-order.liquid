@@ -104,7 +104,7 @@
                             <use href="#icon-discount" />
                           </svg>
                           {{- discount_allocation.discount_application.title }} (-
-                          {%comment%}gc--[{%endcomment%}{%- capture geolizr_prepend_code -%}{%- render 'geolizr-currency', geolizr_price: discount_allocation.amount -%}{% endcapture %}{%comment%}]--gc{%endcomment%}{{- discount_allocation.amount | money | prepend: geolizr_prepend_code | append: "</span>"-}}
+                          {{- discount_allocation.amount | money -}}
                           )
                         </li>
                       {%- endfor -%}
@@ -150,20 +150,20 @@
                         <span class="visually-hidden">{{ 'products.product.price.regular_price' | t }}</span>
                       </dt>
                       <dd class="regular-price">
-                        <s>{%comment%}gc--[{%endcomment%}{%- capture geolizr_prepend_code -%}{%- render 'geolizr-currency', geolizr_price: line_item.original_price -%}{% endcapture %}{%comment%}]--gc{%endcomment%}{{ line_item.original_price | money | prepend: geolizr_prepend_code | append: "</span>"}}</s>
+                        <s>{{ line_item.original_price | money }}</s>
                       </dd>
                       <dt>
                         <span class="visually-hidden">{{ 'products.product.price.sale_price' | t }}</span>
                       </dt>
                       <dd>
-                        <span>{%comment%}gc--[{%endcomment%}{%- capture geolizr_prepend_code -%}{%- render 'geolizr-currency', geolizr_price: line_item.final_price -%}{% endcapture %}{%comment%}]--gc{%endcomment%}{{ line_item.final_price | money | prepend: geolizr_prepend_code | append: "</span>"}}</span>
+                        <span>{{ line_item.final_price | money }}</span>
                       </dd>
                     {%- else -%}
                       <dt>
                         <span class="visually-hidden">{{ 'products.product.price.regular_price' | t }}</span>
                       </dt>
                       <dd>
-                        {%comment%}gc--[{%endcomment%}{%- capture geolizr_prepend_code -%}{%- render 'geolizr-currency', geolizr_price: line_item.original_price -%}{% endcapture %}{%comment%}]--gc{%endcomment%}{{ line_item.original_price | money | prepend: geolizr_prepend_code | append: "</span>"}}
+                        {{ line_item.original_price | money }}
                       </dd>
                     {%- endif -%}
                     {%- if line_item.unit_price_measurement -%}
@@ -182,7 +182,7 @@
                             {%- endif -%}
                             {{ line_item.unit_price_measurement.reference_unit }}
                           {%- endcapture -%}
-                          <span data-unit-price>{%comment%}gc--[{%endcomment%}{%- capture geolizr_prepend_code -%}{%- render 'geolizr-currency', geolizr_price: line_item.unit_price -%}{% endcapture %}{%comment%}]--gc{%endcomment%}{{ line_item.unit_price | money | prepend: geolizr_prepend_code | append: "</span>"}}</span>
+                          <span data-unit-price>{{ line_item.unit_price | money }}</span>
                           {{- unit_price_separator -}}
                           {{- unit_price_base_unit -}}
                         </span>
@@ -190,7 +190,7 @@
                     {%- endif -%}
                   </dl>
                 {%- else -%}
-                  <span>{%comment%}gc--[{%endcomment%}{%- capture geolizr_prepend_code -%}{%- render 'geolizr-currency', geolizr_price: line_item.final_price -%}{% endcapture %}{%comment%}]--gc{%endcomment%}{{ line_item.final_price | money | prepend: geolizr_prepend_code | append: "</span>"}}</span>
+                  <span>{{ line_item.final_price | money }}</span>
                 {%- endif -%}
               </td>
               <td
@@ -211,17 +211,17 @@
                       <span class="visually-hidden">{{ 'products.product.price.regular_price' | t }}</span>
                     </dt>
                     <dd class="regular-price">
-                      <s>{%comment%}gc--[{%endcomment%}{%- capture geolizr_prepend_code -%}{%- render 'geolizr-currency', geolizr_price: line_item.original_line_price -%}{% endcapture %}{%comment%}]--gc{%endcomment%}{{ line_item.original_line_price | money | prepend: geolizr_prepend_code | append: "</span>"}}</s>
+                      <s>{{ line_item.original_line_price | money }}</s>
                     </dd>
                     <dt>
                       <span class="visually-hidden">{{ 'products.product.price.sale_price' | t }}</span>
                     </dt>
                     <dd>
-                      <span>{%comment%}gc--[{%endcomment%}{%- capture geolizr_prepend_code -%}{%- render 'geolizr-currency', geolizr_price: line_item.final_line_price -%}{% endcapture %}{%comment%}]--gc{%endcomment%}{{ line_item.final_line_price | money | prepend: geolizr_prepend_code | append: "</span>"}}</span>
+                      <span>{{ line_item.final_line_price | money }}</span>
                     </dd>
                   </dl>
                 {%- else -%}
-                  {%comment%}gc--[{%endcomment%}{%- capture geolizr_prepend_code -%}{%- render 'geolizr-currency', geolizr_price: line_item.original_line_price -%}{% endcapture %}{%comment%}]--gc{%endcomment%}{{ line_item.original_line_price | money | prepend: geolizr_prepend_code | append: "</span>"}}
+                  {{ line_item.original_line_price | money }}
                 {%- endif -%}
               </td>
             </tr>
@@ -233,7 +233,7 @@
               {{ 'customer.order.subtotal' | t }}
             </td>
             <td headers="RowSubtotal" role="cell" data-label="{{ 'customer.order.subtotal' | t }}">
-              {%comment%}gc--[{%endcomment%}{%- capture geolizr_prepend_code -%}{%- render 'geolizr-currency', geolizr_price: order.line_items_subtotal_price -%}{% endcapture %}{%comment%}]--gc{%endcomment%}{{ order.line_items_subtotal_price | money | prepend: geolizr_prepend_code | append: "</span>"}}
+              {{ order.line_items_subtotal_price | money }}
             </td>
           </tr>
           {%- if order.cart_level_discount_applications != blank -%}
@@ -250,7 +250,7 @@
                 </td>
                 <td headers="RowDiscount" role="cell" data-label="{{ 'customer.order.discount' | t }}">
                   <div>
-                    <span>-{%comment%}gc--[{%endcomment%}{%- capture geolizr_prepend_code -%}{%- render 'geolizr-currency', geolizr_price: discount_application.total_allocated_amount -%}{% endcapture %}{%comment%}]--gc{%endcomment%}{{ discount_application.total_allocated_amount | money | prepend: geolizr_prepend_code | append: "</span>"}}</span>
+                    <span>-{{ discount_application.total_allocated_amount | money }}</span>
                     <span class="cart-discount">
                       <svg aria-hidden="true" focusable="false" viewBox="0 0 12 12">
                         <use href="#icon-discount" />
@@ -272,7 +272,7 @@
                 role="cell"
                 data-label="{{ 'customer.order.shipping' | t }} ({{ shipping_method.title }})"
               >
-                {%comment%}gc--[{%endcomment%}{%- capture geolizr_prepend_code -%}{%- render 'geolizr-currency', geolizr_price: shipping_method.price -%}{% endcapture %}{%comment%}]--gc{%endcomment%}{{ shipping_method.price | money | prepend: geolizr_prepend_code | append: "</span>"}}
+                {{ shipping_method.price | money }}
               </td>
             </tr>
           {%- endfor -%}
@@ -287,7 +287,7 @@
                 role="cell"
                 data-label="{{ 'customer.order.tax' | t }} ({{ tax_line.title }} {{ tax_line.rate | times: 100 }}%)"
               >
-                {%comment%}gc--[{%endcomment%}{%- capture geolizr_prepend_code -%}{%- render 'geolizr-currency', geolizr_price: tax_line.price -%}{% endcapture %}{%comment%}]--gc{%endcomment%}{{ tax_line.price | money | prepend: geolizr_prepend_code | append: "</span>"}}
+                {{ tax_line.price | money }}
               </td>
             </tr>
           {%- endfor -%}
@@ -295,7 +295,7 @@
             <tr role="row">
               <td id="RowDuties" role="rowheader" scope="row" colspan="4">{{ 'customer.order.total_duties' | t }}</td>
               <td headers="RowDuties" role="cell" data-label="{{ 'customer.order.total_duties' | t }}">
-                {%comment%}gc--[{%endcomment%}{%- capture geolizr_prepend_code -%}{%- render 'geolizr-currency', geolizr_price: order.total_duties -%}{% endcapture %}{%comment%}]--gc{%endcomment%}{{ order.total_duties | money | prepend: geolizr_prepend_code | append: "</span>"}}
+                {{ order.total_duties | money }}
               </td>
             </tr>
           {%- endif -%}
@@ -310,14 +310,14 @@
                 colspan="2"
                 data-label="{{ 'customer.order.total_refunded' | t }}"
               >
-                -{%comment%}gc--[{%endcomment%}{%- capture geolizr_prepend_code -%}{%- render 'geolizr-currency', geolizr_price: order.total_refunded_amount -%}{% endcapture %}{%comment%}]--gc{%endcomment%}{{ order.total_refunded_amount | money_with_currency | prepend: geolizr_prepend_code | append: "</span>"}}
+                -{{ order.total_refunded_amount | money_with_currency }}
               </td>
             </tr>
           {%- endif -%}
           <tr role="row">
             <td id="RowTotal" role="rowheader" scope="row" colspan="3">{{ 'customer.order.total' | t }}</td>
             <td headers="RowTotal" role="cell" colspan="2" data-label="{{ 'customer.order.total' | t }}">
-              {%comment%}gc--[{%endcomment%}{%- capture geolizr_prepend_code -%}{%- render 'geolizr-currency', geolizr_price: order.total_net_amount -%}{% endcapture %}{%comment%}]--gc{%endcomment%}{{ order.total_net_amount | money_with_currency | prepend: geolizr_prepend_code | append: "</span>"}}
+              {{ order.total_net_amount | money_with_currency }}
             </td>
           </tr>
         </tfoot>
