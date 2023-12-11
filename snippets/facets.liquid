@@ -87,15 +87,15 @@
                         <a href="{{ filter.url_to_remove }}" class="active-facets__button active-facets__button--light">
                           <span class="active-facets__button-inner button button--tertiary">
                             {%- if filter.min_value.value -%}
-                              {%comment%}gc--[{%endcomment%}{%- capture geolizr_prepend_code -%}{%- render 'geolizr-currency', geolizr_price: filter.min_value.value -%}{% endcapture %}{%comment%}]--gc{%endcomment%}{{ filter.min_value.value | money | prepend: geolizr_prepend_code | append: "</span>"}}
+                              {{ filter.min_value.value | money }}
                             {%- else -%}
-                              {%comment%}gc--[{%endcomment%}{%- capture geolizr_prepend_code -%}{%- render 'geolizr-currency', geolizr_price: 0 -%}{% endcapture %}{%comment%}]--gc{%endcomment%}{{ 0 | money | prepend: geolizr_prepend_code | append: "</span>"}}
+                              {{ 0 | money }}
                             {%- endif -%}
                             -
                             {%- if filter.max_value.value -%}
-                              {%comment%}gc--[{%endcomment%}{%- capture geolizr_prepend_code -%}{%- render 'geolizr-currency', geolizr_price: filter.max_value.value -%}{% endcapture %}{%comment%}]--gc{%endcomment%}{{ filter.max_value.value | money | prepend: geolizr_prepend_code | append: "</span>"}}
+                              {{ filter.max_value.value | money }}
                             {%- else -%}
-                              {%comment%}gc--[{%endcomment%}{%- capture geolizr_prepend_code -%}{%- render 'geolizr-currency', geolizr_price: filter.range_max -%}{% endcapture %}{%comment%}]--gc{%endcomment%}{{ filter.range_max | money | prepend: geolizr_prepend_code | append: "</span>"}}
+                              {{ filter.range_max | money }}
                             {%- endif -%}
                             {% render 'icon-close-small' %}
                             <span class="visually-hidden">{{ 'products.facets.clear_filter' | t }}</span>
@@ -329,7 +329,7 @@
                       class="{% if filter_type == 'horizontal' %}facets__display{% else %}facets__display-vertical{% endif %}"
                     >
                       <div class="{% if filter_type == 'horizontal' %}facets__header{% else %}facets__header-vertical{% endif %}">
-                        {%comment%}gc--[{%endcomment%}{%- capture geolizr_prepend_code -%}{%- render 'geolizr-currency', geolizr_price: filter.range_max -%}{% endcapture %}{%comment%}]--gc{%endcomment%}{%- assign max_price_amount = filter.range_max | money | prepend: geolizr_prepend_code | append: "</span>"| strip_html | escape -%}
+                        {%- assign max_price_amount = filter.range_max | money | strip_html | escape -%}
                         <span class="facets__selected">
                           {{- 'products.facets.max_price' | t: price: max_price_amount -}}
                         </span>
@@ -350,18 +350,18 @@
                             id="Filter-{{ filter.label | escape }}-GTE"
                             {%- if filter.min_value.value -%}
                               {%- if uses_comma_decimals -%}
-                                value="{%comment%}gc--[{%endcomment%}{%- capture geolizr_prepend_code -%}{%- render 'geolizr-currency', geolizr_price: filter.min_value.value -%}{% endcapture %}{%comment%}]--gc{%endcomment%}{{ filter.min_value.value | money_without_currency | prepend: geolizr_prepend_code | append: "</span>"| replace: '.', '' | replace: ',', '.' }}"
+                                value="{{ filter.min_value.value | money_without_currency | replace: '.', '' | replace: ',', '.' }}"
                               {%- else -%}
-                                value="{%comment%}gc--[{%endcomment%}{%- capture geolizr_prepend_code -%}{%- render 'geolizr-currency', geolizr_price: filter.min_value.value -%}{% endcapture %}{%comment%}]--gc{%endcomment%}{{ filter.min_value.value | money_without_currency | prepend: geolizr_prepend_code | append: "</span>"| replace: ',', '' }}"
+                                value="{{ filter.min_value.value | money_without_currency | replace: ',', '' }}"
                               {%- endif %}
                             {%- endif -%}
                             type="number"
                             placeholder="0"
                             min="0"
                             {%- if uses_comma_decimals -%}
-                              max="{%comment%}gc--[{%endcomment%}{%- capture geolizr_prepend_code -%}{%- render 'geolizr-currency', geolizr_price: filter.range_max -%}{% endcapture %}{%comment%}]--gc{%endcomment%}{{ filter.range_max | money_without_currency | prepend: geolizr_prepend_code | append: "</span>"| replace: '.', '' | replace: ',', '.' }}"
+                              max="{{ filter.range_max | money_without_currency | replace: '.', '' | replace: ',', '.' }}"
                             {%- else -%}
-                              max="{%comment%}gc--[{%endcomment%}{%- capture geolizr_prepend_code -%}{%- render 'geolizr-currency', geolizr_price: filter.range_max -%}{% endcapture %}{%comment%}]--gc{%endcomment%}{{ filter.range_max | money_without_currency | prepend: geolizr_prepend_code | append: "</span>"| replace: ',', '' }}"
+                              max="{{ filter.range_max | money_without_currency | replace: ',', '' }}"
                             {% endif %}
                           >
                           <label class="field__label" for="Filter-{{ filter.label | escape }}-GTE">
@@ -378,19 +378,19 @@
                             id="Filter-{{ filter.label | escape }}-LTE"
                             {%- if filter.max_value.value -%}
                               {%- if uses_comma_decimals -%}
-                                value="{%comment%}gc--[{%endcomment%}{%- capture geolizr_prepend_code -%}{%- render 'geolizr-currency', geolizr_price: filter.max_value.value -%}{% endcapture %}{%comment%}]--gc{%endcomment%}{{ filter.max_value.value | money_without_currency | prepend: geolizr_prepend_code | append: "</span>"| replace: '.', '' | replace: ',', '.' }}"
+                                value="{{ filter.max_value.value | money_without_currency | replace: '.', '' | replace: ',', '.' }}"
                               {%- else -%}
-                                value="{%comment%}gc--[{%endcomment%}{%- capture geolizr_prepend_code -%}{%- render 'geolizr-currency', geolizr_price: filter.max_value.value -%}{% endcapture %}{%comment%}]--gc{%endcomment%}{{ filter.max_value.value | money_without_currency | prepend: geolizr_prepend_code | append: "</span>"| replace: ',', '' }}"
+                                value="{{ filter.max_value.value | money_without_currency | replace: ',', '' }}"
                               {%- endif %}
                             {%- endif -%}
                             type="number"
                             min="0"
                             {%- if uses_comma_decimals -%}
-                              placeholder="{%comment%}gc--[{%endcomment%}{%- capture geolizr_prepend_code -%}{%- render 'geolizr-currency', geolizr_price: filter.range_max -%}{% endcapture %}{%comment%}]--gc{%endcomment%}{{ filter.range_max | money_without_currency | prepend: geolizr_prepend_code | append: "</span>"| replace: '.', '' | replace: ',', '.' }}"
-                              max="{%comment%}gc--[{%endcomment%}{%- capture geolizr_prepend_code -%}{%- render 'geolizr-currency', geolizr_price: filter.range_max -%}{% endcapture %}{%comment%}]--gc{%endcomment%}{{ filter.range_max | money_without_currency | prepend: geolizr_prepend_code | append: "</span>"| replace: '.', '' | replace: ',', '.' }}"
+                              placeholder="{{ filter.range_max | money_without_currency | replace: '.', '' | replace: ',', '.' }}"
+                              max="{{ filter.range_max | money_without_currency | replace: '.', '' | replace: ',', '.' }}"
                             {%- else -%}
-                              placeholder="{%comment%}gc--[{%endcomment%}{%- capture geolizr_prepend_code -%}{%- render 'geolizr-currency', geolizr_price: filter.range_max -%}{% endcapture %}{%comment%}]--gc{%endcomment%}{{ filter.range_max | money_without_currency | prepend: geolizr_prepend_code | append: "</span>"| replace: ',', '' }}"
-                              max="{%comment%}gc--[{%endcomment%}{%- capture geolizr_prepend_code -%}{%- render 'geolizr-currency', geolizr_price: filter.range_max -%}{% endcapture %}{%comment%}]--gc{%endcomment%}{{ filter.range_max | money_without_currency | prepend: geolizr_prepend_code | append: "</span>"| replace: ',', '' }}"
+                              placeholder="{{ filter.range_max | money_without_currency | replace: ',', '' }}"
+                              max="{{ filter.range_max | money_without_currency | replace: ',', '' }}"
                             {% endif %}
                           >
                           <label class="field__label" for="Filter-{{ filter.label | escape }}-LTE">
@@ -429,15 +429,15 @@
                       <a href="{{ filter.url_to_remove }}" class="active-facets__button active-facets__button--light">
                         <span class="active-facets__button-inner button button--tertiary">
                           {%- if filter.min_value.value -%}
-                            {%comment%}gc--[{%endcomment%}{%- capture geolizr_prepend_code -%}{%- render 'geolizr-currency', geolizr_price: filter.min_value.value -%}{% endcapture %}{%comment%}]--gc{%endcomment%}{{ filter.min_value.value | money | prepend: geolizr_prepend_code | append: "</span>"}}
+                            {{ filter.min_value.value | money }}
                           {%- else -%}
-                            {%comment%}gc--[{%endcomment%}{%- capture geolizr_prepend_code -%}{%- render 'geolizr-currency', geolizr_price: 0 -%}{% endcapture %}{%comment%}]--gc{%endcomment%}{{ 0 | money | prepend: geolizr_prepend_code | append: "</span>"}}
+                            {{ 0 | money }}
                           {%- endif -%}
                           -
                           {%- if filter.max_value.value -%}
-                            {%comment%}gc--[{%endcomment%}{%- capture geolizr_prepend_code -%}{%- render 'geolizr-currency', geolizr_price: filter.max_value.value -%}{% endcapture %}{%comment%}]--gc{%endcomment%}{{ filter.max_value.value | money | prepend: geolizr_prepend_code | append: "</span>"}}
+                            {{ filter.max_value.value | money }}
                           {%- else -%}
-                            {%comment%}gc--[{%endcomment%}{%- capture geolizr_prepend_code -%}{%- render 'geolizr-currency', geolizr_price: filter.range_max -%}{% endcapture %}{%comment%}]--gc{%endcomment%}{{ filter.range_max | money | prepend: geolizr_prepend_code | append: "</span>"}}
+                            {{ filter.range_max | money }}
                           {%- endif -%}
                           {% render 'icon-close-small' %}
                           <span class="visually-hidden">{{ 'products.facets.clear_filter' | t }}</span>
@@ -774,7 +774,7 @@
                             {{ filter.label | escape }}
                           </button>
 
-                          {%comment%}gc--[{%endcomment%}{%- capture geolizr_prepend_code -%}{%- render 'geolizr-currency', geolizr_price: filter.range_max -%}{% endcapture %}{%comment%}]--gc{%endcomment%}{%- assign max_price_amount = filter.range_max | money | prepend: geolizr_prepend_code | append: "</span>"| strip_html | escape -%}
+                          {%- assign max_price_amount = filter.range_max | money | strip_html | escape -%}
                           <p class="mobile-facets__info">
                             {{ 'products.facets.max_price' | t: price: max_price_amount }}
                           </p>
@@ -788,9 +788,9 @@
                                 id="Mobile-Filter-{{ filter.label | escape }}-GTE"
                                 {%- if filter.min_value.value -%}
                                   {%- if uses_comma_decimals -%}
-                                    value="{%comment%}gc--[{%endcomment%}{%- capture geolizr_prepend_code -%}{%- render 'geolizr-currency', geolizr_price: filter.min_value.value -%}{% endcapture %}{%comment%}]--gc{%endcomment%}{{ filter.min_value.value | money_without_currency | prepend: geolizr_prepend_code | append: "</span>"| replace: '.', '' | replace: ',', '.' }}"
+                                    value="{{ filter.min_value.value | money_without_currency | replace: '.', '' | replace: ',', '.' }}"
                                   {%- else -%}
-                                    value="{%comment%}gc--[{%endcomment%}{%- capture geolizr_prepend_code -%}{%- render 'geolizr-currency', geolizr_price: filter.min_value.value -%}{% endcapture %}{%comment%}]--gc{%endcomment%}{{ filter.min_value.value | money_without_currency | prepend: geolizr_prepend_code | append: "</span>"| replace: ',', '' }}"
+                                    value="{{ filter.min_value.value | money_without_currency | replace: ',', '' }}"
                                   {%- endif %}
                                 {%- endif -%}
                                 type="number"
@@ -798,9 +798,9 @@
                                 min="0"
                                 inputmode="decimal"
                                 {%- if uses_comma_decimals -%}
-                                  max="{%comment%}gc--[{%endcomment%}{%- capture geolizr_prepend_code -%}{%- render 'geolizr-currency', geolizr_price: filter.range_max -%}{% endcapture %}{%comment%}]--gc{%endcomment%}{{ filter.range_max | money_without_currency | prepend: geolizr_prepend_code | append: "</span>"| replace: '.', '' | replace: ',', '.' }}"
+                                  max="{{ filter.range_max | money_without_currency | replace: '.', '' | replace: ',', '.' }}"
                                 {%- else -%}
-                                  max="{%comment%}gc--[{%endcomment%}{%- capture geolizr_prepend_code -%}{%- render 'geolizr-currency', geolizr_price: filter.range_max -%}{% endcapture %}{%comment%}]--gc{%endcomment%}{{ filter.range_max | money_without_currency | prepend: geolizr_prepend_code | append: "</span>"| replace: ',', '' }}"
+                                  max="{{ filter.range_max | money_without_currency | replace: ',', '' }}"
                                 {% endif %}
                               >
                               <label class="field__label" for="Mobile-Filter-{{ filter.label | escape }}-GTE">
@@ -816,20 +816,20 @@
                                 id="Mobile-Filter-{{ filter.label | escape }}-LTE"
                                 {%- if filter.max_value.value -%}
                                   {%- if uses_comma_decimals -%}
-                                    value="{%comment%}gc--[{%endcomment%}{%- capture geolizr_prepend_code -%}{%- render 'geolizr-currency', geolizr_price: filter.max_value.value -%}{% endcapture %}{%comment%}]--gc{%endcomment%}{{ filter.max_value.value | money_without_currency | prepend: geolizr_prepend_code | append: "</span>"| replace: '.', '' | replace: ',', '.' }}"
+                                    value="{{ filter.max_value.value | money_without_currency | replace: '.', '' | replace: ',', '.' }}"
                                   {%- else -%}
-                                    value="{%comment%}gc--[{%endcomment%}{%- capture geolizr_prepend_code -%}{%- render 'geolizr-currency', geolizr_price: filter.max_value.value -%}{% endcapture %}{%comment%}]--gc{%endcomment%}{{ filter.max_value.value | money_without_currency | prepend: geolizr_prepend_code | append: "</span>"| replace: ',', '' }}"
+                                    value="{{ filter.max_value.value | money_without_currency | replace: ',', '' }}"
                                   {%- endif %}
                                 {%- endif -%}
                                 type="number"
                                 min="0"
                                 inputmode="decimal"
                                 {%- if uses_comma_decimals -%}
-                                  placeholder="{%comment%}gc--[{%endcomment%}{%- capture geolizr_prepend_code -%}{%- render 'geolizr-currency', geolizr_price: filter.range_max -%}{% endcapture %}{%comment%}]--gc{%endcomment%}{{ filter.range_max | money_without_currency | prepend: geolizr_prepend_code | append: "</span>"| replace: '.', '' | replace: ',', '.' }}"
-                                  max="{%comment%}gc--[{%endcomment%}{%- capture geolizr_prepend_code -%}{%- render 'geolizr-currency', geolizr_price: filter.range_max -%}{% endcapture %}{%comment%}]--gc{%endcomment%}{{ filter.range_max | money_without_currency | prepend: geolizr_prepend_code | append: "</span>"| replace: '.', '' | replace: ',', '.' }}"
+                                  placeholder="{{ filter.range_max | money_without_currency | replace: '.', '' | replace: ',', '.' }}"
+                                  max="{{ filter.range_max | money_without_currency | replace: '.', '' | replace: ',', '.' }}"
                                 {%- else -%}
-                                  placeholder="{%comment%}gc--[{%endcomment%}{%- capture geolizr_prepend_code -%}{%- render 'geolizr-currency', geolizr_price: filter.range_max -%}{% endcapture %}{%comment%}]--gc{%endcomment%}{{ filter.range_max | money_without_currency | prepend: geolizr_prepend_code | append: "</span>"| replace: ',', '' }}"
-                                  max="{%comment%}gc--[{%endcomment%}{%- capture geolizr_prepend_code -%}{%- render 'geolizr-currency', geolizr_price: filter.range_max -%}{% endcapture %}{%comment%}]--gc{%endcomment%}{{ filter.range_max | money_without_currency | prepend: geolizr_prepend_code | append: "</span>"| replace: ',', '' }}"
+                                  placeholder="{{ filter.range_max | money_without_currency | replace: ',', '' }}"
+                                  max="{{ filter.range_max | money_without_currency | replace: ',', '' }}"
                                 {% endif %}
                               >
                               <label class="field__label" for="Mobile-Filter-{{ filter.label | escape }}-LTE">
@@ -948,15 +948,15 @@
             <a href="{{ filter.url_to_remove }}" class="active-facets__button active-facets__button--light">
               <span class="active-facets__button-inner button button--tertiary">
                 {%- if filter.min_value.value -%}
-                  {%comment%}gc--[{%endcomment%}{%- capture geolizr_prepend_code -%}{%- render 'geolizr-currency', geolizr_price: filter.min_value.value -%}{% endcapture %}{%comment%}]--gc{%endcomment%}{{ filter.min_value.value | money | prepend: geolizr_prepend_code | append: "</span>"}}
+                  {{ filter.min_value.value | money }}
                 {%- else -%}
-                  {%comment%}gc--[{%endcomment%}{%- capture geolizr_prepend_code -%}{%- render 'geolizr-currency', geolizr_price: 0 -%}{% endcapture %}{%comment%}]--gc{%endcomment%}{{ 0 | money | prepend: geolizr_prepend_code | append: "</span>"}}
+                  {{ 0 | money }}
                 {%- endif -%}
                 -
                 {%- if filter.max_value.value -%}
-                  {%comment%}gc--[{%endcomment%}{%- capture geolizr_prepend_code -%}{%- render 'geolizr-currency', geolizr_price: filter.max_value.value -%}{% endcapture %}{%comment%}]--gc{%endcomment%}{{ filter.max_value.value | money | prepend: geolizr_prepend_code | append: "</span>"}}
+                  {{ filter.max_value.value | money }}
                 {%- else -%}
-                  {%comment%}gc--[{%endcomment%}{%- capture geolizr_prepend_code -%}{%- render 'geolizr-currency', geolizr_price: filter.range_max -%}{% endcapture %}{%comment%}]--gc{%endcomment%}{{ filter.range_max | money | prepend: geolizr_prepend_code | append: "</span>"}}
+                  {{ filter.range_max | money }}
                 {%- endif -%}
                 {% render 'icon-close-small' %}
                 <span class="visually-hidden">{{ 'products.facets.clear_filter' | t }}</span>
@@ -1075,15 +1075,15 @@
                   <a href="{{ filter.url_to_remove }}" class="active-facets__button active-facets__button--light">
                     <span class="active-facets__button-inner button button--tertiary">
                       {%- if filter.min_value.value -%}
-                        {%comment%}gc--[{%endcomment%}{%- capture geolizr_prepend_code -%}{%- render 'geolizr-currency', geolizr_price: filter.min_value.value -%}{% endcapture %}{%comment%}]--gc{%endcomment%}{{ filter.min_value.value | money | prepend: geolizr_prepend_code | append: "</span>"}}
+                        {{ filter.min_value.value | money }}
                       {%- else -%}
-                        {%comment%}gc--[{%endcomment%}{%- capture geolizr_prepend_code -%}{%- render 'geolizr-currency', geolizr_price: 0 -%}{% endcapture %}{%comment%}]--gc{%endcomment%}{{ 0 | money | prepend: geolizr_prepend_code | append: "</span>"}}
+                        {{ 0 | money }}
                       {%- endif -%}
                       -
                       {%- if filter.max_value.value -%}
-                        {%comment%}gc--[{%endcomment%}{%- capture geolizr_prepend_code -%}{%- render 'geolizr-currency', geolizr_price: filter.max_value.value -%}{% endcapture %}{%comment%}]--gc{%endcomment%}{{ filter.max_value.value | money | prepend: geolizr_prepend_code | append: "</span>"}}
+                        {{ filter.max_value.value | money }}
                       {%- else -%}
-                        {%comment%}gc--[{%endcomment%}{%- capture geolizr_prepend_code -%}{%- render 'geolizr-currency', geolizr_price: filter.range_max -%}{% endcapture %}{%comment%}]--gc{%endcomment%}{{ filter.range_max | money | prepend: geolizr_prepend_code | append: "</span>"}}
+                        {{ filter.range_max | money }}
                       {%- endif -%}
                       {% render 'icon-close-small' %}
                       <span class="visually-hidden">{{ 'products.facets.clear_filter' | t }}</span>
