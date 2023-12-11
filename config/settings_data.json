@@ -142,7 +142,7 @@
           "currency_widget": true,
           "currency_widget_old_flags": false,
           "notification_widget": true,
-          "redirect_widget": false,
+          "redirect_widget": true,
           "popup_widget": true,
           "api_widget": true,
           "block_in_preview": false
