@@ -1,0 +1,235 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "gp_section_502691833009144776": {
+      "settings": {
+        "checksum": "ca1c98ca264d15c2fba52ceb8907ee4380cfd70ec1cea07e95d66719d8a552fc_1_1_0_0__1",
+        "ggFPk2OAacz_background_desktop_image_src": "https://ucarecdn.com/9857d9ab-6374-4629-be26-65361dfd9cbc/-/format/auto/-/preview/3000x3000/-/quality/lighter/15.png",
+        "ggFPk2OAacz_background_mobile_image_src": "https://ucarecdn.com/6769eef0-703a-4615-9944-37ba59367af4/-/format/auto/-/preview/3000x3000/-/quality/lighter/banner_mobile.png",
+        "ggIh0qC2tbs_text": "<p>The secret of Sophistication</p>",
+        "ggbh07-iPeD_label": "DISCOVER NOW",
+        "gggNY4nF3VG_text": "<p>TIMELESS WORK OF ART</p>",
+        "ggpj2e6jdE0_text": "<p>Set yourself apart from the realm of the ordinary. A Gemand timepiece is even better with sophistication and meticulousness in every detail&nbsp;</p>",
+        "section_preload": "true"
+      },
+      "type": "gp-section-502691833009144776"
+    },
+    "gp_section_502691833143362592": {
+      "settings": {
+        "checksum": "81bbbaf119381281b1616d2d1a39838d6d048b0c1860e4118430f2c559c2d3f9_1_1_0_0__1",
+        "ggF9SyeMmye_text": "<p>A TOP-OF-LINE GEMAND WATCH</p>",
+        "ggOe_umd9Xv_text": "<p>Our shop best seller</p>"
+      },
+      "type": "gp-section-502691833143362592"
+    },
+    "gp_section_502691833160139720": {
+      "settings": {
+        "checksum": "c88d29c5350ae888aa9df4491f4772bf75ec352ca5e3e5875ad0c04007a7dc97_1_1_0_0__1",
+        "gg5WBBToUVi_alt": "Alt Image",
+        "gg5WBBToUVi_srcSet_desktop_src": "https://ucarecdn.com/ee6d5074-1640-4cc7-8933-47c8589c3dee/-/format/auto/",
+        "gg5WBBToUVi_title": "Image Title",
+        "ggUTdbDP8WG_alt": "Alt Image",
+        "ggUTdbDP8WG_srcSet_desktop_src": "https://ucarecdn.com/ee6d5074-1640-4cc7-8933-47c8589c3dee/-/format/auto/",
+        "ggUTdbDP8WG_title": "Image Title",
+        "ggWU7ltOct7_text": "<p>At Gemand, the masters of mechanics create sophisticated timepieces with the utmost precision. We have a sincere focus on quality, materials and the smallest details. We believe it is what makes our brand stand out from others.</p>",
+        "ggZE3nuPg6__text": "<p>Designed to the pinnacle of precision</p>"
+      },
+      "type": "gp-section-502691833160139720"
+    },
+    "gp_section_502691833529238472": {
+      "settings": {
+        "checksum": "7ba71f29ee03b3c95e1fef1d69cdd67e215e3f479d1605c11c017d656777d4fd_1_1_0_0__1",
+        "gg2rQVB-Dg8_text": "<p>Orders are processed and sent to our fulfillment center within 20 minutes of the order being completed. We can cancel an order at no charge if we are notified within 15 minutes of your order being placed. Please call us at 999-999-999 between 8am-5pm Pacific Standard Time for immediate assistance. Emails will not guarantee order cancellations, as they are answered in the order they are received. Orders cannot be cancelled after this 15 minute window. Preorders and special orders cannot be cancelled as the funds have already been sent to the manufacturer to secure your watch.</p>",
+        "gg9k220jMWN_text": "<p>You must contact us within 15 minutes of placing your order to update this info by emailing contact@gemand.com or calling 999-999--999. Please include your name, order number and the correct address for faster processing</p>",
+        "ggE-RlS71fZ_text": "<p>Frequently Asked Questions</p>",
+        "ggEuvCajkNw_text": "<p>You can return your items within 30 days of the original shipment date.&nbsp;</p><ul><li>They must be in original condition&nbsp;</li><li>For watches and straps, it must be completely unworn.&nbsp;</li><li>In the original packaging, including any plastic covers, tags, or paperwork (varies by product)</li></ul>",
+        "ggO65cuv1w-_text": "<p>Yes, all of our watches sold are 100% Authentic Guaranteed, brand new, unworn and come in the original manufacturer packaging</p>",
+        "ggY8NkUsNXQ_childItem_0": "Are the watches you sell 100% authentic?",
+        "ggY8NkUsNXQ_childItem_1": "What is your return policy?",
+        "ggY8NkUsNXQ_childItem_2": "Can I cancel my order?",
+        "ggY8NkUsNXQ_childItem_3": "I entered the wrong shipping address. How do I update this?",
+        "ggY8NkUsNXQ_childItem_4": "How long will it take to get my preorder?",
+        "ggt0HjHD6i6_text": "<p>Estimated shipping dates are listed on the preorder product page. We will ship as soon as the item(s) become available and you'll receive a tracking number via email. Ship dates are estimates and subject to change without notice.</p>"
+      },
+      "type": "gp-section-502691833529238472"
+    },
+    "gp_section_502691833529238560": {
+      "settings": {
+        "checksum": "8ff2cb77bcb5c151bd4b711d1b3c03405caa74905ec95cb461bdb54037904691_1_1_0_0__1",
+        "gg18b_Mts2f_text": "<p>David Silva</p>",
+        "ggAcI_oewg8_text": "<p>WHAT OUR CUSTOMER ARE SAYING</p>",
+        "ggC0fBoAKj4_alt": "Alt Image",
+        "ggC0fBoAKj4_srcSet_desktop_src": "https://ucarecdn.com/ee6d5074-1640-4cc7-8933-47c8589c3dee/-/format/auto/",
+        "ggC0fBoAKj4_title": "Image Title",
+        "ggPkLp11Cmi_text": "<p>Marketing Manager</p>",
+        "ggTZMIBeYGt_text": "<p>What a spectacular watch! The intricacy of the design, the meticulousness in every aspect, and the perfection and sheen of quartz stone all give me a sense of luxury, class, distinction. Also Service quality and warranty is perfect as well! Gemand is indeed a perfect destination for gentlemen demo content for review</p>",
+        "ggvxhVqCnEi_text": "<p>From the Next Gentlemen</p>",
+        "ggzKNlRdWrR_text": "<p>Gemand is indeed the perfect companion for gentlemen</p>",
+        "ggz_3-eFmNi_text": "<p>16 March, 2022</p>"
+      },
+      "type": "gp-section-502691833529238560"
+    },
+    "gp_section_502691833529304096": {
+      "settings": {
+        "checksum": "097b3c9971ae84d8207f908d2bedfdc83ff468976612a97e5e76fd06e7097f77_1_1_0_0__1",
+        "gg6nK1JZuQD_text": "<p>End in:</p>",
+        "ggDiQulAkVC_alt": "Alt Image",
+        "ggDiQulAkVC_srcSet_desktop_src": "https://ucarecdn.com/ee6d5074-1640-4cc7-8933-47c8589c3dee/-/format/auto/",
+        "ggDiQulAkVC_title": "Image Title",
+        "ggNc0VUVnyM_dayLabel": "Days",
+        "ggNc0VUVnyM_hourLabel": "Hours",
+        "ggNc0VUVnyM_minuteLabel": "Mins",
+        "ggNc0VUVnyM_secondLabel": "Secs",
+        "ggNc0VUVnyM_weekLabel": "Weeks",
+        "ggYOVgAdpJx_text": "<p>Father's Day Watches&nbsp;<br>Get up to 20% OFF</p>",
+        "ggfwDBgOQL1_text": "<p>If you're still looking for the perfect Father's Day 2022 gifts: Gemand’s collection of Father's Day watches are perfect for your loved ones.&nbsp;</p>",
+        "ggxCK-RgZE6_label": "SHOP NOW"
+      },
+      "type": "gp-section-502691833529304096"
+    },
+    "gp_section_502691833546015688": {
+      "settings": {
+        "checksum": "51b2ee3e30d8045643b63e7a35003bd7e477ae6081f21394d3b778dcc5dd396f_1_1_0_0__1",
+        "gg624fXTvJq_text": "<p>Reputation creates trust.<br>Gemand always brings customers the best quality products, with attractive after-sales policy.&nbsp;</p>",
+        "ggDsWghECts_text": "<p>3-year extended warranty&nbsp;</p>",
+        "ggEaY-hQZNr_alt": "Alt Image",
+        "ggEaY-hQZNr_srcSet_desktop_src": "https://ucarecdn.com/ee6d5074-1640-4cc7-8933-47c8589c3dee/-/format/auto/",
+        "ggEaY-hQZNr_title": "Image Title",
+        "ggEcj2KvC0s_text": "<p>60-day return and refund&nbsp;</p>",
+        "ggISnOgf51G_text": "<p>Authenticity guarantee&nbsp;</p>",
+        "ggXGFOoKUz5_alt": "Alt Image",
+        "ggXGFOoKUz5_srcSet_desktop_src": "https://ucarecdn.com/ee6d5074-1640-4cc7-8933-47c8589c3dee/-/format/auto/",
+        "ggXGFOoKUz5_title": "Image Title",
+        "ggc2R8GXuND_alt": "Alt Image",
+        "ggc2R8GXuND_srcSet_desktop_src": "https://ucarecdn.com/ee6d5074-1640-4cc7-8933-47c8589c3dee/-/format/auto/",
+        "ggc2R8GXuND_title": "Image Title",
+        "ggfVJYbrAsv_text": "<p>Free shipping worldwide</p>",
+        "ggkGc-dOAis_alt": "Alt Image",
+        "ggkGc-dOAis_srcSet_desktop_src": "https://ucarecdn.com/ee6d5074-1640-4cc7-8933-47c8589c3dee/-/format/auto/",
+        "ggkGc-dOAis_title": "Image Title",
+        "ggqai6T1W73_alt": "Alt Image",
+        "ggqai6T1W73_srcSet_desktop_src": "https://ucarecdn.com/ee6d5074-1640-4cc7-8933-47c8589c3dee/-/format/auto/",
+        "ggqai6T1W73_title": "Image Title"
+      },
+      "type": "gp-section-502691833546015688"
+    },
+    "gp_section_502691833596347424": {
+      "settings": {
+        "checksum": "c845b9140cf7574b9fb15cd87afdfdd9516e5701d29b555c9df8cae29e6c56f6_1_1_0_0__1",
+        "gg8gUQeM8hQ_text": "<p>Make Difference, Live Classy</p>",
+        "ggCNC6G7xXW_alt": "Alt Image",
+        "ggCNC6G7xXW_srcSet_desktop_src": "https://ucarecdn.com/ee6d5074-1640-4cc7-8933-47c8589c3dee/-/format/auto/",
+        "ggCNC6G7xXW_title": "Image Title",
+        "ggGpXy1M8FD_alt": "Alt Image",
+        "ggGpXy1M8FD_srcSet_desktop_src": "https://ucarecdn.com/ee6d5074-1640-4cc7-8933-47c8589c3dee/-/format/auto/",
+        "ggGpXy1M8FD_title": "Image Title",
+        "ggkUk-gzbFI_label": "DISCOVER NOW",
+        "gglZ2VY_mRS_text": "<p>A beautiful vintage watch with sapphires, crystals, elegant details and exquisite movements backed by a decades-long warranty.</p>",
+        "ggo4d52Pboc_background_desktop_image_src": "https://ucarecdn.com/ae390140-8ca6-48e8-9686-c75a2d240170/bn.svg",
+        "ggypHIsZKn6_text": "<p>THE HOMETOWN SIGNATURE COLLECTION</p>"
+      },
+      "type": "gp-section-502691833596347424"
+    },
+    "gp_section_502691833680233416": {
+      "settings": {
+        "checksum": "55a04a9d5b9d76db468251b587f602bb6261a10ac47c9cb5b5c02b62c33e2b17_1_1_0_0__1",
+        "gg72TpQNegt_alt": "Alt Image",
+        "gg72TpQNegt_srcSet_desktop_src": "https://ucarecdn.com/ee6d5074-1640-4cc7-8933-47c8589c3dee/-/format/auto/",
+        "gg72TpQNegt_title": "Image Title",
+        "ggPITZs3Dpq_alt": "Alt Image",
+        "ggPITZs3Dpq_srcSet_desktop_src": "https://ucarecdn.com/ee6d5074-1640-4cc7-8933-47c8589c3dee/-/format/auto/",
+        "ggPITZs3Dpq_title": "Image Title",
+        "ggbbO2rw8YV_text": "<p>Delivery Information</p>",
+        "ggexMq3ux4p_text": "<p>Return &amp; Exchange&nbsp;</p>",
+        "ggfqNJP7qB5_placeholder": "Your Email",
+        "ggq62M5dl5F_text": "<p>Services</p>",
+        "ggqEJV_aFui_text": "<p>Newsletter</p>",
+        "ggubDTL4xRY_text": "<p>Enter your email address for new arrivals, discounts, promotions, and more!</p>",
+        "ggx_1FIURa7_text": "<p>Contact Us</p>",
+        "ggyhT2WklNL_text": "<p>Copyright © 2022 Gemand. All Rights Reserved.</p>"
+      },
+      "type": "gp-section-502691833680233416"
+    },
+    "gp_section_502691833713787936": {
+      "settings": {
+        "checksum": "b6d0aefe11624860a0bfe8e057e5cc9a8895d651e75a1a3417f9b3db04d17f4c_1_1_0_0__1",
+        "gg-YmmXX6jj_text": "<p>Thickness 9mm</p>",
+        "gg0yLucroSs_errorMessage": "Cannot add product to cart",
+        "gg0yLucroSs_label": "GET IT NOW",
+        "gg0yLucroSs_outOfStockLabel": "Out of stocks",
+        "gg0yLucroSs_successMessage": "Add product to cart successfully",
+        "gg2PdcHIVBg_text": "<p>Waterproof 30m</p>",
+        "gg33RyR2GXQ_text": "<p>Diameter 40mm</p>",
+        "gg3rrm7jpxk_alt": "Alt Image",
+        "gg3rrm7jpxk_srcSet_desktop_src": "https://ucarecdn.com/ee6d5074-1640-4cc7-8933-47c8589c3dee/-/format/auto/",
+        "gg3rrm7jpxk_title": "Image Title",
+        "gg41Szg6QXY_text": "<p>Polished Silver</p>",
+        "gg6xNmYZdZt_text": "<p>Accuracy ±20s/month</p>",
+        "ggAX2a5xyBy_text": "<p>Inspired by the 1800's - an era of refined luxury, the contrasting polished rose-gold features and captivating black watch-face are bound to draw attention and transfix admirers.&nbsp;</p>",
+        "ggEdg4fT4O6_text": "<p>The Limited Eidition</p>",
+        "ggH09JAHce5_alt": "Alt Image",
+        "ggH09JAHce5_srcSet_desktop_src": "https://ucarecdn.com/ee6d5074-1640-4cc7-8933-47c8589c3dee/-/format/auto/",
+        "ggH09JAHce5_title": "Image Title",
+        "ggHhto6QMm1_alt": "Alt Image",
+        "ggHhto6QMm1_srcSet_desktop_src": "https://ucarecdn.com/ee6d5074-1640-4cc7-8933-47c8589c3dee/-/format/auto/",
+        "ggHhto6QMm1_title": "Image Title",
+        "ggKW2J_fsUq_alt": "Alt Image",
+        "ggKW2J_fsUq_srcSet_desktop_src": "https://ucarecdn.com/ee6d5074-1640-4cc7-8933-47c8589c3dee/-/format/auto/",
+        "ggKW2J_fsUq_title": "Image Title",
+        "ggKzbX4rIVl_text": "<p>EXPLORE</p>",
+        "ggLfAbLAG78_alt": "Alt Image",
+        "ggLfAbLAG78_srcSet_desktop_src": "https://ucarecdn.com/ee6d5074-1640-4cc7-8933-47c8589c3dee/-/format/auto/",
+        "ggLfAbLAG78_title": "Image Title",
+        "ggMBNq6EYBB_alt": "Alt Image",
+        "ggMBNq6EYBB_srcSet_desktop_src": "https://ucarecdn.com/ee6d5074-1640-4cc7-8933-47c8589c3dee/-/format/auto/",
+        "ggMBNq6EYBB_title": "Image Title",
+        "ggMCvv3yJst_alt": "Alt Image",
+        "ggMCvv3yJst_srcSet_desktop_src": "https://ucarecdn.com/ee6d5074-1640-4cc7-8933-47c8589c3dee/-/format/auto/",
+        "ggMCvv3yJst_title": "Image Title",
+        "ggQrLK6vtb7_alt": "Alt Image",
+        "ggQrLK6vtb7_srcSet_desktop_src": "https://ucarecdn.com/ee6d5074-1640-4cc7-8933-47c8589c3dee/-/format/auto/",
+        "ggQrLK6vtb7_title": "Image Title",
+        "ggUUOjLMUvA_text": "<p>Sapphire Crystal Glass</p>",
+        "ggaWAdcDB2c_text": "<p>Waterproof&nbsp;</p><p>30m</p>",
+        "ggd0J3qBmai_alt": "Alt Image",
+        "ggd0J3qBmai_srcSet_desktop_src": "https://ucarecdn.com/ee6d5074-1640-4cc7-8933-47c8589c3dee/-/format/auto/",
+        "ggd0J3qBmai_title": "Image Title",
+        "ggjX369RIDL_text": "<p>Polished Silver</p>",
+        "ggksTNEVXgC_text": "<p>Sapphire Crystal Glass</p>",
+        "ggniQWHPg0M_alt": "Alt Image",
+        "ggniQWHPg0M_srcSet_desktop_src": "https://ucarecdn.com/ee6d5074-1640-4cc7-8933-47c8589c3dee/-/format/auto/",
+        "ggniQWHPg0M_title": "Image Title",
+        "ggnq969nyBA_text": "<p>Accuracy ±20s/month</p>",
+        "ggo50wPlhrA_alt": "Alt Image",
+        "ggo50wPlhrA_srcSet_desktop_src": "https://ucarecdn.com/ee6d5074-1640-4cc7-8933-47c8589c3dee/-/format/auto/",
+        "ggo50wPlhrA_title": "Image Title",
+        "ggqh9QHWrWT_text": "<p>Thickness</p><p>9mm</p>",
+        "ggs8LoU8PwM_text": "<p>Diameter&nbsp;</p><p>40mm</p>",
+        "ggzmOuo2Tij_alt": "Alt Image",
+        "ggzmOuo2Tij_srcSet_desktop_src": "https://ucarecdn.com/ee6d5074-1640-4cc7-8933-47c8589c3dee/-/format/auto/",
+        "ggzmOuo2Tij_title": "Image Title"
+      },
+      "type": "gp-section-502691833713787936"
+    }
+  },
+  "order": [
+    "gp_section_502691833009144776",
+    "gp_section_502691833160139720",
+    "gp_section_502691833143362592",
+    "gp_section_502691833713787936",
+    "gp_section_502691833529304096",
+    "gp_section_502691833546015688",
+    "gp_section_502691833529238560",
+    "gp_section_502691833596347424",
+    "gp_section_502691833529238472",
+    "gp_section_502691833680233416"
+  ]
+}
