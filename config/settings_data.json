@@ -141,20 +141,6 @@
         "disabled": false,
         "settings": {}
       },
-      "3886164968910392608": {
-        "type": "shopify://apps/geolizr/blocks/geolizr/aef0b9c9-52b7-4101-afe7-e3014ff137aa",
-        "disabled": false,
-        "settings": {
-          "currency_widget": true,
-          "currency_widget_flag_style": "new_flags",
-          "notification_widget": true,
-          "redirect_widget": true,
-          "popup_widget": true,
-          "api_widget": true,
-          "block_in_preview": false,
-          "custom_css": "// css code"
-        }
-      },
       "14818028230436078177": {
         "type": "shopify://apps/langify/blocks/langify/b50c2edb-8c63-4e36-9e7c-a7fdd62ddb8f",
         "disabled": false,
@@ -198,6 +184,20 @@
           "font_weight": "600",
           "border_radius": 8,
           "hover_effect": "opacity"
+        }
+      },
+      "3886164968910392608": {
+        "type": "shopify://apps/geolizr/blocks/geolizr/aef0b9c9-52b7-4101-afe7-e3014ff137aa",
+        "disabled": true,
+        "settings": {
+          "currency_widget": true,
+          "currency_widget_flag_style": "new_flags",
+          "notification_widget": true,
+          "redirect_widget": true,
+          "popup_widget": true,
+          "api_widget": true,
+          "block_in_preview": false,
+          "custom_css": "// css code"
         }
       }
     },
