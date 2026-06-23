@@ -141,16 +141,6 @@
         "disabled": false,
         "settings": {}
       },
-      "14818028230436078177": {
-        "type": "shopify://apps/langify/blocks/langify/b50c2edb-8c63-4e36-9e7c-a7fdd62ddb8f",
-        "disabled": false,
-        "settings": {
-          "theme_id": "",
-          "block_flags_css": false,
-          "block_lib_css": false,
-          "rtl_css": "body {\n  direction: rtl;\n}"
-        }
-      },
       "12510727292439481604": {
         "type": "shopify://apps/eu-widerruf-button/blocks/embed/019b2ca9-9838-7858-9694-3a8051afa76e",
         "disabled": false,
@@ -198,6 +188,16 @@
           "api_widget": true,
           "block_in_preview": false,
           "custom_css": "// css code"
+        }
+      },
+      "14818028230436078177": {
+        "type": "shopify://apps/langify/blocks/langify/b50c2edb-8c63-4e36-9e7c-a7fdd62ddb8f",
+        "disabled": false,
+        "settings": {
+          "theme_id": "190823792973",
+          "block_flags_css": false,
+          "block_lib_css": false,
+          "rtl_css": "body {\n  direction: rtl;\n}"
         }
       }
     },
