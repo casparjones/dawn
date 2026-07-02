@@ -1,0 +1,29 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin language editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "accessibility": {
+    "skip_to_text": "ནང་དོན་ལ་མཆོང་།",
+    "skip_to_product_info": "ཐོན་རྫས་ཆ་འཕྲིན་ལ་མཆོང་།",
+    "close": "གཏན་པ",
+    "unit_price_separator": "རེ་རེ།",
+    "vendor": "ཙག་ཙིག་ཚོང་མཁན:",
+    "error": "ནོར་འཁྲུལ",
+    "refresh_page": "འདེམས་སྒྲུག་གྲུབ་འབྲས་འདེམས་པ་དེས་ཤོག་ངོས་ཆ་ཚང་གསར་འགྱུར་བཟོས།",
+    "link_messages": {
+      "new_window": "སྒེའུ་ཁུང་གསར་པའི་ནང་ཁ་ཕྱེ།",
+      "external": "ཕྱི་རོལ་གྱི་དྲ་ཚིགས་ཁ་ཕྱེ།"
+    },
+    "loading": "མངོན་འགྱུར་བྱེད་བཞིན་པ།",
+    "total_reviews": "བསྡོམས་པས་དཔྱད་ཞིབ།",
+    "star_reviews_info": "{{ rating_value }} ༢༤། {{ rating_max }} སྐར་མ།",
+    "collapsible_content_title": "བསྣར་ཆོག་པའི་ནང་དོན།",
+    "complementary_products": "ཁ་གསབ་ཐོན་རྫས།"
+  }
+}
