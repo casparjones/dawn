@@ -1148,7 +1148,22 @@
             "missing_session_id": "Nawawala ang impormasyon ng session ng credit card.",
             "missing_retail_attributions": "Kinakailangan ang mga retail attribution para sa mga pagbabayad gamit ang credit card na manu-manong ipinasok.",
             "subscription_terms_not_accepted": "Hindi tinanggap ang mga tuntunin ng subscription.",
-            "invalid_card_source": "Walang pahintulot ang session na ito na gamitin ang card source na ito."
+            "invalid_card_source": "Walang pahintulot ang session na ito na gamitin ang card source na ito.",
+            "wallet_content_missing": "Nawawala ang laman ng pitaka.",
+            "store_credit_account_not_found": "Hindi nahanap ang store credit account.",
+            "method_required": "Kailangang magmungkahi ng paraan ng pagbabayad.",
+            "saved_payment_methods_not_enabled": "Hindi naka-enable ang mga naka-save na paraan ng pagbabayad para sa shop na ito.",
+            "saved_payment_methods_cvv_verification_disabled": "Ang napiling paraan ng pagbabayad ay nangangailangan ng CVV verification, na hindi naka-enable para sa shop na ito. Pumili ng ibang paraan ng pagbabayad.",
+            "store_credit_mismatched_currency": "Hindi tumutugma ang currency ng store credit account sa currency na ginagamit sa checkout.",
+            "gift_cards_not_allowed_for_b2b": "Hindi pinapayagan ang mga gift card sa mga tindahang B2B.",
+            "saved_payment_methods_not_allowed": "Hindi pinapayagan ang mga naka-save na paraan ng pagbabayad.",
+            "store_credit_not_enabled": "Hindi naka-enable ang store credit para sa shop na ito.",
+            "payment_instrument_not_found": "Hindi mahanap ang paraan ng pagbabayad",
+            "store_credit_account_mismatch": "Hindi tumutugma ang store credit account sa pagkakakilanlan ng mamimili.",
+            "store_credit_buying_gift_card": "Hindi ka maaaring gumamit ng store credit para bumili ng gift card.",
+            "unauthorized_capture_method": "Hindi pinapayagan ang pag-configure sa paraan ng pagkuha ng bayad.",
+            "store_credit_insufficient_funds": "Hindi sapat ang pondo sa store credit account.",
+            "paypal_express_address_invalid": "Nagbalik ang PayPal ng hindi wastong address."
           },
           "tax": {
             "unresolvable_tax_terms": "Hindi mapagkakasunduan ang mga iminungkahing tuntunin sa kasalukuyang konteksto ng negosasyon.",
@@ -1166,6 +1181,52 @@
             "new_tax_must_be_accepted": "Nagbago ang mga buwis na kaugnay ng iyong order. Suriin ito at subukang muli.",
             "delivery_price_is_abstract": "Ang kaugnay na presyo ng paghahatid ay abstrakto.",
             "tax_inclusivity_mismatch": "Makipag-negosyong muli gamit ang tiyak na halaga ng totalTaxAndDutyAmount o totalAmountIncludedInTarget."
+          },
+          "tip": {
+            "tips_not_allowed_for_deferred_purchase_options": "Hindi pa sinusuportahan ang mga tip para sa mga opsyon sa pagbiling ipinagpaliban ang bayad.",
+            "tips_not_allowed_for_b2b": "Hindi pinapayagan ang pagbibigay ng tip sa mga tindahang B2B.",
+            "only_one_tip_line_allowed": "Hindi sinusuportahan ang maraming linya para sa tip.",
+            "not_accepted_by_shop": "Hindi tumatanggap ng tip ang tindahan.",
+            "currency_change_reset": "Na-reset ang tip dahil sa pagbabago ng currency."
+          },
+          "non_negotiable": {
+            "missing_non_negotiable_terms": "Dapat naglalaman ang panukala ng iyong mamimili ng mga tuntuning hindi maaaring baguhin.",
+            "invalid_signature": "Ang lagda para sa {{target_terms}} ay hindi balido."
+          },
+          "captcha": {
+            "token_missing": "Kailangang magbigay ng captcha token upang makumpleto ang checkout na ito.",
+            "token_not_valid_for_session": "Hindi maaaring gamitin ang ibinigay na captcha sa checkout na ito.",
+            "job_enqueue_failed": "Nabigong maipasok sa pila ang proseso ng pagpapatunay ng captcha.",
+            "token_expired": "Nag-expire na ang ibinigay na captcha token. Kumpletuhin ang isang bagong captcha upang ipagpatuloy ang checkout.",
+            "metadata_mismatch": "Ang ibinigay na captcha provider at uri ay hindi tumutugma sa mga inaasahang halaga.",
+            "job_already_queued": "Naka-queue na ang captcha validation para sa captcha token na ito.",
+            "metadata_missing": "Kinakailangang kumpletuhin ang captcha para sa checkout na ito.",
+            "token_invalid": "Hindi wasto ang ibinigay na captcha token. Kumpletuhin ang isang bagong captcha upang ipagpatuloy ang checkout."
+          },
+          "attribution": {
+            "retail_attribution_required": "Kinakailangan ang retail attribution para sa checkout na ito.",
+            "retail_attribution_not_allowed": "Hindi pinapayagan ang retail attribution para sa checkout na ito."
+          },
+          "inventory": {
+            "changing_behavior_not_allowed": "Ang client na ito ay walang pahintulot na baguhin ang behavior ng inventory.",
+            "missing_quantity_value": "Nawawala ang field para sa dami sa mga linya ng imbentaryo ng mamimili.",
+            "only_one_inventory_behavior_allowed": "Sa ngayon, isang inventory behavior lamang ang pinapayagan bawat checkout."
+          },
+          "fx_reconciliation_override": {
+            "shop_currency_mismatch": "Ang matatanggap na halaga ay dapat nasa currency ng tindahan."
+          },
+          "checkout_source": {
+            "revoked": "Hindi na magagamit ang checkout na ito."
+          },
+          "sale_attribution": {
+            "unresolvable_target_merchandise_lines": "Hindi mareresolba ang mga iminumungkahing pagtatakda ng pananagutan o pag-uugnay kaugnay ng benta, batay sa kasalukuyang konteksto ng negosasyon.",
+            "point_of_sale_device_not_exist": "Ang point-of-sale device na ito ay wala sa kasalukuyang tindahan.",
+            "staff_member_not_exist": "Wala ang staff na ito sa kasalukuyang tindahan.",
+            "draft_order_not_exist": "Ang draft order na ito ay wala sa kasalukuyang shop.",
+            "location_not_exist": "Walang ganitong lokasyon sa kasalukuyang shop."
+          },
+          "optional_duties": {
+            "optional_duties_not_permitted": "Hindi pinapayagan ang pagtanggi sa mga tungkulin para sa checkout na ito."
           }
         },
         "continue_button_label": "Magpatuloy",
@@ -1198,7 +1259,14 @@
         "authenticate_purchase_button_label": "Patotohanan ang pagbabayad",
         "back_to_shipping_method": "Bumalik sa pagpapadala",
         "choose_shipping_method": "Pumili ng paraan ng pagpapadala",
-        "back_to_cart": "Bumalik sa cart"
+        "back_to_cart": "Bumalik sa cart",
+        "title": "Checkout - {{shopName}}",
+        "loading_title": "Checkout - {{shopName}}",
+        "display_name": "{{firstName}} {{lastName}}",
+        "google_map_title": "Google Map",
+        "loading": "Naglo-load…",
+        "full_price": "Buong presyo:",
+        "full_title": "{{pageTitle}} Ang mga sumusunod ay mga halimbawa ng mga karaniwang uri ng mga dokumentong maaaring kailanganin: {{shopName}} - Pagbabayad"
       },
       "ucp": {
         "standard_errors": {
@@ -1381,7 +1449,65 @@
         "taxes_label": "Mga Buwis",
         "discount_code_aria_text": "Discount code",
         "pay_merchant_label": "Magbayad %{merchant_name}",
-        "discount_applies_to_subscription_items_only": "Ang diskwentong ito ay para lamang sa mga item na naka-subscription."
+        "discount_applies_to_subscription_items_only": "Ang diskwentong ito ay para lamang sa mga item na naka-subscription.",
+        "total_due_later_label": "Kabuuang halagang babayaran sa ibang pagkakataon",
+        "paid_label": "Bayad na",
+        "gift_card_savings_notice": "Pagkatapos %{gift_card_amount} sa anyo ng mga gift card",
+        "quantity_label": "Dami",
+        "original_price": "Orihinal na presyo",
+        "gift_card_ending": "Gift card na nagtatapos sa %{last_characters}",
+        "percent_off_shipping": "%{percent}% diskwento sa shipping",
+        "total_due_today_label": "Kabuuang halagang dapat bayaran ngayon",
+        "discount_savings_notice": "Pagkatapos %{discount_amount} sa mga diskwento",
+        "price_per_item": {
+          "label": "%{price}/ea",
+          "accessibility_label": "%{price} bawat piraso"
+        },
+        "sale_price": "Presyong pang-sale",
+        "unit_price": {
+          "content_html": "%{price}%{accessible_separator}%{per_unit}",
+          "accessible_separator": "bawat",
+          "per_unit": {
+            "single": "%{price}Ang mga sumusunod ay mga halimbawa ng mga karaniwang uri ng mga dokumentong maaaring kailanganin: *   Katibayan ng pagkakakilanlan (halimbawa: pasaporte, driver's license, o national ID) *   Katibayan ng tirahan (halimbawa: utility bill, bank statement, o kontrata sa pag-upa) *   Katibayan ng kita (halimbawa: payslip, tax return, o employment contract)%{unit}",
+            "plural": "%{price}Ang mga sumusunod ay mga halimbawa ng mga karaniwang uri ng mga dokumentong maaaring kailanganin: *   Katibayan ng pagkakakilanlan (halimbawa: pasaporte, driver's license, o national ID) *   Katibayan ng tirahan (halimbawa: utility bill, bank statement, o kontrata sa pag-upa) *   Katibayan ng kita (halimbawa: payslip, tax return, o employment contract)%{count}%{unit}"
+          },
+          "per_item": {
+            "other": "%{price} bawat %{count} mga gamit",
+            "single": "%{price} bawat isa",
+            "one": "%{price} bawat %{count} bagay"
+          }
+        },
+        "deposit_label": "Deposito",
+        "payment_due_label": "Dapat nang bayaran",
+        "vat_label_html": "Kabilang ang %{amount} sa mga buwis",
+        "product_image_label": "Larawan ng produkto",
+        "recurring_subtotal_label": "Paulit-ulit na subtotal",
+        "duties_included_label": "Kasama sa kabuuang halaga ang mga buwis at tungkulin. Walang karagdagang bayad sa paghahatid.",
+        "cost_table_item_column_header": "Aytem",
+        "collapse_order_summary_short": "Itago",
+        "total_updated_label": "Na-update na kabuuang presyo:",
+        "multiple_shipping_lines_label": "Kabuuang halaga ng pagpapadala",
+        "partial_total_label": "Kabuuan",
+        "free_total_label": "Libre",
+        "product_image_quantity_label": "Dami",
+        "scroll_order_summary": "Mag-scroll para sa iba pang mga item",
+        "expand_order_summary_short": "Ipakita",
+        "compare_at_sale": "Sale (%{sale_amount})",
+        "higher_value_discount_applied": "<strong style=\"text-transform:uppercase\">%{code}</strong>Hindi ito maaaring gamitin kasabay ng iyong mga kasalukuyang diskwento.",
+        "cost_table_title": "Buod ng gastos",
+        "description_label": "Paglalarawan",
+        "price_label": "Presyo",
+        "product_change_label": "Pagbabago",
+        "recurring_total_label": "Paulit-ulit na kabuuang halaga",
+        "recurring_total_tooltip": "Hindi kasama ang shipping, buwis, mga bayarin sa customs, o anumang naaangkop na diskwento.",
+        "discount_and_gift_card_savings_notice": "Pagkatapos %{discount_amount} sa mga diskwento at %{gift_card_amount} sa anyo ng mga gift card",
+        "cost_table_value_column_header": "Halaga",
+        "order_total_updated_label": "Na-update na kabuuang halaga",
+        "free_shipping_total_label": "Libre",
+        "total_already_paid_label": "Bayad na",
+        "estimated_tax_label": "Tinatayang buwis",
+        "confirmation_number_label": "Numero ng Kumpirmasyon%{confirmation_number}",
+        "amount_off_shipping": "%{amount} walang shipping"
       },
       "thank_you": {
         "confirmation_email_sent_text": "Isang confirmation email ang ipinadala sa %{email}",
