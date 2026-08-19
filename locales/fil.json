@@ -99,7 +99,54 @@
         "handle_phone_invalid": "Maglagay ng wastong numero ng telepono",
         "email_or_phone_blank": "Maglagay ng email o numero ng telepono",
         "address_last_name_too_long": "Masyadong mahaba ang apelyido (maximum na 255 character)",
-        "address_address1_contains_emojis": "Hindi maaaring maglaman ng mga emoji ang Address1"
+        "address_address1_contains_emojis": "Hindi maaaring maglaman ng mga emoji ang Address1",
+        "physical_gift_card_duplicate_code": "Ang line item ng pisikal na gift card ay naglalaman ng duplicate na code.",
+        "email_blank": "Maglagay ng email",
+        "reduction_code_discount_not_found": "Maglagay ng wastong discount code",
+        "reduction_code_gift_card_code_invalid": "Maglagay ng wastong gift card",
+        "reduction_code_gift_cards_not_supported_with_deferred_purchase_options": "Hindi sinusuportahan ang mga gift card sa mga opsyon ng pagbiling may ipinagpaliban na bayad.",
+        "shipping_line_phone_invalid": "Maglagay ng wastong numero ng telepono",
+        "tips_invalid_tip_amount": "Maglagay ng tip na mas mababa sa %{amount}",
+        "gift_card_already_applied": "Nagamit na ang gift card na ito sa iyong order.",
+        "gift_card_invalid": "Gift card \"••••%{last_four_characters}ay hindi na balido",
+        "must_use_available_shipping_rate": "Ang shipping rate ay dapat piliin mula sa mga available na shipping rate.",
+        "split_by_delivery_method_not_allowed": "Hindi pinapayagan ang paghahati batay sa paraan ng paghahatid para sa session o shop na ito.",
+        "gift_card_disabled": "Hindi na available ang gift card na ito.",
+        "gift_card_depleted": "Wala nang natitirang pondo ang gift card na ito.",
+        "payment_gateway_missing": "Pumili ng paraan ng pagbabayad.",
+        "payment_gateway_unsupported_for_development_store_html": "Para makapag-place ng test order, kakailanganin mong gumamit ng test payment gateway. Matuto pa tungkol sa <a href=\"%{docs_link}\">pag-test ng mga order sa mga development store</a>.",
+        "purchase_options_agreement_blank": "Upang ipagpatuloy ang iyong pagbili, sumang-ayon sa mga tuntunin para sa ipinagpaliban o paulit-ulit na pagbili.",
+        "split_by_delivery_method_unsupported_method_type": "Hinati batay sa paraan ng paghahatid na sinubukan gamit ang isang uri ng paraan ng paghahatid na hindi sinusuportahan.",
+        "payment_gateway_unsupported_for_subscriptions": "Hindi magagamit ang paraan ng pagbabayad na ito para sa mga subscription order.",
+        "payment_gateway_unsupported_for_country": "Hindi magagamit ang paraan ng pagbabayad na ito para sa bansa kung saan ipapadala ang iyong order.",
+        "shipping_method_invalid_phone_number": "I-update ang numero ng telepono sa iyong delivery address upang makita ang mga available na paraan ng pagpapadala.",
+        "must_use_available_delivery_address": "Ang delivery address ay dapat piliin mula sa mga available na delivery address.",
+        "reduction_code_code_not_found": "Maglagay ng wastong discount code o gift card",
+        "payment_gateway_needs_paid_plan_error": "Hindi available ang paraan ng pagbabayad na ito sa tindahan sa ngayon.",
+        "physical_gift_card_invalid_code": "Hindi valid ang code ng physical gift card.",
+        "vaulting_agreement_blank": "Kailangang i-save ang iyong paraan ng pagbabayad dahil kailangan pang bayaran ang natitirang balanse ng order na ito sa ibang pagkakataon.",
+        "delivery_line_detail_changed": "Maaaring nagbago ang ilang detalye ng paghahatid. Suriin ang iyong paraan ng pagpapadala at subukang muli.",
+        "gift_card_expired": "Nag-expire na ang gift card na ito.",
+        "gift_card_buying_gift_card": "Hindi ka maaaring gumamit ng gift card para bumili ng isa pang gift card.",
+        "payment_gateway_unsupported_for_order_above_maximum_orders_html": "Naabot mo na ang limitasyon para sa mga order sa development store gamit ang payment processor na ito. Para makapag-order muli, kailangan mong gumamit ng test payment gateway. Matuto pa tungkol sa <a href=\"%{docs_link}\">pag-test ng mga order sa mga development store</a>.",
+        "address_suggestion_did_you_mean_html": "Ang ibig mo bang sabihin ay %{html}?",
+        "split_cart_international_shipping_not_supported": "Dapat gamitin ang parehong paraan ng pagpapadala para sa lahat ng item kapag nagpapadala sa ibang bansa. I-update ang paraan ng pagpapadala o gumawa ng magkakahiwalay na order.",
+        "reduction_code_gift_card_unusable": "Hindi ka maaaring gumamit ng gift card para bumili ng isa pang gift card.",
+        "shipping_line_phone_blank": "Maglagay ng numero ng telepono upang magamit ang paraan ng paghahatid na ito.",
+        "payment_gateway_unsupported_for_deferred_purchase_options": "Hindi magagamit ang paraan ng pagbabayad na ito para sa mga opsyon ng pagbiling may ipinagpaliban na bayad.",
+        "address_country_invalid": "Pumili ng bansa/rehiyon mula sa listahan",
+        "sms_marketing_phone_invalid": "Maglagay ng wastong numero ng telepono",
+        "invalid_delivery_address_reference_handle": "Hindi maitugma ang reference handle ng delivery address sa alinmang available na delivery address.",
+        "physical_gift_card_invalid_quantity": "Ang dami ng mga physical gift card item ay dapat tumugma sa bilang ng mga gift card code.",
+        "phone_blank": "Maglagay ng numero ng telepono",
+        "credit_card_verification_value_blank": "Ilagay ang CVV o security code sa iyong card",
+        "delivery_zone_not_found": "Hindi natagpuan ang tinukoy na sona sa tinukoy na bansa.",
+        "gift_card_currency_mismatch": "Mga gift card lamang ang tinatanggap %{checkout_currency} maaaring gamitin sa order na ito",
+        "gift_cards_not_supported_with_deferred_purchase_options": "Hindi sinusuportahan ang mga gift card sa mga opsyon ng pagbiling may ipinagpaliban na bayad.",
+        "payment_gateway_not_in_test_mode": "Hindi ito naka-set up para sa pagsubok ng mga order. Hindi makatatanggap ang tindahang ito ng mga totoong order o totoong bayad.",
+        "payment_gateway_incompatible_with_multi_currency": "Upang makumpleto ang checkout na ito gamit ang iyong lokal na pera, kailangan mong magbayad gamit ang credit card.",
+        "address_zip_invalid": "Maglagay ng wastong ZIP / postal code",
+        "split_by_delivery_method_requires_merchandise_from_single_location": "Ang paghahati batay sa paraan ng paghahatid ay nangangailangan na ang mga indibidwal na linya ng paninda ay maiproseso at maipadala mula sa iisang lokasyon."
       },
       "billing": {
         "billing_address_title": "Singilin kay/kay",
@@ -245,7 +292,8 @@
         "simulated_checkout": "Malapit na ang preview",
         "simulated_express_checkout": "Hindi magagamit ang mga wallet sa preview ng editor dahil sa iyong rehiyon o browser.",
         "apple": {
-          "not_available": "Hindi magagamit ang Apple Pay sa browser na ito. Para mai-connect ang iyong Apple Pay account, kailangan mong gamitin ang Safari sa isang Apple device."
+          "not_available": "Hindi magagamit ang Apple Pay sa browser na ito. Para mai-connect ang iyong Apple Pay account, kailangan mong gamitin ang Safari sa isang Apple device.",
+          "connect": "I-click upang ikonekta ang iyong Apple Pay account"
         },
         "update_payment_method": "I-update ang paraan ng pagbabayad",
         "same_billing_address_checkbox_label": "Gamitin ang shipping address bilang billing address",
@@ -307,7 +355,58 @@
         "card_information_notice": "Ligtas at naka-encrypt ang lahat ng transaksyon. Hindi kailanman iniimbak ang impormasyon ng credit card.",
         "card_verification_value_explanation": "3-digit na security code na karaniwang matatagpuan sa likuran ng iyong card. Ang mga American Express card ay may 4-digit na code na nasa harapan.",
         "paypal_disconnect": "Putulin ang koneksyon",
-        "ends_with_label": "nagtatapos sa %{last_digits}"
+        "ends_with_label": "nagtatapos sa %{last_digits}",
+        "change_currency_section_description": "Pumili ng opsyon sa pera",
+        "klarna_pay_now_label": "Magbayad ngayon gamit ang Klarna",
+        "swish_label": "Swish",
+        "wechat_app_label": "WeChat",
+        "usdc_label": "USDC",
+        "usdc_cashback_additional_info": "Magbayad gamit ang USDC sa Base at makakuha ng %{incentive_percentage}% na ibabalik sa iyong wallet sa loob ng 30 araw.",
+        "purchase_options_subscription_cancellation_instructions": "%{cancel_text} Pakitingnan ang %{cancellation_policy_label}Ang mga sumusunod ay mga halimbawa ng mga karaniwang uri ng mga dokumentong maaaring kailanganin: *   Katibayan ng pagkakakilanlan (halimbawa: pasaporte, driver's license, o national ID) *   Katibayan ng tirahan (halimbawa: utility bill o bank statement) *   Katibayan ng kita (halimbawa: payslip o tax return)",
+        "mb_way_label": "MB WAY",
+        "przelewy24_label": "Przelewy24",
+        "kcp_creditcard_label": "KCP Credit Card",
+        "oxxo_label": "OXXO",
+        "purchase_options_subscription_consent_text": "Malinaw at tiyak kang sumasang-ayon na awtomatiko kang sisingilin ng paulit-ulit na halagang nakasaad sa iyong cart (dagdag pa ang shipping at mga buwis) hanggang sa matapos ang subscription o ikaw ay magkansela.",
+        "multibanco_label": "Multibanco",
+        "ideal_label": "iDEAL | Wero",
+        "blik_label": "BLIK",
+        "purchase_options_card_update_agreement_label_html": "Sa pamamagitan ng pag-update ng iyong paraan ng pagbabayad, pinahihintulutan mo ang mga pagbabayad para sa anumang paulit-ulit o ipinagpaliban na pagbili alinsunod sa <a data-modal=\"true\" data-title-text=\"%{cancellation_policy}\" class=\"link--small\" href=\"%{policy_href}\">patakaran sa pagkansela</a> ng tindahang ito.",
+        "subscription_card_update_agreement_label": "Ang pagpapalit ng paraan ng pagbabayad ay mag-a-update sa iyong subscription at sa mga susunod na paulit-ulit na pagbabayad.",
+        "subscription_agreement_cancelled": "patakaran sa pagkansela",
+        "no_taxes_banner_content": "Hindi papatawan ng buwis ang order na ito. Kapag nakatanggap ka na ng bayad, hindi na maaaring magdagdag ng buwis.",
+        "giropay_label": "Giropay",
+        "klarna_slice_it_label": "Magbayad nang hulugan gamit ang Klarna",
+        "afterpay_label": "Afterpay",
+        "grabpay_label": "GrabPay",
+        "purchase_options_agreement_label_wallets": "Sa pagpapatuloy ng iyong pagbabayad, sumasang-ayon ka sa mga susunod na singil na nakalista sa pahinang ito at sa patakaran sa pagkansela.",
+        "purchase_options_subscription_agreement_label": "Naglalaman ang iyong cart ng subscription na awtomatikong nagre-renew. Sa pag-click sa \"%{button_label},\" %{consent_text} %{cancellation_instructions}",
+        "subscription_heading": "Kasunduan sa suskrisyon",
+        "subscription_agreement_label_html": "Nauunawaan kong sumasang-ayon ako sa isang subscription. Awtomatiko itong magre-renew sa nakasaad na presyo at dalas hanggang sa matapos ito o\n<a data-title-text=\"%{subscription_policy}\" class=\"link--small\" data-modal=\"true\" href=\"%{policy_href}\">kinansela</a>.\n",
+        "purchase_options_subscription_cancel_text": "Maaari kang magkansela anumang oras sa pamamagitan ng pagpunta sa iyong account o pakikipag-ugnayan sa tindahan.",
+        "apple_pay_payment_error": "Hindi natapos ang iyong pagbabayad. Subukan muli o gumamit ng ibang paraan ng pagbabayad.",
+        "eps_label": "eps-paglilipat ng pondo",
+        "twint_label": "TWINT",
+        "mobilepay_label": "MobilePay",
+        "alipay_label": "Alipay",
+        "subscription_agreement_label": "Ang isa o higit pang item sa iyong cart ay isang deferred purchase o subscription. Sa pagpapatuloy ng iyong pagbabayad, sumasang-ayon kang awtomatikong sisingilin ang iyong paraan ng pagbabayad batay sa presyo at dalas na nakasaad sa pahinang ito hanggang sa matapos ang serbisyo o ikaw ay magkansela. Ang lahat ng pagkansela ay napapailalim sa %{cancelled}Ang mga sumusunod ay mga halimbawa ng mga karaniwang uri ng mga dokumentong maaaring kailanganin: *   Katibayan ng pagkakakilanlan (halimbawa: pasaporte, driver's license, o national ID) *   Katibayan ng tirahan (halimbawa: utility bill o bank statement) *   Katibayan ng kita (halimbawa: payslip o tax return)",
+        "taxes_not_included": "Hindi kasama ang mga buwis",
+        "no_real_orders_dev_store": "Hindi makatatanggap ang tindahang ito ng mga totoong order o totoong bayad.",
+        "bizum_label": "Bizum",
+        "bank_picker_label": "Bangko",
+        "wechat_pay_label": "WeChat Pay",
+        "satispay_label": "Satispay",
+        "purchase_options_agreement_label": "Ang isa o higit pang item sa iyong cart ay isang deferred o recurring na pagbili. Sa pagpapatuloy ng iyong pagbabayad, sumasang-ayon ka na awtomatikong sisingilin ang iyong paraan ng pagbabayad batay sa presyo at dalas na nakasaad sa pahinang ito hanggang sa matapos ito o ikaw ay magkansela. Ang lahat ng pagkansela ay napapailalim sa %{cancellation_policy_label}Ang mga sumusunod ay mga halimbawa ng mga karaniwang uri ng mga dokumentong maaaring kailanganin: *   Katibayan ng pagkakakilanlan (halimbawa: pasaporte, driver's license, o national ID) *   Katibayan ng tirahan (halimbawa: utility bill o bank statement) *   Katibayan ng kita (halimbawa: payslip o tax return)",
+        "purchase_options_agreement_label_html": "Nauunawaan ko na ang isa o higit pang mga produkto sa aking cart ay isang deferred o paulit-ulit na pagbili. Sa pagpapatuloy, sumasang-ayon ako sa\n<a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{subscription_policy}\" href=\"%{policy_href}\">patakaran sa pagkansela</a>\nat binibigyan ko kayo ng pahintulot na singilin ang aking paraan ng pagbabayad batay sa mga presyo, dalas, at petsang nakasaad sa pahinang ito hanggang sa ang aking\nnatupad ang order o kinansela ko ito, kung pinahihintulutan.\n",
+        "paypal": {
+          "connect": "I-click upang ikonekta ang iyong PayPal account"
+        },
+        "bancontact_label": "Bancontact",
+        "cashapppay_label": "Cash App Pay",
+        "vipps_label": "Vipps",
+        "usdc_cashback_title": "%{incentive_percentage}% na cashback",
+        "usdc_cashback_terms": "May mga tuntunin at limitasyong ipinapatupad.",
+        "waiting_on_payment_methods": "Kinukuha ang mga available na paraan ng pagbabayad..."
       },
       "order_payment_collection": {
         "order_review_and_pay": "Na-update ang iyong order. Suriin at magbayad upang kumpirmahin ang iyong order.",
@@ -1347,6 +1446,15 @@
         "missing_shipping_address": "Wala ang shipping address",
         "split_shipping_merchandise_quantity_label_additional": "+%{quantity} higit pa",
         "pre_order_ships_later": "Ipapadala mamaya"
+      },
+      "redeemable_errors": {
+        "gift_card": {
+          "duplicate": "Naigamit na ang gift card sa iyong order.",
+          "insufficient_funds": "Wala nang natitirang pondo ang gift card na ito."
+        }
+      },
+      "store_credit_errors": {
+        "generic_error": "Nagkaroon ng problema sa iyong store credit. Subukan muli o i-reload ang pahina."
       }
     },
     "sentence": {
@@ -1976,7 +2084,75 @@
         "payment_method_selector_no_alternative_payment": "Walang paraan ng pagpapalit",
         "replace_method_with_new_method_description": "Iyong {{currentPaymentMethodName}} buburahin at papalitan ng sa iyo {{newPaymentMethodName}}Ang mga sumusunod ay mga halimbawa ng mga karaniwang uri ng mga dokumentong maaaring kailanganin: *   Katibayan ng pagkakakilanlan (halimbawa: pasaporte, driver's license, o national ID) *   Katibayan ng tirahan (halimbawa: utility bill o bank statement) *   Katibayan ng kita (halimbawa: payslip o tax return)",
         "delete_and_replace_button": "Burahin at palitan"
-      }
+      },
+      "bank_account": {
+        "iframe_title_accessibility_label": "Pag-aayos ng bank account",
+        "generic_error": "Hindi naidagdag ang bank account. Subukan muli mamaya.",
+        "display_name": "Bank account",
+        "loading_accessibility_message": "Naglo-load ang button para sa bank account."
+      },
+      "no_payment_methods_banner": "Walang naidagdag na paraan ng pagbabayad",
+      "edit_payment_method_brand_button_accessibility_label": "I-edit {{paymentMethodName}}",
+      "additional_payment_methods": "Mga karagdagang paraan ng pagbabayad",
+      "or": "O",
+      "google_pay": {
+        "errors": {
+          "generic": "Nagkaroon ng problema sa Google Pay. Subukan muli o gumamit ng ibang paraan ng pagbabayad.",
+          "missing_billing_address": "Kailangan ng Google Pay ng billing address. Pakidagdag ito sa iyong account."
+        },
+        "loading": "Naglo-load ang Google Pay",
+        "loading_accessibility_message": "Naglo-load ang Google Pay",
+        "iframe_title_accessibility_label": "Magdagdag ng paraan ng pagbabayad gamit ang Google Pay"
+      },
+      "pay_pal": {
+        "loading_accessibility_message": "Naglo-load ang PayPal",
+        "iframe_title_accessibility_label": "Magdagdag ng paraan ng pagbabayad gamit ang PayPal",
+        "errors": {
+          "generic": "Nagkaroon ng problema sa PayPal. Subukan muli o gumamit ng ibang paraan ng pagbabayad."
+        }
+      },
+      "store_credit": {
+        "details_modal": {
+          "load_error": "Hindi ma-load ang store credit.",
+          "title": "Store credit na may taning"
+        },
+        "expirable_amounts_label": "Mga halagang may takdang panahon ng bisa",
+        "label": "Store credit",
+        "accessibility_label": "Store credit - {{formattedBalance}}",
+        "expirable_amounts_button": "Tingnan ang mga halagang may takdang panahon ng bisa"
+      },
+      "apple_pay": {
+        "errors": {
+          "not_available": "Hindi available ang Apple Pay sa device na ito.",
+          "generic": "Nagkaroon ng problema sa Apple Pay. Subukan muli o gumamit ng ibang paraan ng pagbabayad.",
+          "missing_billing_address": "Kailangan ng Apple Pay ng billing address. Pakidagdag ito sa iyong account."
+        },
+        "loading": "Naglo-load ang Apple Pay"
+      },
+      "expired": "Expired na ang card na ito.",
+      "default": "Default",
+      "card_update_consent": "Ang paraan ng pagbabayad na ito ay ise-save para sa mga susunod na pagbili.",
+      "card_update_consent_subscriptions": "Ang paraan ng pagbabayad na ito ay ise-save para sa mga susunod na pagbili at maaaring gamitin para sa anumang paulit-ulit o ipinagpaliban na pagbili.",
+      "back_button": "Bumalik",
+      "add_payment_method_dropdown": {
+        "bank_account_consent": "Sa pagdaragdag ng paraan ng pagbabayad, pinahihintulutan mo ang pag-charge sa iyong card o pag-debit sa iyong bank account para sa mga susunod na pagbiling iyong aaprubahan, hanggang sa ikaw ay magkansela."
+      },
+      "replacement_payment_method_title": "Pamalit na paraan ng pagbabayad",
+      "delete_payment_method_button": "Burahin",
+      "digital_wallet_title": "Digital na pitaka",
+      "edit_payment_method_button_accessibility_label": "I-edit {{paymentMethodName}} nagtatapos sa {{lastDigits}}",
+      "back_button_accessibility_label": "Balik sa {{paymentMethodStepTitle}}",
+      "expired_badge_label": "Nag-expire na",
+      "expiring_badge_label": "Malapit nang mapaso",
+      "credit_or_debit_card_title": "Credit o debit card",
+      "title": "Mga paraan ng pagbabayad",
+      "add_payment_method_button": "Magdagdag ng paraan ng pagbabayad",
+      "add_payment_method_banner": "Magdagdag ng paraan ng pagbabayad para sa mas mabilis na checkout o mga serbisyong may paunang pahintulot.",
+      "delete_payment_method_button_accessibility_label": "Burahin {{paymentMethodName}}",
+      "generic_card": "Kard",
+      "expiration_warning_button_accessibility_label": "Ipakita ang babala sa pagkapaso para sa {{paymentMethodName}} nagtatapos sa {{lastDigits}}",
+      "expires_soon": "Malapit nang mag-expire ang card na ito.",
+      "credit_card_title": "Credit card"
     },
     "sign_in": {
       "step_one": {
@@ -2049,6 +2225,12 @@
       "previous_button": "Nakaraan",
       "next_button": "Susunod",
       "button": "Mag-explore sa Shop"
+    },
+    "throttle": {
+      "too_many_attempts": {
+        "description": "Pakisubukan muli pagkalipas ng ilang minuto.",
+        "message": "Masyadong maraming pagtatangka"
+      }
     }
   },
   "sections": {
