@@ -1997,7 +1997,9 @@
               "es": "Ang mga VAT number ng Spain ay binubuo ng ES at 9 na karakter.",
               "hu": "Ang mga VAT number ng Hungary ay binubuo ng HU at 8 karakter.",
               "sk": "Ang mga VAT number ng Slovakia ay binubuo ng SK at 10 karakter.",
-              "cy": "Ang mga numero ng VAT ng Cyprus ay binubuo ng CY at 9 na karakter."
+              "cy": "Ang mga numero ng VAT ng Cyprus ay binubuo ng CY at 9 na karakter.",
+              "at": "Ang mga VAT number ng Austria ay binubuo ng AT at 9 na karakter.",
+              "be": "Ang mga numero ng VAT ng Belgium ay binubuo ng BE at 10 karakter."
             },
             "invalid_number": {
               "fr": "Maglagay ng wastong VAT number ng France",
@@ -2025,8 +2027,17 @@
               "lv": "Maglagay ng wastong Latvia VAT number",
               "pt": "Maglagay ng wastong VAT number ng Portugal"
             }
+          },
+          "domestic_order": "Ang exemption sa reverse charge ay para lamang sa mga cross-border order sa EU. Ipinapataw ang standard VAT sa mga lokal na order.",
+          "vaulted": "VAT number: %{number}",
+          "add": "Magdagdag ng VAT number",
+          "badge": "VAT number: %{number}",
+          "field": {
+            "label": "Numero ng VAT (opsyonal)",
+            "tooltip": "Bine-verify ang VAT number at awtomatikong inilalapat ang reverse charge sa mga order kung kwalipikado."
           }
-        }
+        },
+        "tax_details": "Karagdagang mga detalye sa buwis"
       },
       "contact": {
         "governorate_placeholder": "Gobernadorato",
@@ -2590,6 +2601,62 @@
       "payment_collection": {
         "cancelled": "Hindi na kinakailangan ang bayad na ito. Bisitahin ang pahina ng order para sa mga detalye.",
         "paid": "Naipadala na ang bayad na ito. Bisitahin ang pahina ng order para sa mga detalye."
+      },
+      "tooltip": {
+        "accessibility_label_context": "Karagdagang impormasyon tungkol sa %{context}",
+        "additional_payment_methods": "Mga karagdagang paraan ng pagbabayad"
+      },
+      "too_many_requests": {
+        "body": "Mangyaring maghintay ng ilang minuto at subukan muli mula sa iyong cart.",
+        "body_no_cart": "Mangyaring maghintay ng ilang minuto at subukan muli.",
+        "title": "Masyadong maraming pagtatangkang mag-checkout",
+        "return_to_cart": "Bumalik sa cart"
+      },
+      "editor": {
+        "navigation": {
+          "store_logo_accessibility_label": "Pumunta sa online store"
+        }
+      },
+      "one": {
+        "errors": {
+          "merchandise": {
+            "gift_card_price_must_not_exceed_limit": "Ang presyo ng gift card ay hindi dapat lumampas sa %{gift_card_limit}Ang mga sumusunod ay mga halimbawa ng mga karaniwang uri ng mga dokumentong maaaring kailanganin: *   Katibayan ng pagkakakilanlan (halimbawa: pasaporte, driver's license, o national ID) *   Katibayan ng tirahan (halimbawa: utility bill o bank statement) *   Katibayan ng kita (halimbawa: payslip o tax return)",
+            "gift_card_price_must_be_greater_than_zero": "Ang presyo ng gift card ay dapat na higit sa 0.",
+            "subtotal_limit_reached": "Naabot na ang pinakamataas na bilang ng mga line item.",
+            "signature_mismatch": "Hindi tumutugmang lagda ng paninda para sa linya %{stable_id}Ang mga sumusunod ay mga halimbawa ng mga karaniwang uri ng mga dokumentong maaaring kailanganin: *   Katibayan ng pagkakakilanlan (halimbawa: pasaporte, driver's license, o national ID) *   Katibayan ng tirahan (halimbawa: utility bill o bank statement) *   Katibayan ng kita (halimbawa: payslip o tax return)"
+          }
+        }
+      },
+      "remote": {
+        "errors": {
+          "currency_mismatch_removal": "Inalis ang isang item sa iyong cart dahil galing ito sa tindahang gumagamit ng ibang currency.",
+          "only_remote_merchandise_lines": "Ang checkout ay naglalaman lamang ng mga produktong mula sa ibang tindahan. Kinakailangang lumipat sa tindahang iyon upang makumpleto ang checkout.",
+          "max_remote_shops_exceeded": "Hindi maaaring idagdag ang produktong ito dahil nasa maximum na ang laman ng iyong cart mula sa ibang mga tindahan.",
+          "currency_mismatch": "Hindi maaaring idagdag ang item na ito sa iyong cart dahil galing ito sa isang tindahang gumagamit ng ibang currency."
+        }
+      },
+      "units": {
+        "centiliter": "cl",
+        "quart": "cute",
+        "square_meter": "m²",
+        "gallon": "babae",
+        "milligram": "mg",
+        "pint": "pt",
+        "square_foot": "sq ft",
+        "cubic_meter": "m³",
+        "item": "bagay"
+      },
+      "memberships": {
+        "items_split_across_locations_unsupported": "Hindi available ang Prime delivery para sa iyong order. Na-update na ang iyong mga opsyon sa pagpapadala.",
+        "delivery_promise_unfulfillable": "Hindi sinusuportahan ang address para sa kasalukuyang membership."
+      },
+      "required_extensions": {
+        "errors": {
+          "interaction_required": "Kinakailangan ang interaksyon sa extension upang makumpleto ang checkout."
+        }
+      },
+      "offsite_payment_failed": {
+        "payment_link_expired_text": "Subukang i-scan muli ang QR code."
       }
     },
     "sentence": {
