@@ -2874,7 +2874,49 @@
       "store_credit": {
         "details_modal": {
           "load_error": "Hindi ma-load ang store credit.",
-          "title": "Store credit na may taning"
+          "title": "Store credit na may taning",
+          "expirable_indicator_with_date": "{{formattedAmount}} magwawakas ang bisa {{date}}",
+          "events": {
+            "order_refund": "Refund ng order",
+            "payment_returned": "Ibinalik ang bayad",
+            "order_cancellation": "Pagkansela ng order",
+            "payment_failure": "Hindi matagumpay na pagbabayad",
+            "tax_finalization": "Pagtatapos ng proseso ng pagbubuwis",
+            "order_payment": "Bayad sa order",
+            "adjustment": "Pagsasaayos"
+          },
+          "expirable_amount_label": "Kabuuang halagang maaaring mapaso",
+          "pagination": {
+            "expirable_transactions_loading": "Pag-load ng karagdagang halagang may takdang panahon ng bisa",
+            "load_more_accessibility_label": "Magpakita ng higit pang mga halagang mawawalan ng bisa",
+            "load_more_transactions_accessibility_label": "Magpakita ng higit pang mga transaksyon",
+            "transactions_loaded": "Nag-load ng karagdagang mga transaksyon",
+            "expirable_transactions_loaded": "Nagdagdag ng mga halagang may expiration",
+            "transactions_loading": "Naglo-load ng karagdagang mga transaksyon",
+            "load_more_label": "Ipakita ang iba pa"
+          },
+          "amount_label": "Halaga",
+          "event_label": "Kaganapan",
+          "expirable_balance_info": "Mag-e-expire ang bahagi ng iyong balanse sa hinaharap.",
+          "transaction_types": {
+            "debit": "Nagastos",
+            "expiration": "Nag-expire na",
+            "credit": "Idinagdag",
+            "debit_revert": "Naibalik na ang bayad"
+          },
+          "balance_label": "Balanse",
+          "loading_accessibility_message": "Inilo-load ang mga detalye ng store credit",
+          "expired_amounts_button": "Tingnan ang mga halagang paso na ang bisa",
+          "expires_at": "Magtatapos ang bisa {{date}}",
+          "expiration_date_label": "Petsa ng pagkapaso",
+          "expirable_amounts_info": "Ang mga halagang mas maagang mag-e-expire ang unang ginagamit sa checkout.",
+          "expirable_indicator_with_date_accessibility_label": "{{formattedAmount}} magwawakas ang bisa {{date}}. Tingnan ang mga halagang mawawalan ng bisa.",
+          "transactions_list_accessibility_label": "Mga transaksyon sa store credit",
+          "expirable_amounts_button": "Tingnan",
+          "expirable_indicator": "{{formattedAmount}} mawawalan ng bisa",
+          "expirable_transactions_list_accessibility_label": "Mga transaksyon sa store credit na may taning na bisa",
+          "date_label": "Petsa",
+          "expirable_indicator_accessibility_label": "{{formattedAmount}} ay mag-e-expire. Tingnan ang mga halagang mag-e-expire."
         },
         "expirable_amounts_label": "Mga halagang may takdang panahon ng bisa",
         "label": "Store credit",
@@ -2916,6 +2958,22 @@
       "three_d_secure": {
         "verification_failed": "Hindi na-verify ang iyong bayad. Subukan muli o gumamit ng ibang paraan ng pagbabayad.",
         "title": "3D Secure"
+      },
+      "payment_details": {
+        "bank_details": "{{bankBrand}} •••• {{lastDigits}}",
+        "billing_title": "Address para sa pagsingil",
+        "close_payment_modal": "Isara",
+        "preauthorized_payments": "Mga paunang awtorisadong pagbabayad",
+        "close_payment_modal_accessibility_label": "Isara ang modal ng mga detalye ng paraan ng pagbabayad",
+        "payment_method_not_found_error": "Hindi mahanap ang paraan ng pagbabayad",
+        "payment_method_expiring_on": "Magtatapos sa {{expiryDate}}",
+        "title": "Mga detalye ng paraan ng pagbabayad",
+        "bank_account_details": "{{bankBrand}} •••• {{lastDigits}}",
+        "credit_card_details_accessibility_label": "nagtatapos sa {{lastDigits}}",
+        "credit_card_details": "{{creditCardBrand}} •••• {{lastDigits}}",
+        "card_info_title": "Impormasyon ng card",
+        "payment_method_expired_on": "Nag-expire noong {{expiryDate}}",
+        "payment_details_loading": "Inilo-load ang mga detalye ng paraan ng pagbabayad"
       }
     },
     "sign_in": {
@@ -3304,7 +3362,47 @@
       "vendor": "Nagbebenta",
       "sold_out": "Ubos na",
       "sku": "SKU",
-      "product_variants": "Mga baryasyon ng produkto"
+      "product_variants": "Mga baryasyon ng produkto",
+      "xr_button_label": "Tingnan sa iyong espasyo; ikinakarga ang item sa augmented reality window.",
+      "duties_included": "Kasama ang mga tungkulin.",
+      "duties_and_taxes_included": "Kasama na ang mga tungkulin at buwis.",
+      "shipping_policy_html": "Kakalkulahin ang <a href=\"{{ link }}\">bayad sa pagpapadala</a> sa checkout.",
+      "xr_button": "Tingnan sa iyong espasyo",
+      "taxes_included": "Kasama na ang mga buwis."
+    },
+    "facets": {
+      "filters_selected": {
+        "one": "{{ count }} selected",
+        "other": "{{ count }} selected"
+      },
+      "sort_button": "Pagbukud-bukurin",
+      "sort_by_label": "Ayusin ayon sa:",
+      "to": "Para sa",
+      "product_count_simple": {
+        "other": "{{ count }} products",
+        "one": "{{ count }} product"
+      },
+      "reset": "I-reset",
+      "clear_filter": "Alisin ang filter",
+      "filter_and_operator_subtitle": "Itugma ang lahat",
+      "filter_by_label": "Salaan:",
+      "show_more": "Ipakita ang iba pa",
+      "product_count": {
+        "other": "{{ product_count }} ng {{ count }} mga produkto",
+        "one": "{{ product_count }} ng {{ count }} produkto"
+      },
+      "filter_and_sort": "Salain at ayusin",
+      "filter_button": "Salaan",
+      "filter_selected_accessibility": "{{ type }} ({{ count }}  mga filter na napili)",
+      "show_less": "Ipakita ang mas kaunti",
+      "max_price": "Ang pinakamataas na presyo ay {{ price }}",
+      "clear_all": "Alisin ang lahat",
+      "from": "Mula sa",
+      "apply": "Mag-apply",
+      "clear": "Malinaw"
+    },
+    "modal": {
+      "label": "Gallery ng media"
     }
   },
   "customer": {
@@ -3386,6 +3484,43 @@
         "one": "{{ count }} komento"
       },
       "success": "Matagumpay na na-post ang iyong komento! Salamat!"
+    }
+  },
+  "templates": {
+    "404": {
+      "title": "Hindi nahanap ang pahina"
+    },
+    "search": {
+      "title": "Mga resulta ng paghahanap",
+      "pages": "Mga Pahina",
+      "results_suggestions_with_count": {
+        "other": "{{ count }} mga mungkahi",
+        "one": "{{ count }} mungkahi"
+      },
+      "results_pages_with_count": {
+        "other": "{{ count }} mga pahina",
+        "one": "{{ count }} pahina"
+      },
+      "no_results": "Walang nakitang resulta para sa “{{ terms }} ”. Suriin ang baybay o gumamit ng ibang salita o parirala.",
+      "results_with_count": {
+        "one": "{{ count }} resulta",
+        "other": "{{ count }} mga resulta"
+      },
+      "results_with_count_and_term": {
+        "other": "{{ count }} mga resultang nahanap para sa “{{ terms }} ”",
+        "one": "{{ count }} resultang nahanap para sa “{{ terms }} ”"
+      },
+      "search_for": "Maghanap ng “{{ terms }} ”",
+      "suggestions": "Mga mungkahi",
+      "page": "Pahina",
+      "results_products_with_count": {
+        "other": "{{ count }} products",
+        "one": "{{ count }} product"
+      },
+      "products": "Mga Produkto"
+    },
+    "cart": {
+      "cart": "Cart"
     }
   }
 }
