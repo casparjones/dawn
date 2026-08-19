@@ -70,6 +70,154 @@
       "contains_html_tags": "hindi maaaring maglaman ng mga HTML tag",
       "invalid_province_in_country": "ay hindi wastong lalawigan sa %{country}",
       "verify_email": "Nagpadala kami ng email sa %{customer_email}, paki-click ang kalakip na link upang i-verify ang iyong email address."
+    },
+    "checkout": {
+      "field_errors": {
+        "handle_email_invalid": "Maglagay ng wastong email",
+        "address_first_name_too_long": "Masyadong mahaba ang unang pangalan (maximum na 255 character)",
+        "address_street_name_contains_mathematical_symbols": "Hindi maaaring maglaman ng mga simbolong matematikal ang kalye.",
+        "address_first_name_blank": "Ilagay ang unang pangalan",
+        "address_address1_too_long": "Masyadong mahaba ang unang linya ng address (ang maximum ay 255 character)",
+        "address_street_name_contains_html_tags": "Hindi maaaring maglaman ng mga HTML tag ang kalye.",
+        "address_last_name_contains_url": "Hindi maaaring maglaman ng URL ang apelyido.",
+        "address_address1_blank": "Maglagay ng address",
+        "address_street_name_contains_emojis": "Hindi maaaring maglaman ng mga emoji ang kalye.",
+        "email_invalid": "Maglagay ng wastong email",
+        "address_first_name_contains_mathematical_symbols": "Hindi maaaring maglaman ng mga simbolong matematikal ang unang pangalan.",
+        "address_last_name_blank": "Ilagay ang apelyido",
+        "address_last_name_contains_mathematical_symbols": "Hindi maaaring maglaman ng mga simbolong matematikal ang apelyido.",
+        "address_address1_contains_html_tags": "Hindi maaaring maglaman ng mga HTML tag ang Address1.",
+        "address_street_name_blank": "Ilagay ang pangalan ng kalye",
+        "address_first_name_contains_emojis": "Hindi maaaring maglaman ng mga emoji ang unang pangalan.",
+        "address_first_name_contains_html_tags": "Hindi maaaring maglaman ng mga HTML tag ang unang pangalan.",
+        "address_street_name_too_long": "Masyadong mahaba ang kalye (ang maximum ay {{count}} mga tauhan)",
+        "email_or_phone_invalid": "Maglagay ng wastong email o numero ng mobile phone",
+        "address_last_name_contains_html_tags": "Hindi maaaring maglaman ng mga HTML tag ang apelyido.",
+        "address_first_name_contains_url": "Hindi maaaring maglaman ng URL ang unang pangalan.",
+        "address_last_name_contains_emojis": "Hindi maaaring maglaman ng mga emoji ang apelyido.",
+        "address_address1_contains_mathematical_symbols": "Hindi maaaring maglaman ng mga simbolong matematikal ang unang linya ng address.",
+        "handle_phone_invalid": "Maglagay ng wastong numero ng telepono",
+        "email_or_phone_blank": "Maglagay ng email o numero ng telepono",
+        "address_last_name_too_long": "Masyadong mahaba ang apelyido (maximum na 255 character)",
+        "address_address1_contains_emojis": "Hindi maaaring maglaman ng mga emoji ang Address1"
+      },
+      "billing": {
+        "billing_address_title": "Singilin kay/kay",
+        "address_more": "Higit pang mga aksyon para sa address na ito",
+        "same_as_shipping": "Katulad ng shipping address",
+        "delete": "Burahin",
+        "address_confirm": "Sigurado ka bang gusto mong burahin ang address na ito mula sa iyong account?",
+        "address_form": {
+          "add_address": "Magdagdag ng address",
+          "save": "I-save",
+          "cancel": "Kanselahin"
+        },
+        "address_edit": "Baguhin ang address",
+        "address_delete": "Burahin ang address",
+        "edit": "I-edit",
+        "billing_address_rollup_accessibility_label": "Mga opsyon sa pagsingil",
+        "add_address": "Gumamit ng ibang address"
+      },
+      "payment_summary": {
+        "gift_card_current_balance_notice": "Kasalukuyang balanse %{amount}",
+        "free_label": "Libre",
+        "express_payment_gateway_label": "Express",
+        "billing_address_title": "Address para sa pagsingil",
+        "manual_payment_gateway_label": "Manwal",
+        "credit_card_expires_on_notice": "Mag-e-expire sa %{month}Ang mga sumusunod ay mga halimbawa ng mga karaniwang uri ng mga dokumentong maaaring kailanganin: *   Katibayan ng pagkakakilanlan (halimbawa: pasaporte, driver's license, o national ID) *   Katibayan ng tirahan (halimbawa: utility bill, bank statement, o kontrata sa pag-upa) *   Katibayan ng kita (halimbawa: payslip, tax return, o employment contract)%{year}"
+      },
+      "company_location": {
+        "location_title": "Lokasyon ng kumpanya",
+        "location_rollup_accessibility_label": "Mga opsyon sa lokasyon ng kumpanya"
+      },
+      "payment": {
+        "vault_for_payment_later": {
+          "notice": "Hindi ka sisingilin ngayon. Sa pagpapatuloy ng iyong pagbabayad, sumasang-ayon kang sisingilin ang iyong paraan ng pagbabayad kapag naproseso na ang iyong order.",
+          "pay_button_label": "Mag-order"
+        }
+      },
+      "order_payment_collection": {
+        "order_review_and_pay": "Na-update ang iyong order. Suriin at magbayad upang kumpirmahin ang iyong order.",
+        "changes_summary": {
+          "removed": "Inalis",
+          "subtracted": "Inalis %{count}",
+          "added": {
+            "other": "Idinagdag %{count}",
+            "one": "Idinagdag"
+          },
+          "return_line_item_removed": "Inalis %{count} mula sa pagbabalik",
+          "returned": "Ibinalik %{count}"
+        },
+        "pay_now": "Magbayad na",
+        "order_updated_on": "Na-update ang iyong order noong %{last_edited_at}Ang mga sumusunod ay mga halimbawa ng mga karaniwang uri ng mga dokumentong maaaring kailanganin: *   Katibayan ng pagkakakilanlan (halimbawa: pasaporte, driver's license, o national ID) *   Katibayan ng tirahan (halimbawa: utility bill o bank statement) *   Katibayan ng kita (halimbawa: payslip o tax return)",
+        "custom_line_item_description": "Halagang babayaran para sa order %{order_name}",
+        "additional_payment_requested": "Pagbabayad ng %{total_outstanding} kailangan",
+        "checkout_review_and_pay": "Ang iyong order %{order_name} ay na-update. Suriin ang mga pagbabagong ito, pagkatapos ay magbayad upang kumpirmahin ang iyong order."
+      },
+      "change_currency": {
+        "currency_not_supported_by_shop": "Hindi na available ang currency na iyong pinili. Ang lahat ng presyo ay nasa %{currency_code}Ang mga sumusunod ay mga halimbawa ng mga karaniwang uri ng mga dokumentong maaaring kailanganin: *   Katibayan ng pagkakakilanlan (halimbawa: pasaporte, driver's license, o national ID) *   Katibayan ng tirahan (halimbawa: utility bill o bank statement) *   Katibayan ng kita (halimbawa: payslip o tax return)",
+        "credit_card_will_be_charged_html": "Sisingilin ang iyong credit card %{amount}",
+        "payment_total_label": "Kabuuang bayad",
+        "conversion_rate": "1 %{from_currency_code} = %{rate} %{to_currency_code}",
+        "change_currency_link": "Palitan ng %{currency_name}",
+        "currency_button_label": "%{currency} (%{currency_symbol})",
+        "card_provider_fx_charges_warning": "Maaaring maningil ng mga bayarin ang iyong card provider para sa %{currency_code} mga transaksyon."
+      },
+      "marketing": {
+        "accept_shop_pay_marketing_checkbox_label": "Isali ako para sa mga balita at alok mula sa tindahang ito",
+        "unsubscribe": {
+          "title": "Nag-unsubscribe ka na",
+          "description": "Hindi ka na makakatanggap ng mga paalala tungkol sa iyong cart mula sa amin."
+        },
+        "sms": {
+          "disclaimer": {
+            "description_transactional_html": "Maaari kang makatanggap ng mga text message tungkol sa kumpirmasyon ng order at mga update sa pagpapadala. Mag-reply ng STOP upang mag-unsubscribe. Mag-reply ng HELP para sa tulong. Nag-iiba-iba ang dalas ng pagpapadala ng mensahe. Maaaring may mga singil sa mensahe at data. Tingnan ang aming %{privacy_policy_modal_link} at %{terms_of_service_modal_link}Ang mga sumusunod ay mga halimbawa ng mga karaniwang uri ng mga dokumentong maaaring kailanganin: *   Katibayan ng pagkakakilanlan (halimbawa: pasaporte, driver's license, o national ID) *   Katibayan ng tirahan (halimbawa: utility bill o bank statement) *   Katibayan ng kita (halimbawa: payslip o tax return)"
+          },
+          "mobile_phone_number": "Numero ng mobile phone",
+          "get_offers_by_text": "Tumanggap ng mga alok sa pamamagitan ng text"
+        }
+      },
+      "shop_policies": {
+        "cookie_preferences": "Mga cookie",
+        "policy_label": "Patakaran",
+        "select_policy_label": "Pumili ng polisiya",
+        "privacy_policy": "Patakaran sa privacy",
+        "refund_policy": "Patakaran sa refund",
+        "purchase_options_cancellation_policy": "Mga Pagkansela",
+        "terms_and_policies": "Mga tuntunin at patakaran",
+        "terms_of_sale": "Mga tuntunin ng pagbebenta",
+        "legal_notice": "Paunawang legal",
+        "shipping_policy": "Pagpapadala",
+        "terms_of_service": "Mga tuntunin ng serbisyo",
+        "subscription_policy": "Mga Pagkansela",
+        "purchase_options_policy": "Patakaran sa mga opsyon sa pagbili",
+        "policies_label": "Mga Patakaran",
+        "contact_information": "Makipag-ugnayan"
+      },
+      "markets": {
+        "invalid_market_manager_error": "Suriin ang iyong impormasyon sa pakikipag-ugnayan bago tapusin ang pagbabayad."
+      },
+      "mor_policies": {
+        "privacy_policy": "Patakaran sa Privacy ng Merchant of Record",
+        "terms_and_conditions": "Mga Tuntunin at Kundisyon ng Merchant of Record"
+      },
+      "tips": {
+        "title": "Magdagdag ng tip"
+      },
+      "change_country": {
+        "currency_updated_for_country": "Na-update ang currency para sa %{country}",
+        "cart_and_currency_updated_based_on_country": "Na-update ang iyong cart at currency batay sa bansa kung saan ipapadala ang iyong order.",
+        "cart_updated_based_on_country": "Na-update na ang iyong cart batay sa bansa kung saan ipapadala ang iyong order."
+      },
+      "remote_policies": {
+        "unavailable_policy": "Hindi %{policy_name} ay ibinigay para sa tindahang ito. Para sa karagdagang impormasyon, makipag-ugnayan sa %{shop_name} nang direkta."
+      },
+      "change_cart_localization": {
+        "verify_shipping_address": "Na-update na ang iyong bansa/rehiyon. Ilagay ang iyong shipping address upang magpatuloy sa checkout."
+      },
+      "notifications": {
+        "title": "Mga Notipikasyon"
+      }
     }
   },
   "customer_accounts": {
@@ -210,6 +358,74 @@
         "company_card_name_label": "Pangalan ng kumpanya",
         "company_card_section_accessibility_label": "Kumpanya"
       }
+    },
+    "order_details": {
+      "addresses_section_title": "Pagsingil at pagpapadala",
+      "grouped_view_components": {
+        "expand_line_items": "Ipakita {{count}} mga gamit",
+        "line_item_summary_list_accessibility_label": "Mga item sa {{productTitle}} tali",
+        "collapse_line_items": "Itago {{count}} mga gamit",
+        "line_item_summary_accessibility_label": "{{productTitle}}, Dami: {{refundableQuantity}}",
+        "line_item_summary": "{{refundableQuantity}} x {{productTitle}}"
+      },
+      "discount": "Diskwento",
+      "compare_at_sale": "Sale ({{saleAmount}} )",
+      "location": "Lokasyon",
+      "shipment_timeline": {
+        "hide_events_accessibility_label": "Itago ang mga detalye ng pagpapadala ng order",
+        "expand_events_accessibility_label": "Ipakita ang mga detalye ng pagpapadala ng order",
+        "expand_events_label": "Ipakita ang mga detalye",
+        "hide_events_label": "Itago ang mga detalye"
+      },
+      "order_details_skeleton_accessibility_label": "Mag-sign in upang makita ang lahat ng detalye ng order.",
+      "group_title_label_with_parent": "Para sa: {{groupTitle}}",
+      "view_controls": {
+        "list": "Listahan",
+        "gallery": "Gallery"
+      },
+      "discount_order_stacking": {
+        "one": "Diskwento sa order",
+        "other": "Mga diskwento sa order"
+      },
+      "image_gallery": {
+        "product_name_and_quantity": "{{productName}} dami {{quantity}}",
+        "load_more_items": {
+          "other": "Show {{count}} more items",
+          "one": "Show {{count}} more items"
+        },
+        "next": "Ipakita ang mga susunod na item",
+        "previous": "Ipakita ang mga nakaraang item"
+      },
+      "mobile_summary_toggle_button": {
+        "closed": "Itago ang buod ng order",
+        "open": "Ipakita ang buod ng order"
+      },
+      "fully_refunded_label": "Naibalik na ang bayad",
+      "fulfillment_images": {
+        "two_products_accessibility_label": "Kabilang sa fulfillment ang {{lineItemName1}} dami {{lineItemQuantity1}}, {{lineItemName2}} dami {{lineItemQuantity2}}",
+        "four_products_accessibility_label": "Kabilang sa fulfillment ang {{lineItemName1}} dami {{lineItemQuantity1}}, {{lineItemName2}} dami {{lineItemQuantity2}}, {{lineItemName3}} dami {{lineItemQuantity3}}, {{lineItemName4}} dami {{lineItemQuantity4}}",
+        "six_products_accessibility_label": "Kabilang sa fulfillment ang {{lineItemName1}} dami {{lineItemQuantity1}}, {{lineItemName2}} dami {{lineItemQuantity2}}, {{lineItemName3}} dami {{lineItemQuantity3}}, {{lineItemName4}} dami {{lineItemQuantity4}}, {{lineItemName5}} dami {{lineItemQuantity5}}, {{lineItemName6}} dami {{lineItemQuantity6}}",
+        "six_and_more_products_accessibility_label": "Kabilang sa fulfillment ang {{lineItemName1}} dami {{lineItemQuantity1}}, {{lineItemName2}} dami {{lineItemQuantity2}}, {{lineItemName3}} dami {{lineItemQuantity3}}, {{lineItemName4}} dami {{lineItemQuantity4}}, {{lineItemName5}} dami {{lineItemQuantity5}}, {{lineItemName6}} dami {{lineItemQuantity6}} at marami pang iba",
+        "one_products_accessibility_label": "Kabilang sa fulfillment ang {{lineItemName1}} dami {{lineItemQuantity1}}",
+        "three_products_accessibility_label": "Kabilang sa fulfillment ang {{lineItemName1}} dami {{lineItemQuantity1}}, {{lineItemName2}} dami {{lineItemQuantity2}}, {{lineItemName3}} dami {{lineItemQuantity3}}",
+        "five_products_accessibility_label": "Kabilang sa fulfillment ang {{lineItemName1}} dami {{lineItemQuantity1}}, {{lineItemName2}} dami {{lineItemQuantity2}}, {{lineItemName3}} dami {{lineItemQuantity3}}, {{lineItemName4}} dami {{lineItemQuantity4}}, {{lineItemName5}} dami {{lineItemQuantity5}}"
+      },
+      "loading_finished_accessibility_message": "Na-load na ang mga detalye ng order.",
+      "not_applicable": "Hindi naaangkop",
+      "paid_amount": "Bayad na",
+      "order_details": "Mga detalye ng order",
+      "price_after_discount_accessibility_label": "Presyong may diskwento",
+      "no_data_provided_accessibility_label": "{{fieldName}} ay walang laman",
+      "price_before_discount_accessibility_label": "Orihinal na presyo",
+      "no_data_provided": "Ang mga sumusunod ay mga halimbawa ng mga karaniwang uri ng mga dokumentong maaaring kailanganin:",
+      "billing_address": "Address para sa pagsingil",
+      "card_ending_with": "nagtatapos sa {{lastDigits}}",
+      "group_title_label": "Bahagi ng: {{groupTitle}}",
+      "no_data": "Wala",
+      "contact": "Makipag-ugnayan",
+      "company": "Kumpanya",
+      "hide_items": "Itago ang mga item",
+      "loading": "Inilo-load ang mga detalye ng order"
     }
   }
 }
