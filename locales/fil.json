@@ -549,10 +549,21 @@
         },
         "sms": {
           "disclaimer": {
-            "description_transactional_html": "Maaari kang makatanggap ng mga text message tungkol sa kumpirmasyon ng order at mga update sa pagpapadala. Mag-reply ng STOP upang mag-unsubscribe. Mag-reply ng HELP para sa tulong. Nag-iiba-iba ang dalas ng pagpapadala ng mensahe. Maaaring may mga singil sa mensahe at data. Tingnan ang aming %{privacy_policy_modal_link} at %{terms_of_service_modal_link}Ang mga sumusunod ay mga halimbawa ng mga karaniwang uri ng mga dokumentong maaaring kailanganin: *   Katibayan ng pagkakakilanlan (halimbawa: pasaporte, driver's license, o national ID) *   Katibayan ng tirahan (halimbawa: utility bill o bank statement) *   Katibayan ng kita (halimbawa: payslip o tax return)"
+            "description_transactional_html": "Maaari kang makatanggap ng mga text message tungkol sa kumpirmasyon ng order at mga update sa pagpapadala. Mag-reply ng STOP upang mag-unsubscribe. Mag-reply ng HELP para sa tulong. Nag-iiba-iba ang dalas ng pagpapadala ng mensahe. Maaaring may mga singil sa mensahe at data. Tingnan ang aming %{privacy_policy_modal_link} at %{terms_of_service_modal_link}Ang mga sumusunod ay mga halimbawa ng mga karaniwang uri ng mga dokumentong maaaring kailanganin: *   Katibayan ng pagkakakilanlan (halimbawa: pasaporte, driver's license, o national ID) *   Katibayan ng tirahan (halimbawa: utility bill o bank statement) *   Katibayan ng kita (halimbawa: payslip o tax return)",
+            "privacy_policy": "Patakaran sa Privacy",
+            "description_html": "Sa pag-sign up gamit ang text, sumasang-ayon kang makatanggap ng mga paulit-ulit at awtomatikong mensaheng pang-marketing, kabilang ang mga paalala tungkol sa iyong cart, sa ibinigay na numero ng telepono. Hindi kinakailangan ang pahintulot na ito upang makabili. Mag-reply ng STOP upang mag-unsubscribe. Mag-reply ng HELP para sa tulong. Nag-iiba-iba ang dalas ng pagpapadala ng mensahe. Maaaring magkaroon ng mga singil sa mensahe at data. Tingnan ang aming %{privacy_policy_link} at %{terms_of_service_link}Ang mga sumusunod ay mga halimbawa ng mga karaniwang uri ng mga dokumentong maaaring kailanganin: *   Katibayan ng pagkakakilanlan (halimbawa: pasaporte, driver's license, o national ID) *   Katibayan ng tirahan (halimbawa: utility bill o bank statement) *   Katibayan ng kita (halimbawa: payslip o tax return)",
+            "terms_of_service": "Mga Tuntunin ng Serbisyo"
           },
           "mobile_phone_number": "Numero ng mobile phone",
           "get_offers_by_text": "Tumanggap ng mga alok sa pamamagitan ng text"
+        },
+        "post_accept_marketing_checkbox_label": "Naka-subscribe ka upang makatanggap ng mga balita at alok sa pamamagitan ng email.",
+        "accept_marketing_checkbox_label": "Padalhan ako ng email tungkol sa mga balita at alok",
+        "pending_accept_marketing_checkbox_label": "Suriin ang iyong email upang kumpirmahin ang iyong subscription sa mga balita at alok.",
+        "accept_sms_checkbox_label": "Padalhan ako ng mga balita at alok sa pamamagitan ng text.",
+        "disclaimer": {
+          "terms_of_service": "Mga Tuntunin ng Serbisyo",
+          "privacy_policy": "Patakaran sa Privacy"
         }
       },
       "shop_policies": {
@@ -821,7 +832,17 @@
           "other": "%{count} nearby locations with your item"
         },
         "all_stores_far_away": {
-          "title": "Ang mga pinakamalapit na lokasyon ay higit sa %{distance} palayo"
+          "title": "Ang mga pinakamalapit na lokasyon ay higit sa %{distance} palayo",
+          "description": "Pumili ng lokasyon o %{ship_to_address_link}",
+          "title_with_location": "Ang pinakamalapit na lokasyon ay higit sa %{distance} mula sa %{location}",
+          "description_with_location": "%{change_location_link} or %{ship_to_address_link}",
+          "change_location_link": "Baguhin ang iyong lokasyon",
+          "ship_to_address_link": "address na pagpapadalhan",
+          "title_with_specific_location": "Ang pinakamalapit na lokasyon na mayroon ng iyong item ay higit sa %{distance} palayo sa %{location}",
+          "title_with_item": {
+            "other": "Ang pinakamalapit na lokasyon na mayroong mga item mo ay higit sa %{distance} mula sa %{location}",
+            "one": "Ang pinakamalapit na lokasyon na mayroon ng iyong item ay higit sa %{distance} mula sa %{location}"
+          }
         },
         "pick_up_location": "Lugar ng pagkuha",
         "location_information_far_away_other_items": {
@@ -845,7 +866,46 @@
         "cancel": "Kanselahin",
         "your_location": "iyong lokasyon",
         "location_address_search_label": "Address",
-        "or": "O"
+        "or": "O",
+        "paginator": {
+          "previous": "Nakaraang pahina",
+          "label": {
+            "one": "%{first} Ang mga sumusunod ay mga halimbawa ng mga karaniwang uri ng mga dokumentong maaaring kailanganin: %{last} ng %{count} tindahan",
+            "other": "%{first} Ang mga sumusunod ay mga halimbawa ng mga karaniwang uri ng mga dokumentong maaaring kailanganin: %{last} ng %{count} mga tindahan"
+          },
+          "next": "Susunod na pahina",
+          "accessibility_label": "Pagpapahina ng pahina para sa lokal na pagkuha"
+        },
+        "selected_pickup_option_no_longer_available": {
+          "title": "Hindi na available ang lokasyong pinili mo noon.",
+          "description": "Pinili namin ang pinakamalapit na lokasyon kung saan available ang iyong mga item."
+        },
+        "pickup_unavailable_banner_body": {
+          "search_elsewhere_standalone": "Maghanap sa ibang lugar",
+          "ship_to_address": "address na pagpapadalhan",
+          "there_are_no_stores": "Walang mga tindahan malapit sa iyong address, o hindi maaaring kunin ang iyong mga item.",
+          "ship_items_or_search_elsewhere": "%{ship_items} or %{search_elsewhere}",
+          "try_different_location": "Subukan ang ibang lokasyon",
+          "search_elsewhere": "maghanap sa ibang lugar",
+          "ship_items": "Ipadala ang iyong mga gamit"
+        },
+        "pickup_unavailable_banner_title_with_country": {
+          "other": "Walang mga lokasyon sa %{country} kasama ang iyong mga gamit",
+          "one": "Walang mga lokasyon sa %{country} kasama ang iyong gamit"
+        },
+        "pickup_unavailable_banner_title": {
+          "one": "Walang lokasyon para sa iyong item",
+          "other": "Walang mga lokasyong mayroon ng iyong mga item"
+        },
+        "geolocation": {
+          "permission_not_allowed": "Payagan ang pagbabahagi ng lokasyon o maghanap na lang."
+        },
+        "could_not_resolve_address": "Hindi matukoy ang iyong address. Subukan muli o gumamit ng ibang address.",
+        "no_pickup_locations_found": "Walang nahanap na mga lokasyon ng pickup",
+        "reveal_more_label": {
+          "other": "Ipakita %{count} karagdagang mga lokasyon",
+          "one": "Ipakita %{count} karagdagang lokasyon"
+        }
       },
       "review_address_modal": {
         "use_saved_address": "Gumamit ng ibang address",
@@ -1561,6 +1621,96 @@
       },
       "store_credit_errors": {
         "generic_error": "Nagkaroon ng problema sa iyong store credit. Subukan muli o i-reload ang pahina."
+      },
+      "review": {
+        "blocks": {
+          "change_shipping_method_link_label": "Baguhin ang paraan ng pagpapadala",
+          "pick_up_in_store_shipping_method_html": "Kunin sa tindahan· %{location_name}",
+          "purchase_order_number_title": "Numero ng PO",
+          "contact_method_title": "Makipag-ugnayan",
+          "change_billing_address_link_label": "Baguhin ang billing address",
+          "due_after_order_reviewed_html": "Babayaran pagkatapos suriin ang order",
+          "ship_items_to": {
+            "one": "Barko %{count} bagay na",
+            "other": "Barko %{count} mga bagay na"
+          },
+          "billing_address_title": "Pagsingil",
+          "change_shipping_address_link_label": "Baguhin ang shipping address",
+          "change_payment_method_link_label": "Baguhin ang paraan ng pagbabayad",
+          "no_address": "(Walang address)",
+          "payment_method_title": "Paraan ng pagbabayad",
+          "change_company_location_link_label": "Baguhin ang lokasyon ng kumpanya",
+          "change_purchase_order_number_label": "Baguhin ang numero ng PO",
+          "shipping_method_title": "Paraan ng pagpapadala",
+          "no_purchase_order_number": "(Walang PO number)",
+          "no_purchase_order_number_long": "Walang numero ng purchase order",
+          "payment_method_saved_company_location": "I-save ang card para sa lokasyong ito",
+          "company_location": "Lokasyon ng kumpanya",
+          "pickup_items_at": {
+            "other": "Pagkuha %{count} mga gamit sa",
+            "one": "Pagkuha %{count} item sa"
+          },
+          "review_title_free_order": "Suriin at kumpletuhin ang iyong order",
+          "shipping_address_title": "Ipadala sa",
+          "change_link_label": "Pagbabago",
+          "change_contact_method_link_label": "Baguhin ang impormasyon sa pakikipag-ugnayan",
+          "change_delivery_method_link_label": "Baguhin ang paraan ng paghahatid"
+        },
+        "title": "Pagsusuri",
+        "item_header": {
+          "section": "Seksyon",
+          "value": "Halaga",
+          "change_value": "Baguhin ang halaga"
+        },
+        "account_more_actions": "Higit pang mga aksyon para sa account na ito",
+        "review_and_confirm_title": "Suriin at kumpirmahin",
+        "block_title": "Suriin ang iyong impormasyon",
+        "checkout_as_guest": "Mag-checkout bilang guest",
+        "checkout_a_different_way": "Subukan ang ibang paraan",
+        "review_title": "Kumpletuhin ang iyong order"
+      },
+      "vaulted": {
+        "loading_section": "Naglo-load {{section}}…",
+        "change_button": "Pagbabago"
+      },
+      "split_delivery": {
+        "accessibility": {
+          "status": {
+            "remove_items": "%{items} Inalis sa cart.",
+            "pickup_in_store": "%{items} kukunin sa tindahan.",
+            "ship_separately": "%{items} Ipapadala nang hiwalay."
+          }
+        },
+        "items_moved_to_shipping_toast": "Ang mga item na hindi maaaring kunin ay inilipat sa shipping.",
+        "items_for_shipping": "Mga gamit na ipapadala",
+        "inventory_issue_banner": {
+          "heading": {
+            "cannot_be_picked_up": {
+              "other": "%{count} Hindi maaaring kunin ang mga gamit.",
+              "one": "%{count} Hindi maaaring kunin ang item."
+            },
+            "cannot_be_shipped": {
+              "other": "%{count} Hindi maaaring ipadala ang mga produkto.",
+              "one": "%{count} Hindi maaaring ipadala ang item"
+            }
+          },
+          "remove_item_only": {
+            "one": "Alisin ang item",
+            "other": "Alisin ang mga item"
+          },
+          "remove_item": {
+            "one": "alisin ang aytem",
+            "other": "mag-alis ng mga gamit"
+          },
+          "ship_separately": {
+            "other": "Ipadala ang mga ito nang hiwalay.",
+            "one": "Ipadala ito nang hiwalay."
+          }
+        },
+        "pickup_all_items": "Pulutin ang lahat ng gamit",
+        "delivery_method_menu": "Menu ng paraan ng paghahati ng delivery",
+        "delivery_method": "Paraan ng paghahatid nang hiwalay",
+        "items_for_pickup": "Mga gamit na kailangang kunin"
       }
     },
     "sentence": {
