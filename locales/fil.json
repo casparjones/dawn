@@ -1691,6 +1691,28 @@
         "close_menu": "Isara ang menu",
         "sign_in_with_email": "Mag-sign in gamit ang email",
         "back_to_main_menu": "Bumalik sa pangunahing menu mula sa {{title}}"
+      },
+      "signed_in_state": {
+        "orders_button": "Mga Order",
+        "greeting_with_name": "Kumusta, {{first_name}}",
+        "profile_button": "Propayl",
+        "greeting_without_name": "Account"
+      },
+      "signed_out_state": {
+        "sheet_title": "Mag-sign in o gumawa ng account",
+        "continue_with_facebook": "Magpatuloy gamit ang Facebook",
+        "email_field_label": "Email",
+        "continue_with_google": "Magpatuloy gamit ang Google",
+        "section_divider": "Higit pang mga paraan para mag-sign in",
+        "alternate_divider": "O",
+        "shop_login_button": "Mag-sign in gamit ang Shop",
+        "profile_button": "Propayl",
+        "use_email_button": "Gumamit na lang ng email.",
+        "orders_button": "Mga Order"
+      },
+      "location_picker": {
+        "search_field_placeholder": "Maghanap",
+        "sheet_title": "Mga Lokasyon"
       }
     },
     "B2B": {
@@ -1950,7 +1972,40 @@
       "show_items": "Ipakita ang mga item",
       "taxes": "Mga Buwis",
       "total_savings": "Kabuuang ipon",
-      "summary_totals_title_accessibility_label": "Kabuuan ng order"
+      "summary_totals_title_accessibility_label": "Kabuuan ng order",
+      "link_sent": "Naipadala na ang link",
+      "taxes_included": "Kabilang ang {{amount}} sa mga buwis",
+      "duties_and_taxes_included": "Kasama na sa kabuuang halaga ang mga tungkulin at buwis. Walang karagdagang bayad sa paghahatid.",
+      "error_duties_tooltip": "Ang order na ito ay ipinapadala mula sa ibang bansa, kaya maaaring singilin ang mga tungkulin (duties) at buwis sa oras ng paghahatid.",
+      "title": "Umorder {{name}}",
+      "pagination": {
+        "loading_accessibility_label": "Naglo-load ng mga item",
+        "load_more": "Ipakita ang iba pa",
+        "load_more_accessibility_label": "Magpakita ng higit pang mga item"
+      },
+      "login_to_view_all_order_details": "Mag-sign in upang makita ang lahat ng detalye ng order.",
+      "log_in": "Mag-sign in",
+      "tip": "Payo",
+      "log_in_to_a_different_account": "Mag-sign in sa ibang account",
+      "fees": {
+        "restocking_fee": "Bayad sa pagbabalik sa imbentaryo",
+        "return_shipping_fee": "Pagpapadala ng ibabalik na produkto"
+      },
+      "ok_duties_tooltip": "Ang order na ito ay ipinapadala mula sa ibang bansa, kaya idinagdag na ang mga buwis at bayarin sa kabuuang halaga ng iyong order.",
+      "due_on_fulfillment": "Babayaran sa oras ng pagtupad",
+      "due_on_receipt": "Dapat bayaran pagkatanggap",
+      "adjusted_total": "Inakmang kabuuang halaga",
+      "duties": "Mga Tungkulin",
+      "total": "Kabuuan",
+      "unit_price": "{{price}}/ea",
+      "vat_invoices": {
+        "label": "VAT"
+      },
+      "due_on_date": "Dapat bayaran {{date}}",
+      "logged_in_account_no_permission_to_order": "Naka-sign in ka bilang {{email}}. Walang pahintulot ang account na ito na pamahalaan ang order na ito.",
+      "adjusted_payment": "Ini-adjust na bayad",
+      "zero_duties_tooltip": "Ang order na ito ay ipinapadala mula sa ibang bansa. Hindi pinapatawan ng mga buwis sa pag-aangkat (duties) ang mga order na may ganitong halaga.",
+      "cash_rounding": "Pag-round ng halaga sa cash"
     },
     "active_inspector": {
       "extension": {
@@ -2231,6 +2286,73 @@
         "description": "Pakisubukan muli pagkalipas ng ilang minuto.",
         "message": "Masyadong maraming pagtatangka"
       }
+    },
+    "addresses": {
+      "add_button": "Magdagdag ng address",
+      "add_button_text": "Magdagdag",
+      "no_addresses_banner": "Walang idinagdag na mga address",
+      "default_address": {
+        "title": "Default na address",
+        "title_accessibility_label": "Default na address: {{address}}",
+        "badge_label": "Default"
+      },
+      "delete_confirmation_button": "Burahin ang address",
+      "cancel_deletion_button": "Kanselahin",
+      "delete_button": "Burahin",
+      "edit_button": "I-edit",
+      "address_deleted_notification": "Binura ang address",
+      "cancel_adding_address_accessibility_label": "Kanselahin ang pagdaragdag ng address",
+      "cancel_deletion_button_accessibility_label": "Kanselahin ang pagbura {{address}}",
+      "delete_confirmation_description": "Hindi apektado ang mga kasalukuyang order.",
+      "delete_confirmation_message": "Buburahin ba ang address? Hindi maaapektuhan ang mga kasalukuyang order.",
+      "edit_button_accessibility_label": "I-edit {{address}}",
+      "delete_confirmation_button_accessibility_label": "Delete {{address}}",
+      "back_button": "Bumalik",
+      "back_button_accessibility_label": "Bumalik sa pag-edit ng address {{address}}",
+      "add_address_banner": "Magdagdag ng mga address na gagamitin sa checkout",
+      "delete_button_accessibility_label": "Delete {{address}}",
+      "delete_confirmation_title": "Buburahin ba ang address?",
+      "add_button_accessibility_label": "Magdagdag ng address",
+      "edit_modal_title": {
+        "shipping": "Baguhin ang shipping address",
+        "default": "Baguhin ang address",
+        "billing": "Baguhin ang billing address"
+      },
+      "loading_accessibility_message": "Inilo-load ang address",
+      "loading_billing_accessibility_message": "Inilo-load ang billing address",
+      "loading_addresses_accessibility_message": "Naglo-load ng mga address",
+      "edit_section_accessibility_label": "I-edit {{address}}",
+      "billing_address_dropdown_placeholder": "Address para sa pagsingil",
+      "loading_shipping_accessibility_message": "Inilo-load ang shipping address",
+      "pagination": {
+        "load_more_accessibility_label": "Magpakita ng higit pang mga address",
+        "load_more": "Ipakita ang iba pa"
+      },
+      "save_new_address_accessibility_label": "I-save ang address",
+      "loading_finished_accessibility_message": "Nag-load na ang bagong pahina ng mga address.",
+      "title": "Mga Address"
+    },
+    "address_form": {
+      "attention_help_text": "Ang pangalan ng isang tao o departamento",
+      "billing_address": "Gamitin bilang billing address",
+      "auto_complete_title": "Mga mungkahi",
+      "save": "I-save",
+      "attention": "Atensyon",
+      "attention_company": "Kumpanya/Para sa atensyon ni",
+      "loading_form_accessibility_message": "Inilo-load ang form para sa address",
+      "default_address": "Ito ang aking default na address.",
+      "update_success_notification": "Na-update na ang address",
+      "cancel_accessibility_label": "Kanselahin ang pag-edit ng address {{address}}",
+      "loading_edit_form_accessibility_message": "Inilo-load ang form para sa pag-edit ng address",
+      "loading_finished_accessibility_message": "Nag-load na ang form para sa address.",
+      "save_accessibility_label": "I-save ang address {{address}}",
+      "section_title_accessibility_label": "Magdagdag ng address",
+      "auto_complete_close_accessibility_label": "Isara ang mga mungkahi",
+      "cancel": "Kanselahin",
+      "creation_success_notification": "Naidagdag na ang address",
+      "loading_add_form_accessibility_message": "Inilo-load ang form para sa bagong address",
+      "default_address_creation_success_notification": "Naidagdag na ang default na address",
+      "default_address_update_success_notification": "Na-update na ang default na address"
     }
   },
   "sections": {
