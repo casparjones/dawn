@@ -1,0 +1,215 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin language editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "shopify": {
+    "errors": {
+      "gift_card_currency_mismatch": "Hindi maaaring gamitin ang gift card na ito para sa pagbiling ito. Makipag-ugnayan %{shop_name} upang ipa-isyu itong muli.",
+      "gift_card_expired": "Expired na ang gift card.",
+      "full_name_required": "Ilagay ang pangalan at apelyido",
+      "invalid_expiry_year": "ay hindi wastong taon ng pagkapaso",
+      "shop_404": {
+        "links": {
+          "explore_other_stores": "Mag-explore ng iba pang mga tindahan",
+          "refresh_page": "I-refresh ang pahina",
+          "start_free_trial": "Magsimula ng libreng trial"
+        },
+        "heros": {
+          "no_storefront": "Wala pang website ang tindahang ito.",
+          "store_will_be_right_back": "Magbubukas muli ang tindahang ito sa ilang sandali.",
+          "store_not_exist": "Hindi umiiral ang tindahang ito.",
+          "store_unavailable": "Hindi pa maaaring gamitin ang tindahang ito sa ngayon."
+        },
+        "title": "Gumawa ng ecommerce website at magbenta online! Ecommerce software mula sa Shopify",
+        "subtitles": {
+          "store_will_be_right_back": "Ginagawa ng Shopify ang lahat upang maibalik ito online sa lalong madaling panahon."
+        },
+        "title_unavailable": "Hindi available ang tindahan",
+        "status_card": {
+          "eyebrow": "Tulong para sa mga may-ari ng tindahan"
+        }
+      },
+      "discount_limit_reached": "Naabot na ng diskwentong ito ang limitasyon sa paggamit.",
+      "contains_spaces": "nagsisimula o nagtatapos sa mga espasyo.",
+      "reset_password_html": "Ang email address na ito ay nakaugnay na sa isang account. Kung sa iyo ang account na ito, maaari mong <a href=\"/account/login#recover\">i-reset ang iyong password</a>.",
+      "empty": "hindi maaaring walang laman",
+      "invalid_email": "dapat ay isang wastong email address",
+      "discount_disabled": "Hindi na gumagana ang diskwentong ito.",
+      "customer_already_used_once_per_customer_discount_notice": "Naabot na ng diskwentong ito ang limitasyon sa paggamit.",
+      "gift_card_already_applied": "Naipapatupad na ang code sa iyong checkout.",
+      "gift_card_disabled": "Hindi aktibo ang gift card.",
+      "password_mismatch": "dapat tumugma sa ibinigay na password",
+      "invalid_for_country_and_province": "hindi balido para sa %{province} at %{country}",
+      "invalid_state_in_country": "ay hindi wastong estado sa %{country}",
+      "invalid_region_in_country": "ay hindi wastong rehiyon sa %{country}",
+      "less_than_or_equal_to": "dapat ay mas mababa sa o katumbas ng %{count}",
+      "not_supported": "hindi sinusuportahan",
+      "invalid_for_card_type": "hindi balido",
+      "invalid_type": "Paumanhin, hindi kami tumatanggap ng ganitong uri ng card.",
+      "taken": "nakuha na",
+      "too_short": "ay masyadong maikli (ang minimum ay %{count} mga tauhan)",
+      "too_long": "ay masyadong mahaba (ang maximum ay %{count} mga tauhan)",
+      "invalid_for_country": "hindi balido para sa %{country}",
+      "expired": "napaso na",
+      "invalid_start_date_or_issue_number_for_debit": "Kinakailangan ang wastong petsa ng pagsisimula o numero ng isyu.",
+      "credit_card_session_expired": "Nag-expire na ang awtorisasyon ng iyong credit card; pakilagay muli ang impormasyon ng iyong pagbabayad. Hindi pa nababawasan ang iyong card.",
+      "gift_card_code_invalid": "Hindi valid ang code.",
+      "bad_domain": "naglalaman ng hindi wastong domain name",
+      "invalid_format": "Hindi wasto ang format.",
+      "gift_card_depleted": "Wala nang natitirang pondo sa gift card na ito.",
+      "invalid": "ay hindi wasto",
+      "product_not_available": "Hindi naka-publish ang produkto para sa customer na ito.",
+      "discount_expired": "Hindi na bisa ang diskwentong ito.",
+      "discount_not_found": "Hindi makahanap ng wastong diskwento na tumutugma sa inilagay na code",
+      "contains_html_tags": "hindi maaaring maglaman ng mga HTML tag",
+      "invalid_province_in_country": "ay hindi wastong lalawigan sa %{country}",
+      "verify_email": "Nagpadala kami ng email sa %{customer_email}, paki-click ang kalakip na link upang i-verify ang iyong email address."
+    }
+  },
+  "customer_accounts": {
+    "account_information": {
+      "marketing_preferences": {
+        "pending_confirmation": "I-click ang link sa iyong email upang magkumpirma.",
+        "email_label": "Email",
+        "resend_email": "Ipadala muli ang email",
+        "unsubscribe_confirmation": {
+          "cancel": "Kanselahin",
+          "title": "Mag-unsubscribe sa mga email?",
+          "description": "Hindi ka na makatatanggap ng mga email na pang-marketing mula sa {{shopName}}",
+          "unsubscribe": "Mag-unsubscribe"
+        },
+        "title": "Mga kagustuhan sa marketing",
+        "update_success": "Na-update na ang mga kagustuhan sa marketing",
+        "resend_email_success": "Naipadala na ang link",
+        "update_error": {
+          "description": "Nagkaroon ng problema sa pag-update ng iyong mga kagustuhan sa marketing. Subukang i-refresh ang pahinang ito o suriin ang iyong koneksyon sa internet."
+        }
+      },
+      "email_update_success_modal": {
+        "description": "Matagumpay na na-update ang email. Inililipat na sa login.",
+        "title": "I-verify ang email"
+      },
+      "verify_new_email_modal": {
+        "cancel_button_accessibility_label": "Kanselahin ang pag-edit ng profile",
+        "one_time_password_label": "6-digit na code",
+        "email_resend_button_accessibility_label": "Ipadala muli ang verification code",
+        "email_resend_button_success_toast_message": "Naipadala na ang verification code",
+        "verify_button_accessibility_label": "I-verify ang one-time password",
+        "email_resend_button": "Ipadala muli ang code",
+        "cancel_button": "Kanselahin",
+        "verify_button": "I-verify",
+        "email_resend_button_failure_banner_message": "Hindi maipadala ang verification code",
+        "description": "Ngayon, ilagay ang 6-digit code na ipinadala sa iyong bagong email:",
+        "title": "I-verify ang iyong bagong email"
+      },
+      "profile_update_confirmation_message": "Na-update ang profile",
+      "email_update_confirmation_message": "Na-update ang email sa {{email}}",
+      "profile_card": {
+        "errors": {
+          "name_too_long": "{{fieldName}} ay masyadong mahaba (ang maximum ay 255 character)",
+          "email_cant_be_blank": "Hindi maaaring walang laman ang email",
+          "name_cannot_contain_html_tags": "{{fieldName}} hindi maaaring maglaman ng mga HTML tag",
+          "name_cannot_contain_url": "{{fieldName}} hindi maaaring maglaman ng URL",
+          "invalid_email_format": "Maglagay ng wastong email"
+        },
+        "title": "Propayl",
+        "no_name_provided_accessibility_label": "Walang idinagdag na pangalan",
+        "phone_number_help_text": "Hindi maaaring baguhin ang numero ng telepono.",
+        "save": "I-save",
+        "save_accessibility_label": "I-save ang profile"
+      },
+      "verify_current_email_modal": {
+        "verify_button": "Susunod",
+        "cancel_button": "Kanselahin",
+        "email_resend_button_accessibility_label": "Ipadala muli ang verification code",
+        "description": "Ilagay ang 6-digit na code na ipinadala sa iyong orihinal na email:",
+        "cancel_button_accessibility_label": "Kanselahin ang pag-edit ng profile",
+        "verify_button_accessibility_label": "I-verify ang iyong kasalukuyang email",
+        "title": "Kumpirmahing ikaw ito"
+      },
+      "people": {
+        "pagination": {
+          "load_more_accessibility_label": "Magpakita ng higit pang mga tao",
+          "loading_accessibility_label": "Pagpapasakay ng mga tao",
+          "load_more": "Ipakita ang iba pa"
+        }
+      },
+      "title": "Propayl",
+      "add_button": "Magdagdag"
+    },
+    "orders": {
+      "list_layout_accessibility_label": "Mga opsyon sa layout",
+      "list_title": "Mga Order"
+    },
+    "account_menu": {
+      "aria_labels": {
+        "loading_menu": "Inilo-load ang menu",
+        "account": "Account",
+        "open_submenu": "{{title}}, nagbubukas ng submenu",
+        "sign_in": "Mag-sign in",
+        "close_menu": "Isara ang menu",
+        "sign_in_with_email": "Mag-sign in gamit ang email",
+        "back_to_main_menu": "Bumalik sa pangunahing menu mula sa {{title}}"
+      }
+    },
+    "B2B": {
+      "locations": {
+        "deposit_percentage": "{{percentage}} deposito",
+        "permissions_title": "Mga Pahintulot",
+        "tax_exemptions": "Mga eksempsyon sa buwis",
+        "tax_exemptions_modal_button_accessibility_label": "Tingnan ang lahat ng mga eksempsyon sa buwis",
+        "contact_permissions": "Mga Pahintulot",
+        "pagination": {
+          "load_more": "Ipakita ang iba pa",
+          "load_more_accessibility_label": "Magpakita ng higit pang lokasyon"
+        },
+        "payment_terms": "Mga tuntunin sa pagbabayad",
+        "multiple_tax_exemptions_and": "at",
+        "tax_exemptions_modal_close": "Isara",
+        "contact_contact": "Makipag-ugnayan",
+        "contact_list_title": "Mga tao",
+        "location_picker_label": "Pangalan ng lokasyon",
+        "section_title": "Lokasyon",
+        "tax_details_title": "Mga detalye ng buwis",
+        "location_picker_accessibility_label": "Pangalan ng lokasyon: {{locationName}}",
+        "staff_and_permissions_title": "Mga kawani at mga pahintulot",
+        "contact_email": "Email",
+        "net_payment_terms_description": "{{name}}: mga bayaring dapat bayaran sa loob ng {{numberOfDays}} mga araw",
+        "multiple_tax_exemptions": "{{taxExemptionsCount}} higit pa",
+        "payment_details_title": "Mga detalye ng pagbabayad",
+        "shipping_address_required": "Magdagdag ng shipping address sa lokasyong ito upang makapagsimulang mag-order.",
+        "taxes_none": "Wala",
+        "tax_exemption_not_applicable": "Hindi naaangkop",
+        "contact_phone_number": "Numero ng telepono",
+        "permissions_label": "Ang iyong mga pahintulot",
+        "tax_id": "Tax ID",
+        "contact_name": "Pangalan",
+        "own_role_contact_name": "Ikaw"
+      },
+      "location_selection": {
+        "continue_to_store": "Patuloy na mag-imbak",
+        "description": "Kung mayroon ka nang mga produkto sa iyong cart, maaaring makaapekto ang pagpapalit ng lokasyon sa mga presyo at dami ng mga ito.",
+        "description_switch_later": "Maaari kang lumipat anumang oras sa hinaharap.",
+        "list_loading_accessibility_message": "Inilo-load ang listahan ng mga lokasyon",
+        "loading_store_accessibility_message": "Pupunta sa tindahan",
+        "list_accessibility_label": "Listahan ng mga lokasyon",
+        "error_loading_locations": "Nagkaroon ng problema sa pag-load ng mga lokasyon. Suriin ang iyong koneksyon sa internet at subukang muli.",
+        "no_location_title": "Para sa personal na order lamang",
+        "list_item_accessibility_label": "{{name}}: {{address}}",
+        "list_item_without_address_accessibility_label": "{{name}}: Walang address",
+        "list_loading_address_accessibility_message": "Inilo-load ang address para sa {{locationName}}",
+        "list_loading_finished_accessibility_message": "Na-load na ang listahan ng mga lokasyon."
+      },
+      "account_information": {
+        "company_card_name_label": "Pangalan ng kumpanya",
+        "company_card_section_accessibility_label": "Kumpanya"
+      }
+    }
+  }
+}
