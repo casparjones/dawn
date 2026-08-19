@@ -562,7 +562,69 @@
         "pay_with_debit_card": "Magbayad gamit ang debit card",
         "no_js_credit_card_fields_redirect_hint": "Ire-redirect ka upang ilagay ang iyong impormasyon sa pagbabayad.",
         "payment_method_loading_error": "Kasalukuyang naglo-load ang paraan ng pagbabayad na ito. Subukan muli pagkalipas ng ilang segundo.",
-        "paypal_label": "PayPal"
+        "paypal_label": "PayPal",
+        "multiple_primary_payment_not_allowed": "Hindi wastong mga paraan ng pagbabayad",
+        "markets_pro_disclaimer_privacy_policy_title": "Patakaran sa Privacy ng Merchant of Record",
+        "waiting_on_taxes_notice": "Pagkalkula ng mga buwis",
+        "payment_flexibility_terms_id_mismatch": "Hindi pagtutugma ng ID sa mga tuntunin ng flexibility sa pagbabayad",
+        "bank_account_connect_another": "Magkonekta ng isa pang bank account",
+        "choose_new_payment_method": "Pumili ng bagong paraan ng pagbabayad",
+        "markets_pro_disclaimer_terms_and_conditions": "Mga Tuntunin at Kundisyon",
+        "markets_pro_disclaimer_terms_and_conditions_title": "Mga Tuntunin at Kundisyon ng Merchant of Record",
+        "bank_account_choose": "Pumili ng account upang ligtas na makumpleto ang iyong pagbili",
+        "waiting_on_taxes_message": "Kung hindi makalkula ang iyong mga buwis sa loob ng ilang segundo, i-refresh ang pahina.",
+        "payment_method": "Paraan ng pagbabayad",
+        "payment_option": {
+          "accessibility_label": "Pumili ng paraan ng pagbabayad"
+        },
+        "bank_account_type": {
+          "checking": "Sinusuri",
+          "savings": "Ipon"
+        },
+        "new_bank_account_disclaimer": "Sa pagkumpleto ng iyong order, binibigyan mo ng pahintulot %{shop_name} upang i-debit ang account sa ibaba sa pamamagitan ng ACH para sa halaga at sa oras na nakasaad.",
+        "gift_card_wrapper": {
+          "payment_tag": "Gift card",
+          "apply_gift_card_label": "Gamitin ang gift card",
+          "add_label": "Magdagdag ng gift card",
+          "heading": "Gift card",
+          "gift_card_label": "Gift card %{identifier}",
+          "apply_another_gift_card_label": "Gumamit ng isa pang gift card",
+          "manage_label": "Pamahalaan ang mga gift card"
+        },
+        "markets_pro_disclaimer_privacy_policy": "Patakaran sa Privacy",
+        "alternative_payment_currency_total_notice": "Paalala: Sisingilin ka. %{amount_due}Ang mga sumusunod ay mga halimbawa ng mga karaniwang uri ng mga dokumentong maaaring kailanganin: *   Katibayan ng pagkakakilanlan (halimbawa: pasaporte, driver's license, o national ID) *   Katibayan ng tirahan (halimbawa: utility bill o bank statement) *   Katibayan ng kita (halimbawa: payslip o tax return)",
+        "bank_account_generic_error": "Hindi naidagdag ang bank account. Subukan muli mamaya.",
+        "add_payment_method": "Magdagdag ng paraan ng pagbabayad",
+        "custom_onsite_payment_method_modal": {
+          "title": "Pasadyang Pagkumpirma ng Pagbabayad sa Site"
+        },
+        "purchase_order_number": {
+          "label": "Numero ng PO (opsyonal)",
+          "title": "Numero ng PO"
+        },
+        "payment_method_update_failed": "Nabigo ang pag-update sa paraan ng pagbabayad.",
+        "payment_method_incompatible_with_payment_terms": "Hindi tugma ang paraan ng pagbabayad sa mga tuntunin ng pagbabayad.",
+        "pay_in_installments_split_pay_short": "4 na bayad na %{amount}",
+        "order_edit_banner_no_taxes_label": "Wala",
+        "gift_cards_unavailable": "Hindi na maaaring gamitin ang iyong gift card para sa order na ito at inalis na ito.",
+        "separate_payments_text": "magkakahiwalay na bayad",
+        "payments": "Mga Pagbabayad",
+        "order_edit_banner_new_taxes_label": "Mga bagong buwis:",
+        "gift_card_checkbox_label": "Gamitin ang gift card",
+        "payment_method_rollup_accessibility_label": "Mga opsyon sa paraan ng pagbabayad",
+        "expired_payment_method": "Nag-expire na ang napiling paraan ng pagbabayad.",
+        "markets_pro_disclaimer_label": "Sa paglalagay ng iyong order, sumasang-ayon kang bumili mula sa Global-e bilang merchant of record, alinsunod sa mga tuntunin ng Global-e %{markets_pro_terms} at %{privacy_policy}, at ibahagi ang iyong impormasyon sa %{shop_name}Ang mga sumusunod ay mga halimbawa ng mga karaniwang uri ng mga dokumentong maaaring kailanganin: *   Katibayan ng pagkakakilanlan (halimbawa: pasaporte, driver's license, o national ID) *   Katibayan ng tirahan (halimbawa: utility bill o bank statement) *   Katibayan ng kita (halimbawa: payslip o tax return)",
+        "alternative_payment_currency_total_manual_payment_notice": "Paalala: ang kabuuang halagang na-convert ay %{amount_due}Ang mga sumusunod ay mga halimbawa ng mga karaniwang uri ng mga dokumentong maaaring kailanganin: *   Katibayan ng pagkakakilanlan (halimbawa: pasaporte, driver's license, o national ID) *   Katibayan ng tirahan (halimbawa: utility bill o bank statement) *   Katibayan ng kita (halimbawa: payslip o tax return)",
+        "proposed_gateway_unavailable": "Hindi magagamit ang iminungkahing payment gateway.",
+        "separate_payments_label": "Ang iyong mga item ay mula sa higit sa isang tindahan. Sisingilin ka sa %{separate_payments_link}Ang mga sumusunod ay mga halimbawa ng mga karaniwang uri ng mga dokumentong maaaring kailanganin: *   Katibayan ng pagkakakilanlan (halimbawa: pasaporte, driver's license, o national ID) *   Katibayan ng tirahan (halimbawa: utility bill o bank statement) *   Katibayan ng kita (halimbawa: payslip o tax return)",
+        "gift_card_store_credit": {
+          "add_label": "Magdagdag ng gift card o store credit",
+          "manage_label": "Pamahalaan ang mga gift card o store credit"
+        },
+        "bank_account_connect": "Ikonekta ang bank account",
+        "bank_account_missing": "Kailangang ikonekta ang bank account",
+        "add_new_payment_method": "Magdagdag ng bagong paraan ng pagbabayad",
+        "bank_account_disclaimer": "Maaaring umabot nang hanggang 4 na araw ng negosyo ang pagproseso sa mga pagbabayad sa pamamagitan ng ACH."
       },
       "order_payment_collection": {
         "order_review_and_pay": "Na-update ang iyong order. Suriin at magbayad upang kumpirmahin ang iyong order.",
@@ -1762,7 +1824,15 @@
         "invalid_address": "Hindi wasto ang napiling address. %{update_address_link} o pumili ng ibang address.",
         "incomplete_address": "Hindi kumpleto ang napiling address. %{update_address_link} o pumili ng ibang address.",
         "save_my_information_label": "I-save ang impormasyong ito para sa susunod",
-        "rollup_label": "Account"
+        "rollup_label": "Account",
+        "saved_address_option_description": {
+          "one": "Mayroon ka {{count}} naka-save na address.",
+          "other": "Mayroon ka {{count}} mga naka-save na address."
+        },
+        "rollup_accessibility_label": "Mga opsyon sa account",
+        "invalid_shipping_method_summary": "Pumili ng wastong shipping address upang makita ang mga available na paraan ng pagpapadala.",
+        "saved_address_modal_title": "Gamitin ang aking naka-save na address",
+        "saved_address_option_link": "Gumamit ng naka-save na address"
       },
       "shipping": {
         "split_shipping_shipped_by_shop": "Ipinadala ng %{shop_name}",
@@ -2034,6 +2104,72 @@
           "not_solved": "Kumpletuhin ang CAPTCHA upang magpatuloy"
         },
         "title": "Kumpletuhin ang CAPTCHA upang magpatuloy"
+      },
+      "stock": {
+        "unpurchasable_product_generic": {
+          "title": "Produktong hindi mabibili",
+          "header": "May ilang mga item na tinanggal mula sa iyong cart.",
+          "status_column_header": "Hindi available",
+          "message": "Hindi available ang mga item na ito."
+        },
+        "product_column_header": "Mga Produkto",
+        "status_column_header": "Katayuan",
+        "go_back_to_cart_button_label": "Bumalik sa aking cart",
+        "item_label": {
+          "one": "{{count}} bagay",
+          "other": "{{count}} mga gamit"
+        },
+        "quantity_update": {
+          "title": "Pag-update ng dami",
+          "page_title": "Pag-update ng dami",
+          "description": "Nagbago na ang bilang ng mga available na item na ito at na-update na ang mga ito sa iyong cart."
+        },
+        "unfulfillable_product": {
+          "message": {
+            "other": "%{delivery_method} ay hindi na magagamit para sa mga item na ito.",
+            "one": "%{delivery_method} ay hindi na magagamit para sa item na ito."
+          },
+          "default_message": {
+            "other": "Hindi na magagamit ang napiling paraan ng paghahatid para sa mga item na ito.",
+            "one": "Hindi na magagamit ang napiling paraan ng paghahatid para sa produktong ito."
+          },
+          "title": "Hindi available ang delivery"
+        },
+        "remove": "Alisin",
+        "unpurchasable_product": {
+          "message": "Hindi available ang mga item na ito para sa mga B2B order.",
+          "header": "May ilang mga item na tinanggal mula sa iyong cart.",
+          "title": "Produktong hindi mabibili",
+          "status_column_header": "Hindi available"
+        },
+        "page_title": "Mga isyu sa imbentaryo",
+        "quantity_column_header": "Dami",
+        "price_column_header": "Presyo",
+        "return_to_store_label": "Bumalik sa tindahan",
+        "items_unavailable_notice": "Hindi na available ang ilang mga item.",
+        "reduced_with_quantity_label": "Lamang %{quantity_available} kaliwa",
+        "removed_from_cart_notice": "Inalis sa cart",
+        "sold_out_label": "Ubos na",
+        "reduced_label": "Binawasan",
+        "continue_shopping_button_label": "Magpatuloy",
+        "remove_from_cart_button_label": "Alisin sa cart",
+        "title": "Wala nang stock",
+        "continue_cta_label": "Magpatuloy sa checkout",
+        "empty_cart_label": "Walang laman ang iyong cart.",
+        "unshippable_product": {
+          "title": "Walang delivery"
+        }
+      },
+      "remote_merchandise_only": {
+        "title": "Kumpletuhin ang iyong pagbili",
+        "checkout_on_shop_label": "Tingnan sa %{shop_name}",
+        "return_to_store_label": "Bumalik sa tindahan",
+        "remote_only_notice": "Ang mga produktong ito ay ibinebenta at ipinapadala ng ibang mga tindahan. Mag-check out sa bawat tindahan upang makumpleto ang iyong pagbili.",
+        "detail_item_label": {
+          "other": "{{count}} mga gamit",
+          "one": "{{count}} bagay"
+        },
+        "single_shop_transition": "Inililipat ka sa %{advertiser} upang makumpleto ang iyong pagbili."
       }
     },
     "sentence": {
