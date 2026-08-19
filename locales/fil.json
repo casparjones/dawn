@@ -347,6 +347,95 @@
       "payment_gateway": {
         "credit_card_label": "Credit card",
         "bogus_label": "Test Payment Gateway"
+      },
+      "marketplaces": {
+        "legal_notice": {
+          "link_label": "{{partnerDisplayName}} Mga Tuntunin at Kundisyon",
+          "legal_text": "Pagsusuri"
+        }
+      },
+      "local_pickup": {
+        "location_nearby": {
+          "other": "There are %{count} nearby locations with your item",
+          "one": "There is %{count} nearby location with your item"
+        },
+        "location_nearby_short_other_items": {
+          "one": "%{count} kalapit na lokasyon kung nasaan ang iyong mga gamit",
+          "other": "%{count} mga kalapit na lokasyon na mayroon ng iyong mga gamit"
+        },
+        "location_far_away": {
+          "one": "%{count} location with your item",
+          "other": "%{count} locations with your item"
+        },
+        "location_information_far_away_one_item": {
+          "one": "There is %{count} location with your item",
+          "other": "There are %{count} locations with your item"
+        },
+        "no_stores_found": "Walang nahanap na mga tindahan",
+        "toggle_multiple_locations": "%{count}+ iba pang lokasyon",
+        "title": "Lokasyon",
+        "location_closest": "Pinakamalapit na lokasyon na mayroon ng iyong item",
+        "location_closest_one_item": "Pinakamalapit na lokasyon na mayroon ng iyong item",
+        "location_information": {
+          "other": "Mayroong %{count} mga lokasyong may stock na malapit sa iyo",
+          "one": "Mayroon %{count} lokasyong may stock na malapit sa iyo"
+        },
+        "location_nearby_other_items": {
+          "one": "Mayroon %{count} kalapit na lokasyon kung nasaan ang iyong mga gamit",
+          "other": "Mayroong %{count} mga kalapit na lokasyon na mayroon ng iyong mga gamit"
+        },
+        "location_far_away_other_items": {
+          "other": "%{count} mga lokasyon kung nasaan ang iyong mga gamit",
+          "one": "%{count} lokasyon kasama ang iyong mga gamit"
+        },
+        "search_button": "Maghanap ng mga tindahan",
+        "toggle_more_locations": {
+          "one": "%{count} karagdagang lokasyon",
+          "other": "%{count} karagdagang mga lokasyon"
+        },
+        "location_address_search_placeholder": "%{postal_code_label} o address",
+        "location_selected": "Ang iyong napiling lokasyon",
+        "location_information_far_away": {
+          "other": "There are %{count} locations with your item",
+          "one": "There is %{count} location with your item"
+        },
+        "location_nearby_short": {
+          "one": "%{count} nearby location with your item",
+          "other": "%{count} nearby locations with your item"
+        },
+        "all_stores_far_away": {
+          "title": "Ang mga pinakamalapit na lokasyon ay higit sa %{distance} palayo"
+        },
+        "pick_up_location": "Lugar ng pagkuha",
+        "location_information_far_away_other_items": {
+          "other": "Mayroong %{count} mga lokasyon kung nasaan ang iyong mga gamit",
+          "one": "Mayroon %{count} lokasyon kasama ang iyong mga gamit"
+        },
+        "location_nearby_short_one_item": {
+          "other": "%{count} nearby locations with your item",
+          "one": "%{count} nearby location with your item"
+        },
+        "location_far_away_one_item": {
+          "one": "%{count} location with your item",
+          "other": "%{count} locations with your item"
+        },
+        "location_closest_other_items": "Pinakamalapit na lokasyon na mayroong mga item mo",
+        "location_nearby_one_item": {
+          "one": "There is %{count} nearby location with your item",
+          "other": "There are %{count} nearby locations with your item"
+        },
+        "toggle_location": "Baguhin ang lokasyon",
+        "cancel": "Kanselahin",
+        "your_location": "iyong lokasyon",
+        "location_address_search_label": "Address",
+        "or": "O"
+      },
+      "review_address_modal": {
+        "use_saved_address": "Gumamit ng ibang address",
+        "return_to_cart": "Bumalik sa cart"
+      },
+      "online_store_chat": {
+        "title": "May mga tanong? Makipag-chat sa amin."
       }
     }
   },
@@ -423,7 +512,81 @@
     },
     "orders": {
       "list_layout_accessibility_label": "Mga opsyon sa layout",
-      "list_title": "Mga Order"
+      "list_title": "Mga Order",
+      "order_status": {
+        "delivered_description_gift_card": {
+          "one": "Ipinadala ang gift card sa pamamagitan ng email.",
+          "other": "Ipinadala ang mga gift card sa pamamagitan ng email."
+        },
+        "gift_resend_success": {
+          "other": "Muling ipinadala ang mga gift card",
+          "one": "Muling ipinadala ang gift card"
+        },
+        "confirmed_gift_card_additional_description": {
+          "one": "Ipapadala ang gift card sa hiwalay na email.",
+          "other": "Ang bawat gift card ay ipapadala sa magkakahiwalay na email."
+        },
+        "estimated_delivery": "Inaasahan {{date}}",
+        "preparing_for_shipping_label": "Inihahanda para sa pagpapadala",
+        "company_tracking_number": "{{company}} tracking number:",
+        "gift_card_label": {
+          "one": "Gift card",
+          "other": "Mga gift card"
+        },
+        "was_expected_by": "Inasahan ng {{date}}",
+        "confirmed_label": "Nakumpirma",
+        "confirmed_description_pickup": "Inihahanda namin ang mga item na ito para sa pickup.",
+        "delivered_label": "Naipadala na",
+        "delivered_description_gift_card_text": {
+          "one": "Ipinadala ang gift card sa pamamagitan ng text.",
+          "other": "Ipinadala ang mga gift card sa pamamagitan ng text."
+        },
+        "confirmed_gift_card_additional_description_text": {
+          "other": "Ang bawat gift card ay ipapadala sa magkakahiwalay na text message.",
+          "one": "Ipapadala ang gift card sa pamamagitan ng hiwalay na text message."
+        },
+        "attempted_to_deliver_label": "Sinubukang ihatid",
+        "ready_for_pickup_location": "Handa na ang iyong order para kunin sa lokasyon.",
+        "confirmed_description_shipping": "Inihahanda namin ang mga produktong ito para sa pagpapadala.",
+        "picked_up_label": "Sinundo",
+        "confirmed_title": "Kumpirmado na ang iyong order.",
+        "gift_resend_failure": {
+          "one": "Nagkaroon ng problema sa muling pagpapadala ng iyong gift card. Subukan muli o makipag-ugnayan sa amin.",
+          "other": "Nagkaroon ng problema sa muling pagpapadala ng iyong mga gift card. Subukan muli o makipag-ugnayan sa amin."
+        },
+        "status_timestamp": "Na-update {{date}}",
+        "attempted_delivery_label": "Sinubukang ihatid",
+        "come_back": "Balikan ang pahinang ito para sa mga update sa status ng iyong shipment.",
+        "expected_by": "Inaasahan sa ganitong petsa {{date}}",
+        "gift_card_resend_button": {
+          "other": "Ipadalang muli ang mga gift card",
+          "one": "Ipadala muli ang gift card"
+        },
+        "delivered": "Naipadala na {{date}}",
+        "ready_for_pickup_label": "Handa nang kunin",
+        "canceled_label": "Kinansela",
+        "ready_for_pickup_show_qr_description": "Ipakita ang QR code na ito kapag kinuha mo ang iyong order.",
+        "canceled_title": "Nakansela na ang iyong order.",
+        "confirmed_description_digital": "Makakatanggap ka ng email kapag handa na ang iyong order.",
+        "confirmed_description_gift_card_text": "Makakatanggap ka ng text kapag handa na ang iyong order.",
+        "complete_label": "Kumpleto",
+        "ready_for_pickup_description": "Handa na para sa pickup ang mga item na ito. Pakidala ang iyong order confirmation sa pagkuha ng iyong order."
+      },
+      "order_list": {
+        "filter": {
+          "date": {
+            "last_365_days": "Nakaraang 12 buwan",
+            "last_7_days": "Nakaraang 7 na araw",
+            "last_90_days": "Nakaraang 90 na araw",
+            "today": "Ngayon",
+            "last_30_days": "Nakaraang 30 na araw",
+            "custom": "Pasadya"
+          }
+        },
+        "view_order": "Tingnan ang order",
+        "show_order_actions_accessibility_label": "Ipakita ang mga aksyon para sa order {{name}}",
+        "view_order_accessibility_label": "Tingnan ang order {{orderName}}"
+      }
     },
     "account_menu": {
       "aria_labels": {
@@ -620,6 +783,76 @@
     },
     "editor": {
       "link_new_tab_confirmation": "Hindi mabubuksan ang link na ito sa loob ng editor. Bubuksan ito sa isang bagong window ({{resolved_to_link}} ). I-click ang OK upang magpatuloy."
+    },
+    "payment_methods": {
+      "add_payment_method": {
+        "choose_from_list": "Pumili mula sa listahan",
+        "billing_address": {
+          "add_billing_address_button_accessibility_label": "Magdagdag ng bagong billing address",
+          "choose_billing_address_from_list_button": "Pumili mula sa listahan",
+          "title": "Address para sa pagsingil",
+          "add_billing_address_button": "Magdagdag ng bago"
+        },
+        "replace_mode_warning": "Ang pagtanggal sa paraan ng pagbabayad na ito ay makakaapekto sa mga subscription o pre-order. Palitan ito ng alternatibong paraan ng pagbabayad upang patuloy na matanggap ang mga susunod na order.",
+        "add_new_button": "Magdagdag ng bago",
+        "title": "Magdagdag ng paraan ng pagbabayad",
+        "button_title": "Magdagdag",
+        "payment_method_added_confirmation": "Naidagdag na ang paraan ng pagbabayad",
+        "missing_customer_error": "May nangyaring problema. Pakisubukang muli o makipag-ugnayan sa support."
+      },
+      "card_fields": {
+        "name_on_card_placeholder": "Pangalan sa card",
+        "tooltip": {
+          "tooltip_accessibility_label": "Karagdagang impormasyon",
+          "card_verification_value_explanation": "3-digit na security code na karaniwang matatagpuan sa likuran ng iyong card. Ang mga American Express card ay may 4-digit na code na nasa harapan.",
+          "card_security_notice": "Ligtas at naka-encrypt ang lahat ng transaksyon.",
+          "card_verification_value_explanation_amex": "4-digit na security code sa harap ng iyong card",
+          "card_verification_value_explanation_other": "3-digit na security code sa likod ng iyong card"
+        },
+        "field_errors": {
+          "credit_card_name_invalid": "Ilagay ang iyong pangalan nang eksakto kung paano ito nakasulat sa iyong card.",
+          "credit_card_number_invalid": "Maglagay ng wastong numero ng card",
+          "credit_card_verification_value_blank": "Ilagay ang CVV o security code sa iyong card",
+          "credit_card_expiry_invalid": "Maglagay ng wastong petsa ng pagkapaso ng card"
+        },
+        "unavailable": {
+          "suffix": "o subukan muli mamaya.",
+          "text": "Hindi available sa ngayon ang pagbabayad gamit ang credit at debit card.",
+          "link_text": "I-refresh ang pahinang ito"
+        },
+        "card_expiry_placeholder": "Petsa ng pagkapaso (MM / YY)",
+        "card_expiry_label": "Petsa ng pagkapaso (MM / YY)",
+        "card_verification_value_placeholder": "Security code",
+        "card_start_placeholder": "Petsa ng paglabas (MM / YY)",
+        "card_number_label": "Numero ng card",
+        "card_number_placeholder": "Numero ng card",
+        "name_on_card_label": "Pangalan sa card",
+        "card_verification_value_label": "Security code",
+        "card_start_label": "Petsa ng paglabas (MM / YY)"
+      },
+      "payment_delete": {
+        "warning_message_without_replacement": {
+          "with_subscriptions": "Ang pagbura sa paraan ng pagbabayad na ito ay makakaapekto sa mga preauthorized na pagbabayad. Magdagdag ng alternatibong paraan ng pagbabayad upang patuloy na matanggap ang mga susunod na order.",
+          "with_pending_orders_and_subscriptions": "Ang pagtanggal sa paraan ng pagbabayad na ito ay makakaapekto sa mga pre-authorized na pagbabayad. Sisingilin pa rin ang paraan ng pagbabayad na ito para sa anumang natitirang balanse sa mga kasalukuyang order, ngunit hindi mo matatanggap ang mga susunod na subscription order. Magdagdag ng alternatibong paraan ng pagbabayad upang patuloy na matanggap ang mga subscription order.",
+          "with_pending_orders": "Ang pagbura sa paraan ng pagbabayad na ito ay mag-aalis dito sa iyong account at hindi na ito magagamit para sa mga susunod na pagbili. Gagamitin pa rin ito para sa anumang natitirang balanse sa mga kasalukuyang order."
+        },
+        "description_without_replacement": "Hindi na magagamit ang paraan ng pagbabayad na ito para sa mga susunod na pagbili.",
+        "error_when_deleting": "Humihingi kami ng paumanhin, ngunit may naganap na problema at hindi namin mabura ang paraan ng pagbabayad na ito. Pakisubukan muli mamaya o i-refresh ang pahina.",
+        "loading_available_payment_methods_accessibility_label": "Inilo-load ang mga available na paraan ng pagbabayad",
+        "title": "Burahin ang paraan ng pagbabayad",
+        "deleted_successfully": "Matagumpay na nabura ang paraan ng pagbabayad.",
+        "description_with_replacement": "Ang pagbura sa paraan ng pagbabayad na ito ay makakaapekto sa mga preauthorized na pagbabayad. Maaari mo itong palitan ng ibang paraan ng pagbabayad upang patuloy na makatanggap ng mga susunod na order.",
+        "warning_message_with_replacement": {
+          "with_subscriptions": "Ang pagbura sa paraan ng pagbabayad na ito ay makakaapekto sa mga pre-authorized na pagbabayad. Palitan ito ng alternatibong paraan ng pagbabayad upang patuloy na makatanggap ng mga susunod na order.",
+          "with_pending_orders_and_subscriptions": "Ang pagtanggal sa paraan ng pagbabayad na ito ay makakaapekto sa mga pre-authorized na pagbabayad. Maliban na lamang kung pipili ka ng alternatibong paraan ng pagbabayad, ang paraan ng pagbabayad na ito pa rin ang sisingilin para sa anumang natitirang balanse sa mga kasalukuyang order. Ang pagpili ng alternatibong paraan ng pagbabayad ay magbibigay-daan sa iyo na matanggap ang mga susunod na subscription order nang walang aberya.",
+          "with_pending_orders": "Ang pagbura sa paraan ng pagbabayad na ito ay magtatanggal dito sa iyong account at hindi na ito magagamit para sa mga susunod na pagbili. Maliban na lang kung pipili ka ng ibang paraan ng pagbabayad, gagamitin pa rin ito para singilin ang anumang natitirang balanse sa mga kasalukuyang order."
+        },
+        "payment_method_selector_placeholder": "Pumili ng pamalit na paraan ng pagbabayad (opsyonal)",
+        "delete_and_replace_button_accessibility_label": "Burahin {{currentPaymentMethodName}} at palitan ng {{newPaymentMethodName}}Ang mga sumusunod ay mga halimbawa ng mga karaniwang uri ng mga dokumentong maaaring kailanganin: *   Katibayan ng pagkakakilanlan (halimbawa: pasaporte, driver's license, o national ID) *   Katibayan ng tirahan (halimbawa: utility bill o bank statement) *   Katibayan ng kita (halimbawa: payslip o tax return)",
+        "payment_method_selector_no_alternative_payment": "Walang paraan ng pagpapalit",
+        "replace_method_with_new_method_description": "Iyong {{currentPaymentMethodName}} buburahin at papalitan ng sa iyo {{newPaymentMethodName}}Ang mga sumusunod ay mga halimbawa ng mga karaniwang uri ng mga dokumentong maaaring kailanganin: *   Katibayan ng pagkakakilanlan (halimbawa: pasaporte, driver's license, o national ID) *   Katibayan ng tirahan (halimbawa: utility bill o bank statement) *   Katibayan ng kita (halimbawa: payslip o tax return)",
+        "delete_and_replace_button": "Burahin at palitan"
+      }
     }
   }
 }
