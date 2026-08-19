@@ -586,7 +586,15 @@
       },
       "review_address_modal": {
         "use_saved_address": "Gumamit ng ibang address",
-        "return_to_cart": "Bumalik sa cart"
+        "return_to_cart": "Bumalik sa cart",
+        "subtitle": {
+          "one": "Ang order na ito ay ipapadala sa address na ibinigay ni {{merchant}}Ang mga sumusunod ay mga halimbawa ng mga karaniwang uri ng mga dokumentong maaaring kailanganin: *   Katibayan ng pagkakakilanlan (halimbawa: pasaporte, driver's license, o national ID) *   Katibayan ng tirahan (halimbawa: utility bill o bank statement) *   Katibayan ng kita (halimbawa: payslip o tax return)",
+          "other": "Ang order na ito ay ipapadala sa address na ibinigay ni {{merchant}}. Pumili ng shipping address."
+        },
+        "title": "Suriin ang address",
+        "continue": "Magpatuloy gamit ang address na ito",
+        "subtitle_must_use": "Ipapadala ang iyong order sa address na ito.",
+        "subtitle_no_match": "Hindi tumutugma ang address na ito sa alinman sa iyong mga naka-save na address."
       },
       "online_store_chat": {
         "title": "May mga tanong? Makipag-chat sa amin."
@@ -989,7 +997,18 @@
             "cta": "I-refresh ang Pahina"
           },
           "title": "Nagkaroon ng problema sa aming checkout.",
-          "message": "I-refresh ang pahinang ito o subukan muli pagkalipas ng ilang minuto."
+          "message": "I-refresh ang pahinang ito o subukan muli pagkalipas ng ilang minuto.",
+          "request_id": "ID ng Kahilingan: {{requestId}}"
+        },
+        "embed_errors": {
+          "not_authorized": "Nabigo ang authentication sa checkout. I-verify ang mga credential ng iyong application.",
+          "policy_violation": "Hindi matapos ang checkout dahil sa mga restriksyon sa configuration ng patakaran.",
+          "customer_account_required": "Kinakailangan ang account ng customer upang makumpleto ang checkout.",
+          "unrecoverable_failure": "Hindi ma-load ang checkout. Subukan muli.",
+          "storefront_password_required": "Ang tindahang ito ay protektado ng password.",
+          "cart_completed": "Tapos na ang checkout na ito.",
+          "invalid_cart": "Hindi na wasto ang cart.",
+          "killswitch_enabled": "Hindi muna magagamit ang checkout."
         }
       },
       "artifact_errors": {
@@ -1109,6 +1128,57 @@
         "state_label": "Estado",
         "prefecture_label": "Prepektura",
         "prefecture_placeholder": "Prepektura"
+      },
+      "notice_banner": {
+        "subscription_changed": "Nagbago ang isa sa iyong mga subscription.",
+        "individual_violations_title": {
+          "DeliveryViolations": "Address na pagpapadalhan",
+          "OtherViolations": "Impormasyon sa Order",
+          "UnhandledViolations": "Impormasyon sa Order",
+          "PaymentViolations": "Address para sa pagsingil"
+        },
+        "payment_method_not_available_with_payment_terms": "Hindi na magagamit ang paraan ng pagbabayad na iyong pinili dahil ang bayad para sa order na ito ay nasa {{paymentTerms}} mga tuntunin",
+        "return_to_cart_to_update_quantities": "%{return_to_cart_link_text} upang i-update ang mga dami",
+        "payment_method_not_available_with_fixed_terms": "Hindi na magagamit ang paraan ng pagbabayad na iyong pinili dahil sa ibang pagkakataon pa dapat bayaran ang order na ito.",
+        "violations_title": "{{violation}} ay nawawala o hindi wasto",
+        "editable_shipping_address_violations_message_title": "Idagdag ang impormasyong ito upang makumpleto ang iyong order:",
+        "payment_method_not_available_with_fulfillment_terms": "Hindi na magagamit ang paraan ng pagbabayad na iyong pinili dahil ang bayad para sa order na ito ay kailangan nang bayaran sa oras ng fulfillment.",
+        "validation_errors_banner": {
+          "heading": {
+            "one": "Mayroon {{count}} error:",
+            "other": "Mayroong {{count}} mga pagkakamali:"
+          },
+          "section_label": {
+            "contact": "Makipag-ugnayan",
+            "delivery": "Paghahatid",
+            "payment": "Pagbabayad",
+            "billing": "Pagsingil"
+          },
+          "errors_in_section": {
+            "one": "{{count}} kamalian sa {{section}}",
+            "other": "{{count}} mga pagkakamali sa {{section}}"
+          }
+        },
+        "all_violations_content": "Tumawag o {{emailLink}} upang ma-update namin ang impormasyong ito at makumpleto ang iyong order:",
+        "shipping_address_incomplete_title": "Hindi kumpleto ang shipping address.",
+        "company_location_changed": "Na-update na ang iyong cart. Suriin ang iyong order bago ito ipadala.",
+        "payment_method_not_available_with_review_requirement": "Hindi na magagamit ang paraan ng pagbabayad na iyong pinili dahil kailangang bayaran ang order sa oras na ito ay makumpirma.",
+        "company_location_changed_product_removed": "Na-update na ang iyong cart dahil may ilang produktong hindi available sa lokasyong ito. Suriin ang iyong order bago ito ipadala.",
+        "editable_shipping_address_violations_email_link": "Makipag-ugnayan sa amin",
+        "calculating_shipping": "Kasalukuyan pang kinakalkula ang shipping fee. Subukan muli pagkalipas ng ilang segundo. Hindi ka pa pinapabayad.",
+        "calculating_taxes": "Kasalukuyan pang kinakalkula ang mga buwis. Subukan muli pagkalipas ng ilang segundo. Hindi ka pa pinapabayad.",
+        "generic_processing_error": {
+          "title": "Nagkaroon ng problema sa pagproseso ng iyong order.",
+          "body": "Hindi ka pa sinisingil. Subukan muli o gumamit ng ibang paraan ng pagbabayad."
+        },
+        "contact_information": {
+          "email_link": "Makipag-ugnayan sa amin",
+          "title": "Hindi wasto ang impormasyon sa pakikipag-ugnayan.",
+          "header": "Upang i-update ang iyong impormasyon, {{emailLink}}Ang mga sumusunod ay mga halimbawa ng mga karaniwang uri ng mga dokumentong maaaring kailanganin: *   Katibayan ng pagkakakilanlan (halimbawa: pasaporte, driver's license, o national ID) *   Katibayan ng tirahan (halimbawa: utility bill o bank statement) *   Katibayan ng kita (halimbawa: payslip o tax return)"
+        },
+        "return_to_cart_link_text": "Bumalik sa cart",
+        "all_violations_email_link": "email",
+        "editable_shipping_address_violations_message_footer": "Upang permanenteng i-update ang address para sa lokasyong ito, {{emailLink}}Ang mga sumusunod ay mga halimbawa ng mga karaniwang uri ng mga dokumentong maaaring kailanganin: *   Katibayan ng pagkakakilanlan (halimbawa: pasaporte, driver's license, o national ID) *   Katibayan ng tirahan (halimbawa: utility bill o bank statement) *   Katibayan ng kita (halimbawa: payslip o tax return)"
       }
     },
     "sentence": {
@@ -1248,7 +1318,77 @@
         "confirmed_description_digital": "Makakatanggap ka ng email kapag handa na ang iyong order.",
         "confirmed_description_gift_card_text": "Makakatanggap ka ng text kapag handa na ang iyong order.",
         "complete_label": "Kumpleto",
-        "ready_for_pickup_description": "Handa na para sa pickup ang mga item na ito. Pakidala ang iyong order confirmation sa pagkuha ng iyong order."
+        "ready_for_pickup_description": "Handa na para sa pickup ang mga item na ito. Pakidala ang iyong order confirmation sa pagkuha ng iyong order.",
+        "delivery_promise_v2": {
+          "promise_line": {
+            "track_with_shop_button_label": "I-track gamit ang Shop",
+            "external_promise_brand_label": "Paghahatid sa",
+            "delivery_guarantee_expired_label": "Nag-expire na ang garantiya sa paghahatid",
+            "modal_accessibility_button_label": "Mga detalye ng pangako sa paghahatid",
+            "download_shop_app_button_label": "I-download ang Shop para mag-track",
+            "not_delivered_by_label": "Delivered after {{date}}",
+            "claim_shop_cash_button_label": "Kunin ang Shop Cash",
+            "shop_promise_brand_label": "Garantisadong maihahatid sa o bago ang"
+          },
+          "details_modal": {
+            "title": "Garantiya sa paghahatid",
+            "active_delivery_guarantee_label": "Paghahatid sa {{date}}",
+            "expired_badge_label": "Nag-expire na",
+            "order_includes_guarantees_label": "Kasama sa iyong order ang {{deliveryAgreementsCount}} mga garantiya",
+            "expired_delivery_guarantee_description": "Nag-expire na ang 30-araw na garantiya ng Shop Promise para sa order na ito.",
+            "scan_to_claim_shop_cash_label": "I-scan para makuha {{amount}} Shop Cash",
+            "order_includes_guarantees_description": "Ginagarantiya ng Shop Promise ang mabilis at maaasahang delivery. Kunin ang Shop Cash kung ang iyong order ay dumating pagkalipas ng {{date}}Ang mga sumusunod ay mga halimbawa ng mga karaniwang uri ng mga dokumentong maaaring kailanganin: *   Katibayan ng pagkakakilanlan (halimbawa: pasaporte, driver's license, o national ID) *   Katibayan ng tirahan (halimbawa: utility bill o bank statement) *   Katibayan ng kita (halimbawa: payslip o tax return)",
+            "delivered_after_label": "Delivered after {{date}}",
+            "eligible_to_claim_shop_cash_description": "Because your order arrived late, you’re eligible to claim {{amount}} Shop Cash.",
+            "learn_more_button_label": "Alamin ang higit pa",
+            "delivered_after_description": "Because your order arrived late, you’re eligible to claim {{amount}} Shop Cash.",
+            "claim_shop_cash_button_label": "Kunin ang Shop Cash",
+            "view_balance_in_shop_button_label": "Tingnan ang balanse sa Shop",
+            "claimed_shop_cash_description": "Dahil huling dumating ang order na ito, ayon sa iyo {{amount}} Shop Cash."
+          }
+        },
+        "delivery_promise": {
+          "promise_line": {
+            "modal_accessibility_button_label": "Mga detalye ng pangako sa paghahatid",
+            "not_delivered_by_label": "Hindi naihatid bago ang {{date}}",
+            "single_brand_label": "Paghahatid na sinusuportahan ng",
+            "mixed_brands_label": "Garantisadong paghahatid"
+          },
+          "claim_shop_cash_cta": {
+            "download_shop_app_label": "Tindahan ng mga Download",
+            "has_shop_app_label": "Kunin ang iyong Shop Cash",
+            "no_shop_app_label": "{{appDownloadLink}} upang i-claim ang Shop Cash"
+          }
+        },
+        "buy_with_prime_logo_accessibility_label": "Logo ng Amazon Buy with Prime",
+        "tracking_number": {
+          "one": "Tracking number",
+          "other": "Mga tracking number"
+        },
+        "resume_tracking": "Ipagpatuloy ang pagsubaybay",
+        "view_order_for_details": "Tingnan ang order para sa mga detalye",
+        "external_promise_manage_button_label": {
+          "buy_with_prime": "Pamahalaan sa Amazon"
+        },
+        "in_review_title": "Kasalukuyang sinusuri ang iyong order.",
+        "last_updated": "Huling na-update {{date}}",
+        "in_review_label": "Isinasailalim sa pagsusuri",
+        "amazon_buy_with_prime": {
+          "order_tracking_link": {
+            "new_window_disclaimer": "(magbubukas ng bagong window)",
+            "text": "Pamahalaan gamit ang Amazon"
+          }
+        },
+        "submitted_label": "Ipinasa",
+        "request_return": "Humiling ng pagsasauli",
+        "no_tracking_number": "Walang tracking number para sa shipment na ito.",
+        "out_for_delivery_label": "Isinasagawa na ang paghahatid",
+        "there_was_a_problem_label": "Nagkaroon ng problema",
+        "multiple_shipments_label": "Maramihang shipment",
+        "on_its_way_label": "Papunta na",
+        "track_shipment": "Subaybayan ang shipment",
+        "multiple_statuses_label": "Maramihang katayuan ng order",
+        "submitted_description": "Suriin ang mga detalye ng order at pagbabayad."
       },
       "order_list": {
         "filter": {
@@ -1470,7 +1610,71 @@
       "contact": "Makipag-ugnayan",
       "company": "Kumpanya",
       "hide_items": "Itago ang mga item",
-      "loading": "Inilo-load ang mga detalye ng order"
+      "loading": "Inilo-load ang mga detalye ng order",
+      "shipping": {
+        "ship_to": "Ipadala sa",
+        "one_time": "Isang beses na pagpapadala",
+        "summary": "Pagpapadala",
+        "address": "Address na pagpapadalhan",
+        "method": "Paraan ng pagpapadala",
+        "free_shipping_discount": "Libreng Pagpapadala",
+        "free": "Libre",
+        "method_short": "Pamamaraan",
+        "address_map_marker": "Address na pagpapadalhan",
+        "subscription": "Pagpapadala ng subscription"
+      },
+      "pickup": {
+        "pickup": "Pagkuha",
+        "pickup_location": "Lugar ng pagkuha",
+        "pickup_point": "Pickup point"
+      },
+      "edit_summary": {
+        "return_line_item_removed": "Inalis sa return",
+        "added": "Idinagdag",
+        "updated_at": "Na-update ang iyong order noong {{date}}",
+        "returned_with_quantities": "Ibinalik {{delta}} ng {{total}}",
+        "removed_with_quantity": "Inalis {{quantity}}",
+        "added_with_quantity": "Idinagdag {{quantity}}",
+        "returned": "Ibinalik",
+        "removed": "Inalis",
+        "return_line_item_removed_with_quantities": "Inalis {{delta}} mula sa pagbabalik",
+        "removed_with_quantities": "Inalis {{delta}} ng {{total}}"
+      },
+      "subtotal_label_with_quantity": {
+        "one": "Sub-total",
+        "other": "Sub-total· {{count}}  mga gamit"
+      },
+      "shop_pay": {
+        "order_completed_with": "Nakumpleto ang order gamit ang",
+        "usdc_rewards_terms": "Tingnan ang mga tuntunin ng mga reward sa USDC",
+        "learn_more": "Alamin ang higit pa"
+      },
+      "subtotal": "Sub-total",
+      "shop_order_tracking": {
+        "download_shop_to_track": "I-download ang Shop para i-track ang package",
+        "track_order_with_shop": "Subaybayan ang order gamit ang Shop",
+        "title_header": "I-scan gamit ang iyong telepono",
+        "open_in": "Buksan sa",
+        "shop_app_promo_text": "{{amountOff}} na gagastusin sa Shop app",
+        "real_time_delivery_updates": "Padadalhan ka ng shop ng mga real-time na update sa delivery kapag naipadala na ang iyong order.",
+        "shop_app_promo_amount_off": "Kumuha ng {{promoAmount}} regalo",
+        "open_in_shop": "Buksan sa Shop",
+        "real_time_delivery_updates_with_gift": "Makakuha ng mga real-time na update sa delivery at isang {{promoAmount}} regalong magagamit sa Shop app."
+      },
+      "returns": {
+        "tracking_number": "Tracking number:",
+        "exchange_header": "Mga produktong ipapalit",
+        "exchange_subheader": "Ang mga ipalit na produkto ay idaragdag sa order kapag natapos na ang proseso ng pagbabalik."
+      },
+      "subtitle": "Nakumpirma {{date}}",
+      "summary_list_title_accessibility_label": "Mga produktong o-orderin",
+      "show_order_summary": "Ipakita ang buod ng order",
+      "hide_order_summary": "Itago ang buod ng order",
+      "summary_title": "Buod ng order",
+      "show_items": "Ipakita ang mga item",
+      "taxes": "Mga Buwis",
+      "total_savings": "Kabuuang ipon",
+      "summary_totals_title_accessibility_label": "Kabuuan ng order"
     },
     "active_inspector": {
       "extension": {
