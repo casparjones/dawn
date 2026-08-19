@@ -1833,12 +1833,94 @@
           "ship_separately": {
             "other": "Ipadala ang mga ito nang hiwalay.",
             "one": "Ipadala ito nang hiwalay."
-          }
+          },
+          "remove_items_or_pickup": "%{pickup_in_store_link} or %{remove_items_link}",
+          "pick_them_up_in_store": {
+            "one": "Kunin ito sa tindahan",
+            "other": "Kunin ang mga ito sa tindahan"
+          },
+          "remove_items_or_ship": "%{ship_separately_link} or %{remove_items_link}",
+          "merchandise_line_with_quantity": "%{title} (×%{quantity})"
         },
         "pickup_all_items": "Pulutin ang lahat ng gamit",
         "delivery_method_menu": "Menu ng paraan ng paghahati ng delivery",
         "delivery_method": "Paraan ng paghahatid nang hiwalay",
-        "items_for_pickup": "Mga gamit na kailangang kunin"
+        "items_for_pickup": "Mga gamit na kailangang kunin",
+        "cross_border": {
+          "modal": {
+            "change_country": "Baguhin ang bansa",
+            "content": "Dapat ay nasa iisang bansa ang iyong mga lokasyon para sa pickup at shipping. Ang pagpapalit ng bansa ay magbabalik sa lahat ng item sa shipping.",
+            "country_changed_heading": "Binago ang bansa",
+            "heading": "Baguhin ang bansa?"
+          },
+          "banner": "Na-update ang iyong paraan ng paghahatid."
+        }
+      },
+      "wallets": {
+        "errors": {
+          "unavailable": {
+            "title": "{{walletName}} hindi available",
+            "instructions": "Nagkaroon ng problema sa {{walletName}}. Bumalik sa tindahan upang subukang muli o mag-checkout gamit ang ibang paraan.",
+            "unavailable_for_country": "{{walletName}} hindi available sa {{countryName}}. Pumili ng ibang paraan ng pagbabayad upang makumpleto ang iyong pagbili",
+            "description": "{{walletName}} Hindi ito available. Gumamit ng ibang paraan ng pagbabayad o subukan muli mamaya."
+          },
+          "discount_code": "Hindi mailapat ang discount code na ito. Suriin ang iyong code at subukang muli.",
+          "detour": {
+            "price_change": "Nagbago ang presyo ng ilang mga produkto. Isara {{walletName}} upang suriin ang iyong order at subukang muli.",
+            "queue": "Inilagay ka sa pila para sa checkout. Isara {{walletName}} upang magpatuloy.",
+            "stock_problems": "Hindi na available ang ilang mga item. Isara {{walletName}} at subukan muli."
+          },
+          "generic": "Nagkaroon ng problema sa {{walletName}}. Subukan muli o gumamit ng ibang paraan ng pagbabayad.",
+          "unavailable_terminal": {
+            "instructions": "{{walletName}} ay kasalukuyang hindi magagamit para sa iyong order. Upang ipagpatuloy ang iyong pagbili, pumili ng ibang paraan ng pag-checkout."
+          },
+          "subscription_review_required": "Kasama sa iyong order ang isang subscription. Kailangan mong suriin ang mga tuntunin sa ibaba bago tapusin ang iyong order.",
+          "terminal": "Nagkaroon ng problema sa {{walletName}}. Gumamit ng ibang paraan ng pagbabayad."
+        },
+        "logged_in": "Nakakonekta sa {{email}}",
+        "return_to_checkout": "Bumalik sa checkout",
+        "payment_in_progress_body": "Pinoproseso na ang iyong bayad. Malapit nang makumpleto ang iyong order.",
+        "deceleration": {
+          "one_more_step": "Isa pang hakbang..."
+        },
+        "payment_in_progress_title": "Kasalukuyang pinoproseso ang bayad",
+        "place_order": "Mag-order",
+        "return_to_store": "Bumalik sa tindahan",
+        "shipping_line_label": "Pagpapadala",
+        "redirection_notice": "Ililipat ka sa {{walletName}} upang kumpletuhin ang iyong pagbili",
+        "connect_shipping_methods": "{{method1}} at {{method2}}",
+        "call_to_action": "Magbayad gamit ang {{walletName}}",
+        "recovery_notice": "May problema sa mga detalye ng iyong order. I-update ang iyong impormasyon upang matapos ang pagbabayad.",
+        "redirect_hint": "Hihilingin sa iyong mag-sign in gamit ang {{walletName}}Ang mga sumusunod ay mga halimbawa ng mga karaniwang uri ng mga dokumentong maaaring kailanganin: *   Katibayan ng pagkakakilanlan (halimbawa: pasaporte, driver's license, o national ID) *   Katibayan ng tirahan (halimbawa: utility bill o bank statement) *   Katibayan ng kita (halimbawa: payslip o tax return)"
+      },
+      "b2b_errors": {
+        "lost_permissions_subtitle": "Wala ka nang pahintulot na mag-order nang pang-B2B. Mag-sign out upang mag-order para sa personal na gamit.",
+        "lost_permissions_title": "Walang pahintulot sa lokasyon",
+        "log_out_link_text": "Mag-sign out",
+        "lost_b2b_purchasing_permissions": "Wala ka nang pahintulot na mag-place ng mga B2B order. %{logout_url} upang maglagay na lamang ng personal na order."
+      },
+      "discount_errors": {
+        "generic_error": "Hindi naproseso ang iyong order dahil hindi na magagamit ang iyong discount code. Suriin ang kabuuang halaga ng iyong order at subukang muli."
+      },
+      "shop_pay_external": {
+        "title": "Pag-checkout sa Shop Pay",
+        "errors": {
+          "problem_loading": "May problema sa pag-load ng Shop Pay",
+          "try_again_later": "Suriin ang iyong koneksyon o isara ang window na ito at subukang muli pagkalipas ng ilang sandali.",
+          "checkout_has_expired": "Nag-expire na ang iyong checkout. Isara ang window na ito at subukang mag-checkout muli mula sa {{shopName}}Ang mga sumusunod ay mga halimbawa ng mga karaniwang uri ng mga dokumentong maaaring kailanganin: *   Katibayan ng pagkakakilanlan (halimbawa: pasaporte, driver's license, o national ID) *   Katibayan ng tirahan (halimbawa: utility bill o bank statement) *   Katibayan ng kita (halimbawa: payslip o tax return)"
+        },
+        "return_to_store": "Bumalik sa {{shopName}}",
+        "return_to_store_simple": "Bumalik sa tindahan"
+      },
+      "clipboard": {
+        "failed_to_copy": "Nabigong kopyahin",
+        "copied": "Nakopya"
+      },
+      "captcha": {
+        "errors": {
+          "not_solved": "Kumpletuhin ang CAPTCHA upang magpatuloy"
+        },
+        "title": "Kumpletuhin ang CAPTCHA upang magpatuloy"
       }
     },
     "sentence": {
@@ -2104,8 +2186,15 @@
             "last_90_days": "Nakaraang 90 na araw",
             "today": "Ngayon",
             "last_30_days": "Nakaraang 30 na araw",
-            "custom": "Pasadya"
-          }
+            "custom": "Pasadya",
+            "start_date": "Petsa ng pagsisimula",
+            "title": "Petsa ng order",
+            "end_date": "Petsa ng pagtatapos"
+          },
+          "clear_all": "Linisin ang lahat",
+          "clear_section": "I-clear ang seksyon",
+          "apply": "Mag-apply",
+          "date_section_accessibility_label": "I-filter ayon sa {{sectionTitle}}"
         },
         "view_order": "Tingnan ang order",
         "show_order_actions_accessibility_label": "Ipakita ang mga aksyon para sa order {{name}}",
@@ -2139,7 +2228,12 @@
         "estimated_shortform": "Itinatag {{date}}",
         "pagination": {
           "nav_accessibility_label": "Mga button sa pag-navigate ng mga order",
-          "next": "Susunod"
+          "next": "Susunod",
+          "next_accessibility_label": "Mga susunod na order",
+          "previous_accessibility_label": "Mga nakaraang order",
+          "load_more": "Ipakita ang iba pa",
+          "load_more_accessibility_label": "Magpakita ng higit pang mga order",
+          "previous": "Nakaraan"
         },
         "delivered": "Naipadala na {{date}}",
         "one_images_accessibility_label": "Kasama sa order {{lineItemName1}}",
@@ -2162,7 +2256,69 @@
         "order_link": "Tingnan ang order {{name}}",
         "empty_state_redesign_cta": "Mamili na",
         "empty_state_redesign_welcome_with_name": "Maligayang pagdating, {{firstName}}",
-        "estimated_delivery": "Inaasahan {{date}}"
+        "estimated_delivery": "Inaasahan {{date}}",
+        "payment_status": {
+          "list_view": {
+            "due_on_fulfillment": "Babayaran sa oras ng pagtupad",
+            "overdue": "Lagpas na sa takdang panahon",
+            "due": "Dapat bayaran {{date}}",
+            "pay_to_confirm": "Magbayad upang kumpirmahin",
+            "paid": "Bayad na",
+            "due_today": "Dapat bayaran o ipasa ngayon",
+            "payment_not_due": "Hindi pa dapat bayaran",
+            "due_without_date": "Dapat bayaran"
+          },
+          "gallery_view": {
+            "overdue": "Lagpas na sa takdang panahon ang pagbabayad",
+            "pay_to_confirm": "Magbayad upang kumpirmahin",
+            "payment_not_due": "Hindi pa kailangang bayaran",
+            "due_without_date": "Dapat nang bayaran",
+            "due": "Dapat nang bayaran {{date}}",
+            "due_today": "Dapat bayaran ngayon",
+            "due_on_fulfillment": "Dapat bayaran sa oras ng pagtupad"
+          }
+        },
+        "sort": {
+          "location": {
+            "descending": "Lokasyon (ZA)",
+            "ascending": "Lokasyon (AZ)"
+          },
+          "order_total": {
+            "ascending": "Kabuuang halaga ng order (mababa hanggang mataas)",
+            "descending": "Kabuuang halaga ng order (mula mataas hanggang mababa)"
+          },
+          "order_number": {
+            "descending": "Numero ng order (mula mataas hanggang mababa)",
+            "ascending": "Numero ng order (mababa pataas)"
+          },
+          "date": {
+            "newest": "Mula sa pinakabago hanggang sa pinakaluma",
+            "oldest": "Mula sa pinakamatanda hanggang sa pinakabago"
+          }
+        },
+        "location_filter_picker": {
+          "current_location": "Kasalukuyang lokasyon",
+          "all_location": "Lahat ng lokasyon",
+          "switch_view": "Baguhin ang view"
+        },
+        "sort_show_options_accessibility_label": "Ipakita ang mga opsyon sa pag-aayos para sa mga kumpirmadong order.",
+        "sort_title": "Pagbukud-bukurin",
+        "order_status_message": {
+          "table_view": {
+            "estimated_delivery": "Inaasahang paghahatid {{date}}",
+            "last_updated": "{{date}}"
+          },
+          "list_view": {
+            "estimated_delivery": "Inaasahan {{date}}",
+            "view_order_for_details": "Tingnan ang order para sa mga detalye",
+            "last_updated": "Huling na-update {{date}}"
+          }
+        },
+        "sort_by": "Ayusin ayon sa: {{option}}",
+        "sort_options_accessibility_label": "Mga opsyon sa pag-aayos para sa mga kumpirmadong order",
+        "sort_hide_options_accessibility_label": "Itago ang mga opsyon sa pag-aayos para sa mga kumpirmadong order.",
+        "sort_currently_sorted_by_accessibility_label": "Kasalukuyang nakaayos ayon sa: {{option}}",
+        "filter_title": "Salaan"
       },
       "switch_order_type_pending_orders_accessibility_label": "Baguhin ang uri ng order; kasalukuyang tinitingnan ang mga pending na order.",
       "list_title_with_pending_orders": "Mga Order:",
