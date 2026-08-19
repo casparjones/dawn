@@ -2044,7 +2044,8 @@
         },
         "loading": "Inilo-load ang mga detalye ng order",
         "loading_finished_accessibility_message": "Na-load na ang mga detalye ng order.",
-        "draft_order_subtitle": "Nakumpirma {{date}} mula sa order {{draftOrderName}}"
+        "draft_order_subtitle": "Nakumpirma {{date}} mula sa order {{draftOrderName}}",
+        "title": "Umorder {{name}}"
       },
       "addresses": {
         "add_shipping_address_button": "Magdagdag ng shipping address",
@@ -2058,6 +2059,31 @@
         "add_billing_address_section_accessibility_label": "Magdagdag ng billing address",
         "billing_address_card_title": "Address para sa pagsingil",
         "shipping_address_card_title": "Address na pagpapadalhan"
+      },
+      "payment_methods": {
+        "payment_delete": {
+          "description_with_replacement": "Ang pagbura sa paraan ng pagbabayad na ito ay makakaapekto sa mga preauthorized na pagbabayad para sa lokasyong ito. Palitan ito ng alternatibong paraan ng pagbabayad upang patuloy na makatanggap ng mga darating na order.",
+          "description_without_replacement": "Hindi na magagamit ang paraan ng pagbabayad na ito para sa mga susunod na pagbili mula sa lokasyong ito."
+        },
+        "payment_details": {
+          "order_label": "Umorder {{name}}",
+          "draft_label": "Burador ng utos {{name}}"
+        }
+      },
+      "purchase_order_number": {
+        "add_modal_title": "Magdagdag ng PO number",
+        "edit_modal_title": "I-edit ang numero ng PO",
+        "modal_po_number_input_max_length_error": "Ang mga PO number ay may maximum na {{maxLength}} mga tauhan.",
+        "save": "I-save",
+        "title": "PO Blg.{{poNumber}}",
+        "cancel": "Kanselahin",
+        "edit_accessibility_label": "I-edit ang numero ng PO",
+        "discard": "Itapon",
+        "discard_changes_modal_title": "I-discard ang mga pagbabago?",
+        "empty_state": "Walang PO number",
+        "close_modal_accessibility_label": "Isara ang modal ng PO number",
+        "modal_po_number_input_label": "Numero ng PO",
+        "add_accessibility_label": "Magdagdag ng PO number"
       }
     },
     "order_details": {
@@ -2296,14 +2322,41 @@
           "add_billing_address_button_accessibility_label": "Magdagdag ng bagong billing address",
           "choose_billing_address_from_list_button": "Pumili mula sa listahan",
           "title": "Address para sa pagsingil",
-          "add_billing_address_button": "Magdagdag ng bago"
+          "add_billing_address_button": "Magdagdag ng bago",
+          "default_checkbox": "Itakda bilang default na paraan ng pagbabayad",
+          "missing_billing_address_error_message": "Mangyaring tukuyin ang billing address.",
+          "choose_billing_address_from_list_button_accessibility_label": "Pumili ng billing address mula sa listahan"
         },
         "replace_mode_warning": "Ang pagtanggal sa paraan ng pagbabayad na ito ay makakaapekto sa mga subscription o pre-order. Palitan ito ng alternatibong paraan ng pagbabayad upang patuloy na matanggap ang mga susunod na order.",
         "add_new_button": "Magdagdag ng bago",
         "title": "Magdagdag ng paraan ng pagbabayad",
         "button_title": "Magdagdag",
         "payment_method_added_confirmation": "Naidagdag na ang paraan ng pagbabayad",
-        "missing_customer_error": "May nangyaring problema. Pakisubukang muli o makipag-ugnayan sa support."
+        "missing_customer_error": "May nangyaring problema. Pakisubukang muli o makipag-ugnayan sa support.",
+        "updating_contracts": {
+          "one": "Nag-a-update {{count}} kontrata sa suskrisyon...",
+          "other": "Nag-a-update {{count}} mga kontrata sa suskrisyon..."
+        },
+        "contracts_updated": {
+          "one": "Matagumpay na na-update {{count}} kontrata sa suskrisyon",
+          "other": "Matagumpay na na-update {{count}} mga kontrata sa suskrisyon"
+        },
+        "subscription_contracts": {
+          "product_count": {
+            "one": "{{count}} produkto",
+            "other": "{{count}} mga produkto"
+          },
+          "product_details": "Mga detalye ng produkto",
+          "load_more": "Ipakita ang iba pa",
+          "title": "Gamitin ang paraan ng pagbabayad para sa mga paulit-ulit na order",
+          "more_items": {
+            "one": "{{count}} karagdagang produkto",
+            "other": "{{count}} karagdagang mga produkto"
+          }
+        },
+        "subscription_contracts_updated": "Na-update {{succeeded}} ng {{total}} mga suskrisyon",
+        "invalid_wallet_type_error": "Hindi wastong uri ng wallet.",
+        "contracts_update_failed": "Nabigong i-update ang ilang kontrata ng subscription"
       },
       "card_fields": {
         "name_on_card_placeholder": "Pangalan sa card",
@@ -2425,7 +2478,11 @@
       "generic_card": "Kard",
       "expiration_warning_button_accessibility_label": "Ipakita ang babala sa pagkapaso para sa {{paymentMethodName}} nagtatapos sa {{lastDigits}}",
       "expires_soon": "Malapit nang mag-expire ang card na ito.",
-      "credit_card_title": "Credit card"
+      "credit_card_title": "Credit card",
+      "three_d_secure": {
+        "verification_failed": "Hindi na-verify ang iyong bayad. Subukan muli o gumamit ng ibang paraan ng pagbabayad.",
+        "title": "3D Secure"
+      }
     },
     "sign_in": {
       "step_one": {
@@ -2571,6 +2628,105 @@
       "loading_add_form_accessibility_message": "Inilo-load ang form para sa bagong address",
       "default_address_creation_success_notification": "Naidagdag na ang default na address",
       "default_address_update_success_notification": "Na-update na ang default na address"
+    },
+    "errors": {
+      "profile_update_error": {
+        "description": "Nagkaroon ng problema sa pag-update ng iyong profile. Subukang i-refresh ang pahinang ito o suriin ang iyong koneksyon sa internet."
+      },
+      "load_address_form_error": {
+        "description": "Hindi ma-load ang form para sa address.",
+        "title": "Hindi ma-load ang form para sa address",
+        "refresh_button": "I-refresh ang pahina"
+      },
+      "not_found": {
+        "title": "May problema sa pag-load ng pahinang ito.",
+        "description": "Suriin ang URL o subukan muli pagkalipas ng ilang minuto."
+      },
+      "profile_name_update_error": {
+        "description": "Nagkaroon ng problema sa pag-update ng iyong pangalan. Subukang i-refresh ang pahinang ito o suriin ang iyong koneksyon sa internet."
+      },
+      "address_deletion_error": {
+        "description": "Nagkaroon ng problema sa pagbura ng address na ito. Subukan muli o i-refresh ang pahina."
+      },
+      "resend_link": {
+        "generic": "Nabigong kahilingan",
+        "too_many_requests": "Masyadong maraming request. Subukan muli mamaya."
+      },
+      "failed_to_revert": "Nabigong ibalik ang mga setting ng account ng customer.",
+      "load_extension_error": {
+        "description": "I-refresh ang pahinang ito o subukan muli pagkalipas ng ilang minuto.",
+        "refresh_button": "I-refresh ang pahina",
+        "title": "Mali"
+      },
+      "addresses_loading_issue": {
+        "description": "May error sa koneksyon. Suriin ang iyong koneksyon sa internet at subukang muli."
+      },
+      "banner_title": {
+        "other": "Mayroong {{count}} mga pagkakamali",
+        "one": "Mayroon {{count}} mali"
+      },
+      "no_access_to_locations": {
+        "description": "Wala kang access sa anumang lokasyon."
+      },
+      "order_not_found": {
+        "description": "Hindi umiiral ang order na ito o wala kang pahintulot na tingnan ito.",
+        "title": "Hindi nahanap ang order"
+      },
+      "not_upgraded": "Hindi ina-upgrade ang mga account ng customer.",
+      "failed_address_creation": {
+        "description": "Nagkaroon ng problema sa paggawa ng iyong address. Subukang i-refresh ang pahinang ito o suriin ang iyong koneksyon sa internet."
+      },
+      "failed_address_update": {
+        "description": "Nagkaroon ng problema sa pag-update ng iyong address. Subukang i-refresh ang pahinang ito o suriin ang iyong koneksyon sa internet."
+      },
+      "load_orders_error": {
+        "description": "Subukang muli o bumalik mamaya.",
+        "retry_button": "Subukan muli",
+        "title": "Hindi ma-load ang mga order"
+      },
+      "already_upgraded": "Na-upgrade na ang mga account ng mga customer.",
+      "revert_window_expired": "Lumipas na ang panahon para sa pagbabalik sa dating estado.",
+      "logout_everywhere": {
+        "description": "May nangyaring problema habang nag-sa-sign out. Pakisubukan muli."
+      },
+      "load_paypal_error": {
+        "description": "May problema sa pag-load ng PayPal. Pakisubukan muli."
+      },
+      "retry_action_label": "Subukan muli",
+      "failed_to_upgrade": "Nabigong i-upgrade ang mga setting ng account ng customer."
+    },
+    "payment_method_brands": {
+      "elo": "Elo",
+      "maestro": "Maestro",
+      "forbrugsforeningen": "Forbrugsforeningen",
+      "unionpay": "UnionPay",
+      "visa": "Visa",
+      "discover": "Tumuklas",
+      "bogus": "Peke",
+      "ideal": "iDEAL",
+      "mastercard": "Mastercard",
+      "googlepay": "Google Pay",
+      "mobilepay": "MobilePay",
+      "laser": "Laser",
+      "shoppay": "Shop Pay",
+      "storecredit": "Store credit",
+      "klarna_pay_now": "Klarna",
+      "swish": "Swish",
+      "twint": "TWINT",
+      "usdc": "Crypto: USDC",
+      "dankort": "Dankort",
+      "applepay": "Apple Pay",
+      "paypal": "PayPal",
+      "klarna_pay_later": "Klarna",
+      "blik": "BLIK",
+      "americanexpress": "American Express",
+      "dinersclub": "Diners Club",
+      "visaelectron": "Visa Electron",
+      "hipercard": "Hipercard",
+      "klarna": "Klarna",
+      "przelewy24": "Przelewy24",
+      "jcb": "JCB",
+      "klarna_slice_it": "Klarna"
     }
   },
   "sections": {
