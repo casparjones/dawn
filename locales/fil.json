@@ -317,7 +317,16 @@
         "terms_and_conditions": "Mga Tuntunin at Kundisyon ng Merchant of Record"
       },
       "tips": {
-        "title": "Magdagdag ng tip"
+        "title": "Magdagdag ng tip",
+        "message": "Salamat, pinahahalagahan namin ito.",
+        "update_tip": "Tip sa pag-update",
+        "description": "Ipakita ang iyong suporta sa koponan sa %{shop_name}",
+        "presets_description": "Pumili ng porsyento ng tip",
+        "preset_label": "%{tip_percent}%",
+        "no_tip_label": "Wala",
+        "not_available_with_spi": "Hindi magagamit kasama ang Shop Pay Installments",
+        "custom_label": "Pasadyang tip",
+        "add_tip": "Magdagdag ng tip"
       },
       "change_country": {
         "currency_updated_for_country": "Na-update ang currency para sa %{country}",
@@ -761,6 +770,285 @@
         "shipping_address_title": "Address na pagpapadalhan",
         "payment_method_title": "Paraan ng pagbabayad",
         "company_tracking_number": "%{company} tracking number:"
+      },
+      "subscriptions": {
+        "recurring_total_intervals": {
+          "day": {
+            "one": "araw",
+            "other": "%{count} mga araw"
+          },
+          "month": {
+            "other": "%{count} mga buwan",
+            "one": "buwan"
+          },
+          "year": {
+            "one": "taon",
+            "other": "%{count} mga taon"
+          },
+          "week": {
+            "one": "linggo",
+            "other": "%{count} mga linggo"
+          }
+        },
+        "recurring_totals_with_initial_order_shipping_discount_with_policies": {
+          "first_cycles": {
+            "one": ", pagkatapos %{count} pagbabayad sa %{total_price}",
+            "other": ", pagkatapos %{count} mga bayad sa %{total_price} bawat isa"
+          }
+        },
+        "recurring_totals_with_policies": {
+          "following_cycles": ", pagkatapos %{total_price} bawat %{interval}",
+          "first_cycles": {
+            "one": "Unang bayad %{total_price}",
+            "other": "Una %{count} mga bayad %{total_price} bawat isa"
+          }
+        },
+        "recurring_totals": "%{total_price} bawat %{interval}",
+        "recurring_totals_with_initial_order_shipping_discount": "Unang bayad %{total_price_with_discount}, pagkatapos %{recurring_total}"
+      },
+      "throttle": {
+        "inventory": {
+          "sold_out": {
+            "heading": "Naubos na ang mga produkto sa iyong cart.",
+            "no_storefront_body": "Ikinalulungkot namin, ngunit hindi na available ang produktong nais mong bilhin.",
+            "link": "Balik sa tindahan",
+            "storefront_body": "Bumalik sa tindahan upang ipagpatuloy ang pamimili."
+          },
+          "partial_inventory_banner": "Ang ilang mga produkto sa iyong cart ay ubos na at hindi na mabibili sa checkout."
+        },
+        "estimated_wait_time": {
+          "less_than_one": "Tinatayang oras ng paghihintay: Wala pang isang minuto",
+          "one": "Tinatayang oras ng paghihintay: {{count}} minuto",
+          "calculating": "Pagkalkula ng tinatayang oras ng paghihintay",
+          "other": "Tinatayang oras ng paghihintay: {{count}} mga minuto"
+        },
+        "too_many_attempts": {
+          "message": "Masyadong maraming pagtatangka",
+          "description": "Subukan muli pagkalipas ng ilang minuto."
+        },
+        "cart_summary_heading": "Ang iyong cart",
+        "merchandise": {
+          "sold_out": "Ubos na",
+          "available": "Maaaring makuha"
+        },
+        "title": "Pila",
+        "time_to_checkout_title": "Oras na para mag-check out - {{shopName}}",
+        "last_checked": "(Huling sinuri: {{time}})",
+        "line_to_check_out": "Nasa pila ka para mag-check out.",
+        "footer": {
+          "body": "Hindi nakareserba ang mga item sa iyong cart hangga't hindi mo natatapos ang checkout.",
+          "heading": "Huwag i-refresh ang pahinang ito; kusa itong mag-a-update."
+        }
+      },
+      "open_graph_meta_tag": {
+        "title_with_products": {
+          "zero": "Pagbili %{product_name}",
+          "one": "Pagbili %{product_name} at %{count} ibang gamit",
+          "other": "Pagbili %{product_name} at %{count} iba pang mga gamit"
+        }
+      },
+      "customer_payment_methods": {
+        "page_title": "Mga paraan ng pagbabayad",
+        "delete_customer_mandate": {
+          "success_message": "Matagumpay na nabura ang iyong paraan ng pagbabayad.",
+          "generic_error": "Nagkaroon ng problema sa pagproseso ng iyong kahilingan."
+        },
+        "update_card_button_label": "I-update ang card",
+        "title": "Mga paraan ng pagbabayad"
+      },
+      "no_address_location": {
+        "email_us_button_label": "Magpadala sa amin ng email",
+        "header": "Wala kang shipping address para sa lokasyong ito.",
+        "message": "Makipag-ugnayan sa amin upang magdagdag ng address para sa lokasyong ito at makapag-checkout.",
+        "title": "Lokasyong walang address",
+        "alt_header": "Walang shipping address"
+      },
+      "session_errors": {
+        "session_not_unique": "Nagkaroon ng problema sa pagproseso ng iyong order. I-refresh ang pahinang ito upang bumalik sa tindahan.",
+        "session_already_finished": "Naipadala na ang order na ito. Maaari kang bumalik sa tindahan upang magsimula ng bagong order."
+      },
+      "pickup_point": {
+        "location_is_currently_closed": "Sarado",
+        "no_pickup_points_near_location": "Walang nahanap na pickup point malapit sa iyong lokasyon.",
+        "paginator": {
+          "selected_page": {
+            "one": "%{first} Ang mga sumusunod ay mga halimbawa ng mga karaniwang uri ng mga dokumentong maaaring kailanganin: %{last} ng %{count} punto",
+            "other": "%{first} Ang mga sumusunod ay mga halimbawa ng mga karaniwang uri ng mga dokumentong maaaring kailanganin: %{last} ng %{count} mga puntos"
+          },
+          "next_accessibility_label": "Susunod na pahina",
+          "header": {
+            "other": "Ipinapakita %{first} Ang mga sumusunod ay mga halimbawa ng mga karaniwang uri ng mga dokumentong maaaring kailanganin: %{last} ng %{count} mga puntos",
+            "one": "Ipinapakita %{first} Ang mga sumusunod ay mga halimbawa ng mga karaniwang uri ng mga dokumentong maaaring kailanganin: %{last} ng %{count} punto"
+          },
+          "selected_pickup_point_label": {
+            "one": "%{pickup_point_index} ng %{count} punto",
+            "other": "%{pickup_point_index} ng %{count} mga puntos"
+          },
+          "previous_accessibility_label": "Nakaraang pahina"
+        },
+        "number_of_pickup_points_near_location": {
+          "one": "%{count} pickup point malapit sa iyong lokasyon",
+          "other": "%{count} mga pickup point malapit sa iyong lokasyon"
+        },
+        "waiting_on_pickup_point_location_notice": "Naghanahanap ng mga pickup point...",
+        "no_business_hours": "Walang nakatalagang oras ng pagbubukas",
+        "selector_tabs": "Tagapili ng pickup point",
+        "pickup_unavailable_banner_title": {
+          "other": "Walang available na pickup point para sa iyong mga item",
+          "one": "Walang available na pickup point para sa iyong item."
+        },
+        "business_hours": "Mga oras ng pagbubukas",
+        "selector_tab_map": "Mapa",
+        "change": "Baguhin ang lokasyon",
+        "geolocation": {
+          "shared_location_button": "Gamitin ang aking lokasyon",
+          "errors": {
+            "permission_not_allowed": "Payagan ang pagbabahagi ng iyong lokasyon.",
+            "unsuported_by_browser": "Hindi sinusuportahan ng iyong browser ang pagkuha ng geolocation. Subukan muli o gumamit ng ibang browser.",
+            "permission_denied": "Hindi makuha ang iyong lokasyon. Subukan muli."
+          }
+        },
+        "or": "o",
+        "no_pickup_points_found": "Walang nahanap na pickup point",
+        "address_label": "Address",
+        "open_twenty_four_hours": "Bukas 24/7",
+        "title": "Pickup point",
+        "no_pickup_points_near_you": "Walang nahanap na pickup point malapit sa napiling address",
+        "search_button": "Maghanap",
+        "selector_tab_list": "Listahan",
+        "could_not_resolve_address": "Hindi matukoy ang iyong address. Subukan muli o gumamit ng ibang address."
+      },
+      "order_errors": {
+        "network_failure": "Hindi naipadala ang iyong order dahil sa isang network error. Suriin ang iyong koneksyon at subukang muli.",
+        "creation_failure": "Nagkaroon ng problema sa paggawa ng iyong order. Subukan muli, o makipag-ugnayan sa amin para sa karagdagang detalye.",
+        "inventory_reservation_failure": "Hindi na available ang ilang mga item."
+      },
+      "error_page": {
+        "terminal": {
+          "action": {
+            "cta": "I-refresh ang Pahina"
+          },
+          "title": "Nagkaroon ng problema sa aming checkout.",
+          "message": "I-refresh ang pahinang ito o subukan muli pagkalipas ng ilang minuto."
+        }
+      },
+      "artifact_errors": {
+        "artifact_dissatisfaction_without_violation": "Nagkaroon ng problema sa pagproseso ng iyong order. Subukan muli pagkalipas ng ilang minuto."
+      },
+      "cart_checkout_validation": {
+        "runtime_error": "Nagkaroon ng problema sa pagproseso ng iyong kahilingan. Makipag-ugnayan sa may-ari ng tindahan."
+      },
+      "taxes": {
+        "vat_number": {
+          "status": {
+            "invalid_format": {
+              "de": "Ang mga VAT number ng Germany ay binubuo ng DE at 9 na karakter.",
+              "lv": "Ang mga VAT number ng Latvia ay binubuo ng LV at 11 karakter.",
+              "lu": "Ang mga numero ng VAT ng Luxembourg ay binubuo ng LU at 8 karakter.",
+              "gb": "Ang mga VAT number ng United Kingdom ay naglalaman ng GB o XI at 5 hanggang 12 karakter.",
+              "bg": "Ang mga VAT number ng Bulgaria ay binubuo ng BG at 9-10 karakter.",
+              "ee": "Ang mga VAT number ng Estonia ay binubuo ng EE at 9 na karakter.",
+              "fi": "Ang mga VAT number ng Finland ay binubuo ng FI at 8 karakter.",
+              "ie": "Ang mga VAT number ng Ireland ay binubuo ng IE at 8-9 na karakter.",
+              "lt": "Ang mga VAT number ng Lithuania ay binubuo ng LT at 9-12 karakter.",
+              "pt": "Ang mga VAT number ng Portugal ay binubuo ng PT at 9 na karakter.",
+              "ro": "Ang mga numero ng VAT sa Romania ay binubuo ng RO at 10 karakter.",
+              "se": "Ang mga VAT number ng Sweden ay binubuo ng SE at 12 karakter.",
+              "hr": "Ang mga VAT number ng Croatia ay binubuo ng HR at 11 karakter.",
+              "fr": "Ang mga numero ng VAT sa France ay binubuo ng FR at 11 karakter.",
+              "pl": "Ang mga VAT number ng Poland ay binubuo ng PL at 10 karakter.",
+              "dk": "Ang mga VAT number ng Denmark ay binubuo ng DK at 8 karakter.",
+              "gr": "Ang mga VAT number ng Greece ay binubuo ng EL at 9 na karakter.",
+              "cz": "Ang mga VAT number ng Czech Republic ay binubuo ng CZ at 8-10 karakter.",
+              "si": "Ang mga VAT number ng Slovenia ay binubuo ng SI at 8 karakter.",
+              "mt": "Ang mga numero ng VAT sa Malta ay binubuo ng MT at 8 karakter.",
+              "it": "Ang mga VAT number ng Italy ay binubuo ng IT at 11 karakter.",
+              "nl": "Ang mga numero ng VAT ng Netherlands ay binubuo ng NL at 12 karakter.",
+              "es": "Ang mga VAT number ng Spain ay binubuo ng ES at 9 na karakter.",
+              "hu": "Ang mga VAT number ng Hungary ay binubuo ng HU at 8 karakter.",
+              "sk": "Ang mga VAT number ng Slovakia ay binubuo ng SK at 10 karakter.",
+              "cy": "Ang mga numero ng VAT ng Cyprus ay binubuo ng CY at 9 na karakter."
+            },
+            "invalid_number": {
+              "fr": "Maglagay ng wastong VAT number ng France",
+              "hu": "Maglagay ng wastong Hungary VAT number",
+              "it": "Maglagay ng wastong Italy VAT number",
+              "lt": "Maglagay ng wastong Lithuania VAT number",
+              "nl": "Maglagay ng wastong Netherlands VAT number",
+              "be": "Maglagay ng wastong Belgium VAT number",
+              "fi": "Maglagay ng wastong Finland VAT number",
+              "at": "Maglagay ng wastong Austria VAT number",
+              "hr": "Maglagay ng wastong Croatia VAT number",
+              "ee": "Maglagay ng wastong Estonia VAT number",
+              "mt": "Maglagay ng wastong Malta VAT number",
+              "pl": "Maglagay ng wastong VAT number ng Poland",
+              "sk": "Maglagay ng wastong Slovakia VAT number",
+              "ro": "Maglagay ng wastong Romania VAT number",
+              "dk": "Maglagay ng wastong Denmark VAT number",
+              "de": "Maglagay ng wastong VAT number ng Germany",
+              "ie": "Maglagay ng wastong VAT number ng Ireland",
+              "gr": "Maglagay ng wastong Greece VAT number",
+              "lu": "Maglagay ng wastong Luxembourg VAT number",
+              "bg": "Maglagay ng wastong Bulgaria VAT number",
+              "cy": "Maglagay ng wastong Cyprus VAT number",
+              "cz": "Maglagay ng wastong Czech VAT number",
+              "lv": "Maglagay ng wastong Latvia VAT number",
+              "pt": "Maglagay ng wastong VAT number ng Portugal"
+            }
+          }
+        }
+      },
+      "contact": {
+        "governorate_placeholder": "Gobernadorato",
+        "emirate_placeholder": "Emirato",
+        "commune_label": "Komuna",
+        "district_label": "Distrito",
+        "area_label": "Lugar",
+        "province_label": "Lalawigan",
+        "region_label": "Rehiyon",
+        "phone_label": "Telepono",
+        "phone_placeholder": "Telepono",
+        "optional_neighborhood_label": "Kapitbahayan (opsyonal)",
+        "optional_district_label": "Distrito (opsyonal)",
+        "optional_subdistrict_label": "Sub-distrito (opsyonal)",
+        "block_label": "Harangan",
+        "region_placeholder": "Rehiyon",
+        "optional_postal_code_label": "Postal code (opsyonal)",
+        "barangay_label": "Barangay",
+        "optional_area_label": "Lugar (opsyonal)",
+        "state_placeholder": "Estado",
+        "state_and_territory_placeholder": "Estado/teritoryo",
+        "phone_country_code_label": "Country code ng numero ng telepono",
+        "state_and_territory_label": "Estado/teritoryo",
+        "optional_phone_label": "Telepono (opsyonal)",
+        "colony_label": "Kolonya",
+        "country_label": "Bansa/Rehiyon",
+        "county_label": "Kondado",
+        "county_placeholder": "Kondado",
+        "region_none": "Walang napili",
+        "phone_rollup_accessibility_label": "Mga opsyon sa telepono",
+        "subdistrict_label": "Subdistrito",
+        "optional_ward_label": "Ward (opsyonal)",
+        "city_label": "Lungsod",
+        "province_placeholder": "Lalawigan",
+        "governorate_label": "Gobernadorato",
+        "zip_code_placeholder": "ZIP code",
+        "optional_colony_label": "Kolonya (opsyonal)",
+        "optional_commune_label": "Commune (opsyonal)",
+        "ward_label": "Ward",
+        "phone_tooltip": "Kung sakaling kailangan ka naming kontakin tungkol sa iyong order",
+        "optional_zip_code_label": "ZIP code (opsyonal)",
+        "optional_barangay_label": "Barangay (opsyonal)",
+        "suburb_label": "Suburb",
+        "country_code": "Kodigo ng bansa/rehiyon",
+        "emirate_label": "Emirato",
+        "zip_code_label": "ZIP code",
+        "postal_code_label": "Postal code",
+        "neighborhood_label": "Kapitbahayan",
+        "optional_block_label": "Harangan (opsyonal)",
+        "state_label": "Estado",
+        "prefecture_label": "Prepektura",
+        "prefecture_placeholder": "Prepektura"
       }
     },
     "sentence": {
