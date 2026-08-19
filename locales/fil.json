@@ -1305,7 +1305,37 @@
         "google_map_title": "Google Map",
         "loading": "Naglo-load…",
         "full_price": "Buong presyo:",
-        "full_title": "{{pageTitle}} Ang mga sumusunod ay mga halimbawa ng mga karaniwang uri ng mga dokumentong maaaring kailanganin: {{shopName}} - Pagbabayad"
+        "full_title": "{{pageTitle}} Ang mga sumusunod ay mga halimbawa ng mga karaniwang uri ng mga dokumentong maaaring kailanganin: {{shopName}} - Pagbabayad",
+        "list_formatter": {
+          "or": {
+            "twoWordConnector": "{{firstWord}} o {{secondWord}}",
+            "lastWordConnector": "{{previousWords}}, o {{lastWord}}",
+            "wordConnector": "{{previousWords}}, {{anotherWord}}"
+          },
+          "narrow": {
+            "wordConnector": "{{previousWords}}, {{anotherWord}}",
+            "lastWordConnector": "{{previousWords}}, {{lastWord}}",
+            "twoWordConnector": "{{firstWord}}, {{secondWord}}"
+          },
+          "and": {
+            "twoWordConnector": "{{firstWord}} at {{secondWord}}",
+            "lastWordConnector": "{{previousWords}}, at {{lastWord}}"
+          }
+        },
+        "map": {
+          "cluster_title": {
+            "one": "Kumpol ng {{number}} marker",
+            "other": "Kumpol ng {{number}} mga marker"
+          }
+        },
+        "sheet": {
+          "expand": "Palawakin"
+        },
+        "dropzone": {
+          "add_file": "Magdagdag ng file",
+          "dragged_over": "I-drop ang file para i-upload",
+          "invalid_file_type": "Hindi suportado ang uri ng file"
+        }
       },
       "ucp": {
         "standard_errors": {
@@ -2063,7 +2093,38 @@
         "civic_number_warning": "Maglagay ng numero ng bahay kung mayroon ka nito.",
         "optional_pincode_label": "PIN code (opsyonal)",
         "postcode_placeholder": "Postal code",
-        "optional_last_name_label": "Apelyido (opsyonal)"
+        "optional_last_name_label": "Apelyido (opsyonal)",
+        "shipping_used_as_billing_notice": "Gagamitin din ito bilang iyong billing address para sa order na ito.",
+        "email_or_phone_placeholder": "Email o numero ng mobile phone",
+        "stored_addresses_label": "Mga naka-save na address",
+        "optional_first_name_label": "Pangalan (opsyonal)",
+        "street_name_label": "Kalye",
+        "optional_street_name_label": "Kalye (opsyonal)",
+        "title": "Impormasyon",
+        "available_addresses_label": "Mga available na address",
+        "first_name_label": "Pangalan",
+        "optional_company_attention_label": "Kumpanya/Para kay (opsyonal)",
+        "contact_method_title": "Makipag-ugnayan",
+        "storefront_link": "website ng merchant",
+        "email_or_phone_label": "Email o numero ng mobile phone",
+        "address_title": "Address",
+        "optional_address2_label": "Apartment, suite, atbp. (opsyonal)",
+        "delivery_option_title": "Paraan ng paghahatid",
+        "field_tooltip_accessibility_label": "Karagdagang impormasyon tungkol sa kung paano ginagamit ang iyong impormasyon sa pakikipag-ugnayan",
+        "email_label": "Email",
+        "field_saved_label": "Nai-save",
+        "field_tooltip_helper_text": "Ginagamit para sa kumpirmasyon ng iyong order at mga paalala tungkol sa iyong cart",
+        "new_address_label": "Gumamit ng bagong address",
+        "company_attention_label": "Kumpanya/Para kay",
+        "address1_label": "Address",
+        "street_number_label": "Numero ng gusali",
+        "optional_street_number_label": "Numero ng gusali (opsyonal)",
+        "address2_label": "Apartment, suite, atbp.",
+        "email_rollup_accessibility_label": "Mga opsyon sa email",
+        "email_placeholder": "Email",
+        "last_name_label": "Apelyido",
+        "company_label": "Kumpanya",
+        "optional_company_label": "Kumpanya (opsyonal)"
       },
       "notice_banner": {
         "subscription_changed": "Nagbago ang isa sa iyong mga subscription.",
@@ -2514,6 +2575,21 @@
         "discount_not_supported": "Hindi sinusuportahan ng merchant instruction para sa paglalapat ng merchandise discount ang ganitong uri ng discount.",
         "invalid_variant_id_target": "Ang %{name} mga sanggunian sa tagubilin para sa paninda at variant ID %{variant_id}, ngunit wala ang variant na iyon sa mga linya ng paninda.",
         "duplicate_variant_id": "Ang %{position} %{name} Ang instruksyon para sa paninda ay naglalaman ng dobleng variant ID. %{variant_id}Ang mga sumusunod ay mga halimbawa ng mga karaniwang uri ng mga dokumentong maaaring kailanganin: *   Katibayan ng pagkakakilanlan (halimbawa: pasaporte, driver's license, o national ID) *   Katibayan ng tirahan (halimbawa: utility bill o bank statement) *   Katibayan ng kita (halimbawa: payslip o tax return)"
+      },
+      "embed": {
+        "shipping": {
+          "shipping_options": "Tingnan ang lahat ng opsyon sa pagpapadala"
+        },
+        "header": {
+          "review_order": "Suriin ang iyong order"
+        },
+        "payment": {
+          "payment_options": "Tingnan ang lahat ng opsyon sa pagbabayad"
+        }
+      },
+      "payment_collection": {
+        "cancelled": "Hindi na kinakailangan ang bayad na ito. Bisitahin ang pahina ng order para sa mga detalye.",
+        "paid": "Naipadala na ang bayad na ito. Bisitahin ang pahina ng order para sa mga detalye."
       }
     },
     "sentence": {
