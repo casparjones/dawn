@@ -2520,6 +2520,48 @@
       "last_word_connector": ", at ",
       "words_connector": ", ",
       "two_words_connector": " at "
+    },
+    "store_availability": {
+      "pick_up_time": {
+        "immediately": "Handa na para sa pickup ngayon",
+        "twenty_four_hours": "Karaniwang handa sa loob ng 24 oras",
+        "zero_to_two_hours": "Karaniwang handa sa loob ng 2 oras",
+        "four_hours": "Karaniwang handa sa loob ng 4 oras",
+        "two_to_four_hours": "Karaniwang handa sa loob ng 4 oras",
+        "two_hours": "Karaniwang handa sa loob ng 2 oras",
+        "one_hour": "Karaniwang handa sa loob ng isang oras",
+        "two_to_four_days": "Karaniwang handa sa loob ng 2-4 na araw",
+        "five_or_more_days": "Karaniwang handa sa loob ng mahigit 5 araw",
+        "next_day": "Handa nang kunin sa susunod na araw"
+      }
+    },
+    "page_titles": {
+      "collections": "Mga Koleksyon",
+      "not_found": "404 Hindi Natagpuan",
+      "search_results": {
+        "one": "Maghanap: %{count} resultang nahanap para sa \"%{terms}\"Ang mga taong may mataas na antas ng emosyonal na katalinuhan ay may kakayahang umunawa at mamahala sa kanilang sariling mga emosyon, pati na rin sa mga emosyon ng iba. Sila ay mahusay sa pakikipag-ugnayan at pagbuo ng matibay na relasyon sa ibang tao.\"",
+        "other": "Maghanap: %{count} mga resultang nahanap para sa \"%{terms}\"Ang mga taong may mataas na antas ng emosyonal na katalinuhan ay may kakayahang umunawa at mamahala sa kanilang sariling mga emosyon, pati na rin sa mga emosyon ng iba. Sila ay mahusay sa pakikipag-ugnayan at pagbuo ng matibay na relasyon sa ibang tao.\""
+      },
+      "checkpoint": "Checkpoint",
+      "challenge": "Hamon"
+    },
+    "cart": {
+      "discounts_with_count": "%{count} Naipatupad na ang mga diskwento."
+    },
+    "subscriptions": {
+      "cancellation_policy": "patakaran sa pagkansela",
+      "buyer_consent_cart": "Ang isa o higit pa sa mga item sa iyong cart ay isang paulit-ulit o ipinagpaliban na pagbili. Sa pagpapatuloy, sumasang-ayon ako sa %{cancellationPolicyLink} at binibigyan ko kayo ng pahintulot na singilin ang aking paraan ng pagbabayad batay sa mga presyo, dalas, at petsang nakasaad sa pahinang ito hanggang sa matupad ang aking order o hanggang sa kanselahin ko ito, kung pinahihintulutan.",
+      "buyer_consent_product": "Ang item na ito ay isang paulit-ulit o ipinagpaliban na pagbili. Sa pagpapatuloy, sumasang-ayon ako sa %{cancellationPolicyLink} at binibigyan ko kayo ng pahintulot na singilin ang aking paraan ng pagbabayad batay sa mga presyo, dalas, at petsang nakasaad sa pahinang ito hanggang sa matupad ang aking order o hanggang sa kanselahin ko ito, kung pinahihintulutan."
+    },
+    "challenge": {
+      "message": "Para magpatuloy, ipaalam sa amin na hindi ka robot.",
+      "submit_button_text": "Isumite",
+      "error": "Hindi tama ang iyong sagot; pakisubukan muli."
+    },
+    "checkpoint": {
+      "submit_button_text": "Isumite",
+      "error": "Nabigo ang pagpapatunay ng captcha",
+      "message": "Sagutan ang Captcha upang magpatuloy"
     }
   },
   "customer_accounts": {
@@ -3064,15 +3106,83 @@
             "banner_due_today_for_multiple_fulfillments": "Dapat bayaran ngayon para sa {{count}} mga katuparan",
             "banner_due_today": "Ang iyong bayad ay kailangang bayaran ngayon.",
             "banner_overdue_for_single_fulfillment": {
-              "one": "{{amount}} ang bayad ay {{count}} Lumampas na sa takdang araw. {{link}}"
+              "one": "{{amount}} ang bayad ay {{count}} Lumampas na sa takdang araw. {{link}}",
+              "other": "{{amount}} ang bayad ay {{count}} ilang araw nang lampas sa takdang panahon. {{link}}"
             },
-            "banner_due_today_for_single_fulfillment": "{{amount}} Ang bayad ay dapat bayaran ngayon. {{link}}"
-          }
+            "banner_due_today_for_single_fulfillment": "{{amount}} Ang bayad ay dapat bayaran ngayon. {{link}}",
+            "title_due_on_fulfillment": "Dapat bayaran sa oras ng pagtupad",
+            "description_due_on_receipt": "Makakatanggap ka ng invoice kapag kailangan nang magbayad.",
+            "description_due_on_fulfillment_partially_paid": "Bahagyang nabayaran ang order na ito. Mayroon kang natitirang balanse. Kailangang bayaran ang natitirang halaga kapag naibigay na ang lahat ng mga item sa order na ito.",
+            "description_waiting_for_manual_payment": "Ang order na ito ay may nakabinbing bayad. Maa-update ang balanse kapag natanggap na ang bayad.",
+            "description_due_on_receipt_partially_paid": "Bahagyang nabayaran ang order na ito. Mayroon kang natitirang balanse. Makakatanggap ka ng invoice kapag dumating na ang takdang panahon ng pagbabayad.",
+            "description_due_on_fulfillment": "Kailangang bayaran ang order kapag naibigay na ang lahat ng mga item dito.",
+            "title_with_date": "Dapat nang bayaran {{date}}",
+            "description_partially_paid": "Bahagyang nabayaran ang order na ito. Mayroon kang natitirang balanse.",
+            "description_due_on_fulfillment_partially_paid_next": "Bahagyang nabayaran ang order na ito. Mayroon kang natitirang balanse.",
+            "banner_overdue_for_multiple_fulfillments": "Dapat bayaran para sa {{count}} mga katuparan",
+            "title_due_on_receipt": "Hindi pa kailangang bayaran",
+            "description_overdue": "Huli na ang iyong bayad.",
+            "title": "Dapat nang bayaran",
+            "description_authorized": "Sisingilin ang iyong paraan ng pagbabayad sa takdang petsa, o maaari kang magbayad ngayon."
+          },
+          "draft": {
+            "submitted": {
+              "deposit": {
+                "due_later": "Naka-activate na ang balanse. {{translatedName}} mga tuntunin at dapat bayaran sa {{dueDate}}Ang mga sumusunod ay mga halimbawa ng mga karaniwang uri ng mga dokumentong maaaring kailanganin: *   Katibayan ng pagkakakilanlan (halimbawa: pasaporte, driver's license, o national ID) *   Katibayan ng tirahan (halimbawa: utility bill o bank statement) *   Katibayan ng kita (halimbawa: payslip o tax return)",
+                "title": "Kailangan nang magbayad",
+                "due_on_date": "Ang natitirang balanse ay dapat bayaran sa {{dueDate}}Ang mga sumusunod ay mga halimbawa ng mga karaniwang uri ng mga dokumentong maaaring kailanganin: *   Katibayan ng pagkakakilanlan (halimbawa: pasaporte, driver's license, o national ID) *   Katibayan ng tirahan (halimbawa: utility bill o bank statement) *   Katibayan ng kita (halimbawa: payslip o tax return)",
+                "due_on_receipt": "Makakatanggap ka ng invoice para sa natitirang balanse.",
+                "due_on_fulfillment": "Dapat bayaran ang natitirang balanse kapag naibigay na ang lahat ng mga item sa order na ito."
+              },
+              "description": "Ipadala ang bayad upang kumpirmahin ang order na ito.",
+              "title": "Magbayad upang kumpirmahin"
+            },
+            "deposit": {
+              "due_on_fulfillment": "{{depositAmount}} Kailangang bayaran kapag nakumpirma na ang iyong order. Ang natitirang balanse ay kailangang bayaran kapag naisakatuparan na ang order.",
+              "due_on_receipt": "{{depositAmount}} Kailangang bayaran ito kapag nakumpirma na ang iyong order. Ang natitirang balanse ay babayaran sa ibang pagkakataon.",
+              "due_later": "{{depositAmount}} ay kailangang bayaran kapag nakumpirma na ang iyong order. Ang natitirang balanse ay sa {{translatedName}} mga tuntunin.",
+              "due_on_date": "{{depositAmount}} ay kailangang bayaran kapag nakumpirma na ang iyong order. Ang natitirang balanse ay kailangang bayaran sa {{dueDate}}Ang mga sumusunod ay mga halimbawa ng mga karaniwang uri ng mga dokumentong maaaring kailanganin: *   Katibayan ng pagkakakilanlan (halimbawa: pasaporte, driver's license, o national ID) *   Katibayan ng tirahan (halimbawa: utility bill o bank statement) *   Katibayan ng kita (halimbawa: payslip o tax return)"
+            },
+            "description": "Ang mga detalye ng pagbabayad ay tinutukoy kapag nakumpirma na ang order.",
+            "title": "Hindi pa kailangang bayaran",
+            "in_review": {
+              "description": "Ang mga detalye ng pagbabayad ay tinutukoy kapag nakumpirma na ang order.",
+              "title": "Hindi pa kailangang bayaran"
+            }
+          },
+          "refund": {
+            "title": "Naibalik na ang bayad",
+            "description_multiple_refunds": "Nakatanggap ka ng mga partial refund para sa order na ito.",
+            "title_with_date": "Naibalik na ang bayad {{date}}",
+            "description_full_refund": "Nakatanggap ka ng buong refund para sa order na ito.",
+            "description_single_refund": "Nakatanggap ka ng partial refund para sa order na ito."
+          },
+          "pay_now_accessibility_label": "Bayaran na ang order {{orderName}}",
+          "paid": {
+            "title_with_date": "Bayad na {{date}}",
+            "title": "Bayad na",
+            "description": "Bayad na nang buo ang iyong order."
+          },
+          "total_balance": "Kabuuang balanse",
+          "due_date": "Dapat bayaran {{date}}",
+          "title": "Katayuan ng pagbabayad",
+          "canceled": {
+            "title": "Kinansela ang bayad",
+            "description": "Hindi ka pinatawan ng bayad."
+          },
+          "pay_now": "Magbayad na"
         },
         "loading": "Inilo-load ang mga detalye ng order",
         "loading_finished_accessibility_message": "Na-load na ang mga detalye ng order.",
         "draft_order_subtitle": "Nakumpirma {{date}} mula sa order {{draftOrderName}}",
-        "title": "Umorder {{name}}"
+        "title": "Umorder {{name}}",
+        "order_timeline": {
+          "expand_events_accessibility_label": "Ipakita ang mga detalye ng draft order",
+          "hide_events_accessibility_label": "Itago ang mga detalye ng draft order",
+          "hide_events_label": "Itago ang mga detalye",
+          "expand_events_label": "Ipakita ang mga detalye"
+        },
+        "subtitle": "Ipinasa {{date}}"
       },
       "addresses": {
         "add_shipping_address_button": "Magdagdag ng shipping address",
@@ -3812,7 +3922,43 @@
       "przelewy24": "Przelewy24",
       "jcb": "JCB",
       "klarna_slice_it": "Klarna"
-    }
+    },
+    "date": {
+      "humanize": {
+        "lessThanOneWeekAgo": "{{weekday}} at {{time}}",
+        "tomorrow": "Bukas nang {{time}}",
+        "lessThanOneHourAgo": {
+          "other": "{{count}} ilang minuto ang nakalipas",
+          "one": "{{count}} ilang minuto ang nakalipas"
+        },
+        "lessThanOneMinuteAgo": "Ngayon lang",
+        "yesterday": "Kahapon nang {{time}}",
+        "lessThanOneYearAgo": "{{date}} at {{time}}",
+        "today": "Ngayon sa {{time}}",
+        "lessThanOneWeekAway": "{{weekday}} at {{time}}",
+        "lessThanOneYearAway": "{{date}} at {{time}}"
+      },
+      "range": "{{startDate}}–{{endDate}}"
+    },
+    "navigation_and_structure": {
+      "go_to_store_link": "Punta sa tindahan",
+      "orders_link_label": "Mga Order",
+      "back_button_accessibility_label": "Bumalik",
+      "account_menu": {
+        "loading_message": "Inilo-load ang nabigasyon ng account",
+        "show_accessibility_label": "Ipakita ang menu ng account",
+        "open_menu_accessibility_label": "Buksan ang nabigasyon ng account",
+        "label": "Account",
+        "nav_accessibility_label": "Pag-navigate sa account",
+        "close_menu_accessibility_label": "Isara ang nabigasyon ng account",
+        "hide_accessibility_label": "Itago ang menu ng account"
+      },
+      "action_menu_accessibility_label": "Higit pang mga aksyon"
+    },
+    "callback": {
+      "try_again": "Subukan muli"
+    },
+    "enable_javascript": "Upang makita ang iyong account, i-enable ang JavaScript sa mga setting ng iyong browser o mag-sign in gamit ang ibang browser."
   },
   "sections": {
     "cart": {
