@@ -149,7 +149,11 @@
         "bogus_test_checkout": {
           "title": "Panuto sa pagsubok",
           "approved_transaction": "{{card_number}} upang gayahin ang isang inaprubahang transaksyon",
-          "intro": "Gamitin ang mga value na ito para subukan ang iyong checkout:"
+          "intro": "Gamitin ang mga value na ito para subukan ang iyong checkout:",
+          "gateway_failure": "{{card_number}} upang gayahin ang pagkabigo ng gateway",
+          "support_link": "Kumuha ng suporta",
+          "declined_transaction": "{{card_number}} upang gayahin ang isang tinanggihang transaksyon",
+          "additional_instructions": "Gumamit ng anumang petsa ng pagkapaso sa hinaharap at anumang 3-digit na security code."
         },
         "network_card_persistence_description": "Ang napiling network ay ise-save kasama ng iyong paraan ng pagbabayad para sa mga susunod na transaksyon.",
         "amazon_payments_could_not_enqueue_authorize": "Nagkaroon ng problema sa pagproseso ng iyong bayad. Subukan muli o gumamit ng ibang paraan ng pagbabayad.",
@@ -249,7 +253,61 @@
         "business_customer_vaulting_payment_label": "I-save ang paraan ng pagbabayad na ito sa checkout at mag-authorize %{company} upang gamitin ito sa pagbabayad para sa mga susunod na pagbili sa lokasyong ito. Maaaring gamitin ng lahat ng contact na nakatalaga sa lokasyong ito ang paraan ng pagbabayad.",
         "purchase_options_and_vaulting_agreement_label": "Ang isa o higit pang item sa iyong cart ay isang deferred purchase o subscription. Sa pagpapatuloy ng iyong pagbabayad, sumasang-ayon kang awtomatikong sisingilin ang iyong paraan ng pagbabayad batay sa presyo at dalas na nakasaad sa pahinang ito hanggang sa matapos ang serbisyo o ikaw ay magkansela. Ang lahat ng pagkansela ay napapailalim sa %{cancellation_policy_label}Ang mga sumusunod ay mga halimbawa ng mga karaniwang uri ng mga dokumentong maaaring kailanganin: *   Katibayan ng pagkakakilanlan (halimbawa: pasaporte, driver's license, o national ID) *   Katibayan ng tirahan (halimbawa: utility bill o bank statement) *   Katibayan ng kita (halimbawa: payslip o tax return)",
         "location_billing_address_label": "Address ng pagsingil para sa lokasyon",
-        "use_location_shipping_address_label": "Gamitin ang shipping address ng lokasyon"
+        "use_location_shipping_address_label": "Gamitin ang shipping address ng lokasyon",
+        "name_on_card_label": "Pangalan sa card",
+        "card_expired": "Nag-expire na",
+        "card_verification_value_label": "Security code",
+        "card_issue_number_placeholder": "Numero ng isyu",
+        "crypto_payment_method": {
+          "description": "Ligtas na ikonekta ang iyong wallet. Hindi ibabahagi ang iyong balanse at address.",
+          "tooltip": "Hindi ibabahagi ang balanse at address ng iyong wallet, at ang hinihiling na halaga lamang ang maaaring ibawas.",
+          "cashback_descriptor": {
+            "one": "Matatanggap mo ang iyong cashback pagkatapos %{count} araw",
+            "other": "Matatanggap mo ang iyong cashback pagkatapos %{count} mga araw"
+          }
+        },
+        "card_expiry_date_explanation": "Petsa ng pagkapaso ng card sa format na: buwan, buwan, taon, taon",
+        "card_verification_value_explanation_other": "3-digit na security code sa likod ng iyong card",
+        "expiry_long": "(Magtatapos ang bisa %{month}Ang mga sumusunod ay mga halimbawa ng mga karaniwang uri ng mga dokumentong maaaring kailanganin: *   Katibayan ng pagkakakilanlan (halimbawa: pasaporte, driver's license, o national ID) *   Katibayan ng tirahan (halimbawa: utility bill, bank statement, o kontrata sa pag-upa) *   Katibayan ng kita (halimbawa: payslip, tax return, o employment contract)%{year})",
+        "card_security_vault_notice": "Kailangan namin ang iyong mga detalye para sa mga susunod na pagbabayad. Ligtas at naka-encrypt ang lahat ng transaksyon.",
+        "card_nickname_label": "Palayaw (opsyonal)",
+        "delete_customer_mandate_modal_cancel": "Kanselahin",
+        "card_verification_confirm": "Para sa layunin ng pag-verify, ilagay ang security code ng iyong card.",
+        "card_vaulted_company_location": "Na-save ang card para sa lokasyong ito",
+        "card_start_label": "Petsa ng paglabas (MM / YY)",
+        "card_change_label": "Pagbabago",
+        "expiry_short": "(Exp %{month}Ang mga sumusunod ay mga halimbawa ng mga karaniwang uri ng mga dokumentong maaaring kailanganin: *   Katibayan ng pagkakakilanlan (halimbawa: pasaporte, driver's license, o national ID) *   Katibayan ng tirahan (halimbawa: utility bill, bank statement, o kontrata sa pag-upa) *   Katibayan ng kita (halimbawa: payslip, tax return, o employment contract)%{year})",
+        "card_expiry_placeholder": "Petsa ng pagkapaso (MM / YY)",
+        "credit_card_start_year": "Taon ng pagsisimula",
+        "delete_customer_mandate_modal_title": "Tanggalin ang payment card na ito?",
+        "delete_customer_mandate_modal_confirm": "Alisin ang card",
+        "masked_digits_label": "•••• %{last_digits}",
+        "crypto_modal": {
+          "header": "Magbayad %{shop_name} %{total_price} USDC",
+          "error": {
+            "close": "isara",
+            "refresh": "I-refresh"
+          }
+        },
+        "delete_customer_mandate_modal_body": "Kung aalisin mo ang card na ito, kakailanganin mo itong idagdag muli bago ito gamitin sa mga pagbabayad.",
+        "card_expiration_year_label": "Taon ng pagkapaso",
+        "card_start_placeholder": "Petsa ng paglabas (MM / YY)",
+        "card_verification_value_explanation_amex": "4-digit na security code sa harap ng iyong card",
+        "card_issue_number_label": "Numero ng isyu",
+        "card_update_label": "I-update ang card",
+        "name_on_card_placeholder": "Pangalan sa card",
+        "card_expiry_label": "Petsa ng pagkapaso (MM / YY)",
+        "credit_card_start_month": "Buwan ng pagsisimula",
+        "card_verification_value_placeholder": "Security code",
+        "card_expiration_month_label": "Buwan ng pagkapaso",
+        "payment_method_saved": "Na-save ang paraan ng pagbabayad",
+        "bank_account_vaulted_company_location": "Bank account na naka-save para sa lokasyong ito",
+        "card_pay_with": "Magbayad gamit ang:",
+        "card_security_notice": "Ligtas at naka-encrypt ang lahat ng transaksyon.",
+        "card_information_notice": "Ligtas at naka-encrypt ang lahat ng transaksyon. Hindi kailanman iniimbak ang impormasyon ng credit card.",
+        "card_verification_value_explanation": "3-digit na security code na karaniwang matatagpuan sa likuran ng iyong card. Ang mga American Express card ay may 4-digit na code na nasa harapan.",
+        "paypal_disconnect": "Putulin ang koneksyon",
+        "ends_with_label": "nagtatapos sa %{last_digits}"
       },
       "order_payment_collection": {
         "order_review_and_pay": "Na-update ang iyong order. Suriin at magbayad upang kumpirmahin ang iyong order.",
@@ -678,7 +736,28 @@
           "tax_credential_use_mx": "Paggamit ng CFDI",
           "tax_credential_es": "DNI/NIF",
           "tax_credential_type_mx": "Sistema ng Pagbubuwis",
-          "tax_credential_tr": "Numero ng Pagkakakilanlan sa Republika ng Turkey/VAT"
+          "tax_credential_tr": "Numero ng Pagkakakilanlan sa Republika ng Turkey/VAT",
+          "shipping_credential_cl": "Nakagawiang Routine",
+          "shipping_credential_cn": "Numero ng ID ng residente",
+          "tax_credential_it": "Codice Fiscale (opsyonal)",
+          "shipping_credential_br": "CPF/CNPJ",
+          "shipping_credential_kr": "Personal na Kodigo sa Customs",
+          "tax_email_it": "PEC (opsyonal)",
+          "tax_credential_cl": "Nakagawiang Routine",
+          "shipping_credential_co": "Cedula/VAT",
+          "tax_credential_ec": "CI/RUC/IVA",
+          "shipping_credential_ec": "CI/RUC/IVA",
+          "tax_credential_gt": "NIT/IVA",
+          "tax_credential_co": "Cedula/VAT",
+          "shipping_credential_type_co": "Uri ng Sedula",
+          "shipping_credential_id": "NPWP",
+          "title": "Karagdagang impormasyon",
+          "tax_credential_type_co": "Uri ng Sedula",
+          "tax_credential_id": "NPWP",
+          "tax_credential_br": "CPF/CNPJ",
+          "tax_credential_cr": "Numero ng pagkakakilanlan/RUT",
+          "shipping_credential_cr": "Numero ng pagkakakilanlan/RUT",
+          "shipping_credential_gt": "NIT/IVA"
         }
       },
       "order_summary": {
@@ -1233,6 +1312,41 @@
         "incomplete_address": "Hindi kumpleto ang napiling address. %{update_address_link} o pumili ng ibang address.",
         "save_my_information_label": "I-save ang impormasyong ito para sa susunod",
         "rollup_label": "Account"
+      },
+      "shipping": {
+        "split_shipping_shipped_by_shop": "Ipinadala ng %{shop_name}",
+        "split_shipping_option_lowest_price": "Pinakamababang presyo",
+        "add_new_delivery_address": "Magdagdag ng bagong address para sa delivery",
+        "split_shipping_shipping_label": "Pamamaraan",
+        "split_shipping_first_shipment_notice": "Darating ang iyong unang order sa loob ng %{quantity_shipments}",
+        "split_shipping_multiple_shipment_notice_one_time_purchase": "Darating ang iyong order sa loob ng %{quantity} mga kargamento",
+        "add_shipping_address": "Magdagdag ng shipping address",
+        "choose_new_address": "Pumili ng bagong address",
+        "method_summary": {
+          "incomplete_address_selected": "Pumili ng kumpletong shipping address upang makita ang mga available na paraan ng pagpapadala."
+        },
+        "local_pickup": {
+          "search_address": "Maghanap ng address",
+          "rollup_title": "Lugar ng pagkuha",
+          "rollup_accessibility_label": "Mga opsyon sa lokasyon ng pagkuha"
+        },
+        "split_shipping_option_recommended": "Inirerekomenda",
+        "split_shipping_more_shipping_options": "Higit pang mga opsyon sa pagpapadala",
+        "split_shipping_option_free": "Libreng shipping",
+        "pre_order_ships_now": "Ipapadala na ngayon",
+        "pre_order_ships_date": "Mga barko %{date}",
+        "split_shipping_option_fastest": "Pinakamabilis",
+        "split_shipping_option_custom": "Pasadya",
+        "split_shipping_merchandise_quantity_label_standard": "%{quantity} mga gamit",
+        "split_shipping_merchandise_shipment_number": "Pagpapadala %{number} ng %{total}",
+        "split_shipping_shipment_number": "Pagpapadala %{number}",
+        "split_shipping_multiple_shipment_label": "Maramihang shipment",
+        "split_shipping_shipment_notice": "Darating ang iyong order sa loob ng %{quantity_shipments}",
+        "split_shipping_multiple_shipment_quantity_label": "%{quantity} mga kargamento",
+        "split_shipping_multiple_shipment_notice": "Ang iyong order ay darating sa pamamagitan ng ilang magkakahiwalay na shipment.",
+        "missing_shipping_address": "Wala ang shipping address",
+        "split_shipping_merchandise_quantity_label_additional": "+%{quantity} higit pa",
+        "pre_order_ships_later": "Ipapadala mamaya"
       }
     },
     "sentence": {
