@@ -146,7 +146,57 @@
         "payment_gateway_not_in_test_mode": "Hindi ito naka-set up para sa pagsubok ng mga order. Hindi makatatanggap ang tindahang ito ng mga totoong order o totoong bayad.",
         "payment_gateway_incompatible_with_multi_currency": "Upang makumpleto ang checkout na ito gamit ang iyong lokal na pera, kailangan mong magbayad gamit ang credit card.",
         "address_zip_invalid": "Maglagay ng wastong ZIP / postal code",
-        "split_by_delivery_method_requires_merchandise_from_single_location": "Ang paghahati batay sa paraan ng paghahatid ay nangangailangan na ang mga indibidwal na linya ng paninda ay maiproseso at maipadala mula sa iisang lokasyon."
+        "split_by_delivery_method_requires_merchandise_from_single_location": "Ang paghahati batay sa paraan ng paghahatid ay nangangailangan na ang mga indibidwal na linya ng paninda ay maiproseso at maipadala mula sa iisang lokasyon.",
+        "address_subdistrict_contains_mathematical_symbols": "Hindi maaaring maglaman ng mga simbolong matematikal ang subdistrict.",
+        "address_street_number_contains_html_tags": "Hindi maaaring maglaman ng mga HTML tag ang numero ng gusali.",
+        "address_address2_contains_emojis": "Hindi maaaring maglaman ng mga emoji ang Address2",
+        "address_district_contains_html_tags": "Hindi maaaring maglaman ng mga HTML tag ang distrito.",
+        "address_line2_contains_mathematical_symbols": "Hindi maaaring maglaman ng mga simbolong matematikal ang ikalawang linya ng address.",
+        "address_address2_too_long": "Masyadong mahaba ang ikalawang linya ng address (ang maximum ay 255 character)",
+        "address_address2_contains_mathematical_symbols": "Hindi maaaring maglaman ng mga simbolong matematikal ang ikalawang linya ng address.",
+        "address_neighborhood_contains_mathematical_symbols": "Hindi maaaring maglaman ng mga simbolong matematikal ang neighborhood.",
+        "address_colony_contains_emojis": "Hindi maaaring maglaman ng mga emoji ang colony.",
+        "address_street_number_too_long": "Masyadong mahaba ang numero ng gusali (ang maximum ay {{count}} mga tauhan)",
+        "address_street_number_contains_emojis": "Hindi maaaring maglaman ng mga emoji ang numero ng gusali.",
+        "address_line2_contains_html_tags": "Hindi maaaring maglaman ng mga HTML tag ang ikalawang linya ng address.",
+        "address_commune_contains_mathematical_symbols": "Hindi maaaring maglaman ng mga simbolong matematikal ang Commune.",
+        "address_district_contains_mathematical_symbols": "Hindi maaaring maglaman ng mga simbolong matematikal ang distrito.",
+        "address_address2_blank": "Pumasok sa isang apartment, suite, atbp.",
+        "address_address2_contains_html_tags": "Hindi maaaring maglaman ng mga HTML tag ang Address2.",
+        "address_colony_too_long": "Masyadong mahaba ang Colony (ang maximum ay {{count}} mga tauhan)",
+        "address_colony_contains_mathematical_symbols": "Hindi maaaring maglaman ng mga simbolong matematikal ang colony.",
+        "address_commune_blank": "Sumali sa isang komuna",
+        "address_street_number_blank": "Ilagay ang numero ng gusali",
+        "address_line2_too_long": "Masyadong mahaba ang ikalawang linya ng address (ang maximum ay {{count}} mga tauhan)",
+        "address_line2_contains_emojis": "Hindi maaaring maglaman ng mga emoji ang ikalawang linya ng address.",
+        "address_subdistrict_contains_html_tags": "Hindi maaaring maglaman ng mga HTML tag ang subdistrict.",
+        "address_ward_contains_mathematical_symbols": "Hindi maaaring maglaman ng mga simbolong matematikal ang Ward.",
+        "address_district_blank": "Pumasok sa isang distrito",
+        "address_district_too_long": "Masyadong mahaba ang distrito (ang maximum ay {{count}} mga tauhan)",
+        "address_subdistrict_too_long": "Masyadong mahaba ang subdistrict (ang maximum ay {{count}} mga tauhan)",
+        "address_ward_too_long": "Masyadong mahaba ang ward (ang maximum ay {{count}} mga tauhan)",
+        "address_ward_contains_html_tags": "Hindi maaaring maglaman ng mga HTML tag ang Ward.",
+        "address_line2_blank": "Pumasok sa isang apartment, suite, atbp.",
+        "address_barangay_contains_html_tags": "Hindi maaaring maglaman ng mga HTML tag ang Barangay.",
+        "address_commune_too_long": "Masyadong mahaba ang Commune (ang maximum ay {{count}} mga tauhan)",
+        "address_colony_contains_html_tags": "Hindi maaaring maglaman ng mga HTML tag ang Colony.",
+        "address_subdistrict_contains_emojis": "Hindi maaaring maglaman ng mga emoji ang subdistrict",
+        "address_barangay_blank": "Maglagay ng barangay",
+        "address_barangay_too_long": "Masyadong mahaba ang Barangay (ang maximum ay {{count}} mga tauhan)",
+        "address_barangay_contains_emojis": "Hindi maaaring maglaman ng mga emoji ang Barangay.",
+        "address_subdistrict_blank": "Maglagay ng subdistrito",
+        "address_ward_blank": "Pumasok sa isang ward",
+        "address_ward_contains_emojis": "Hindi maaaring maglaman ng mga emoji ang Ward.",
+        "address_barangay_contains_mathematical_symbols": "Hindi maaaring maglaman ng mga simbolong matematikal ang barangay.",
+        "address_colony_blank": "Pumasok sa isang kolonya",
+        "address_district_contains_emojis": "Hindi maaaring maglaman ng mga emoji ang distrito.",
+        "address_commune_contains_html_tags": "Hindi maaaring maglaman ng mga HTML tag ang Commune.",
+        "address_street_number_contains_mathematical_symbols": "Ang numero ng gusali ay hindi maaaring maglaman ng mga simbolong matematikal.",
+        "address_neighborhood_contains_emojis": "Hindi maaaring maglaman ng mga emoji ang neighborhood",
+        "address_commune_contains_emojis": "Hindi maaaring maglaman ng mga emoji ang Commune.",
+        "address_neighborhood_blank": "Pumasok sa isang kapitbahayan",
+        "address_neighborhood_too_long": "Masyadong mahaba ang neighborhood (ang maximum ay {{count}} mga tauhan)",
+        "address_neighborhood_contains_html_tags": "Hindi maaaring maglaman ng mga HTML tag ang neighborhood."
       },
       "billing": {
         "billing_address_title": "Singilin kay/kay",
@@ -334,7 +384,9 @@
           "header": "Magbayad %{shop_name} %{total_price} USDC",
           "error": {
             "close": "isara",
-            "refresh": "I-refresh"
+            "refresh": "I-refresh",
+            "web_component_error": "Nagkaroon ng problema sa pag-load ng pahinang ito.",
+            "sandbox_error": "May nagkaproblema"
           }
         },
         "delete_customer_mandate_modal_body": "Kung aalisin mo ang card na ito, kakailanganin mo itong idagdag muli bago ito gamitin sa mga pagbabayad.",
@@ -406,7 +458,61 @@
         "vipps_label": "Vipps",
         "usdc_cashback_title": "%{incentive_percentage}% na cashback",
         "usdc_cashback_terms": "May mga tuntunin at limitasyong ipinapatupad.",
-        "waiting_on_payment_methods": "Kinukuha ang mga available na paraan ng pagbabayad..."
+        "waiting_on_payment_methods": "Kinukuha ang mga available na paraan ng pagbabayad...",
+        "same_billing_address_label": "Katulad ng shipping address",
+        "free_order_notice_html": "<strong>Libre</strong> ang iyong order. Hindi kinakailangan ng bayad.",
+        "no_method_error": "Hindi makatanggap ng mga bayad ang tindahang ito sa ngayon.",
+        "shop_pay_ideal_unavailable_error": "Hindi available ang iDEAL | Wero para sa order na ito. Pumili ng ibang paraan ng pagbabayad.",
+        "payment_method_unavailable_error": "Hindi available ang paraan ng pagbabayad na ito sa ngayon. Pumili ng ibang paraan ng pagbabayad.",
+        "paypal_wallet_label": "PayPal Wallet",
+        "shop_pay_installments_label": "Shop Pay Installments",
+        "different_credit_card_label": "Gumamit ng ibang credit card",
+        "offsite_gateway_redirect_hint_no_button_label": "You'll be redirected to %{gateway_label} to complete your purchase.",
+        "billing_address_description_no_shipping_address": "Ilagay ang address na tumutugma sa iyong card o paraan ng pagbabayad.",
+        "not_configured_error": "Hindi makatanggap ng mga bayad ang tindahang ito sa ngayon.",
+        "missing_credit_card_error": "Ilagay ang mga detalye ng iyong card upang makumpleto ang pagbabayad.",
+        "different_billing_address_label": "Gumamit ng ibang billing address",
+        "billing_address_associated_with_mandate": "Gamitin ang address na nakaugnay sa paraan ng pagbabayad",
+        "order_covered_by_gift_cards_notice": {
+          "one": "Sasagutin ng iyong gift card ang iyong order.",
+          "other": "Sasagutin ng iyong mga gift card ang iyong order."
+        },
+        "sofort_label": "Sofort bank transfer",
+        "paypal_modal": {
+          "order_contains_fixed_selling_plans": "Maaaring hindi kasama sa kabuuang halaga ang mga buwis, bayad sa pagpapadala, mga ipinagpaliban na singil, at ilang diskwento. Magpatuloy sa checkout upang makita ang halagang dapat bayaran ngayon.",
+          "order_contains_subscriptions": "Subskripsyon"
+        },
+        "offsite_gateway_redirect_hint": "You'll be redirected to %{gateway_label} to complete your purchase.",
+        "billing_address_rollup_accessibility_label": "Mga opsyon sa billing address",
+        "card_fields_processing_error": "Nagkaroon ng problema sa pagproseso ng bayad. Subukang i-refresh ang pahinang ito o suriin ang iyong koneksyon sa internet.",
+        "billing_address_not_supported_for_payment_method_error": "Hindi magagamit ang paraan ng pagbabayad na ito para sa iyong billing address at currency. Subukan ang ibang paraan ng pagbabayad.",
+        "card_fields_container_prefix": "Lagayan ng field para sa:",
+        "card_fields_unavailable_html": {
+          "other": "Hindi available sa ngayon ang pagbabayad gamit ang credit at debit card.<br/> <a href=\"%{current_url}\">I-refresh ang pahinang ito</a> o subukan ang ibang paraan ng pagbabayad.",
+          "one": "Hindi available sa ngayon ang pagbabayad gamit ang credit at debit card.<br/> <a href=\"%{current_url}\">I-refresh ang pahinang ito</a> o subukan muli mamaya."
+        },
+        "generic_incorrect_card_info": "Hindi na-verify ang iyong mga detalye sa pagbabayad. Suriin ang mga detalye ng iyong card at subukang muli.",
+        "pay_with_credit_card": "Magbayad gamit ang credit card",
+        "express_checkout_free_order": "Hindi ka sisingilin para sa isang libreng order.",
+        "offsite_gateway_review_page_redirect_hint": "Pagkatapos mong suriin ang iyong order, dadalhin ka sa %{gateway_label} upang makumpleto ang iyong pagbili.",
+        "offsite_gateway_redirect_hint_multi_currency_html": "%{gateway_label} kabuuang bilang %{total_shop_price}",
+        "billing_address_title": "Address para sa pagsingil",
+        "default": "Default",
+        "klarna_pay_later_label": "Magbayad mamaya gamit ang Klarna",
+        "pay_with_payment_method": "Magbayad gamit ang %{payment_method}",
+        "receiver_payment_experience_hint": "Pagkatapos mong mag-order, matatanggap mo ang mga detalye sa pagbabayad. Magbayad sa Multibanco o online sa loob ng %{due_days} mga araw.",
+        "technical_error": "Hindi maiproseso ang mga bayad sa ngayon dahil sa isang teknikal na problema. Subukan muli pagkalipas ng ilang minuto.",
+        "bank_payment_method_label": "Paraan ng Pagbabayad sa Bangko",
+        "saved_by_payment_method": "Iniligtas ng %{payment_method}",
+        "billing_address_associated_with_mandate_info": "Kung nais mong baguhin ang iyong billing address, alisin at ilagay muli ang mga detalye ng iyong credit card.",
+        "billing_address_description": "Piliin ang address na tumutugma sa iyong card o paraan ng pagbabayad.",
+        "payment_method_not_available_for_shipping_address_error": "Hindi magagamit ang paraan ng pagbabayad para sa napiling shipping address. Pumili ng ibang paraan ng pagbabayad.",
+        "continue_to_guest_checkout": "Magpatuloy sa pag-checkout bilang guest",
+        "klarna_label": "Klarna",
+        "pay_with_debit_card": "Magbayad gamit ang debit card",
+        "no_js_credit_card_fields_redirect_hint": "Ire-redirect ka upang ilagay ang iyong impormasyon sa pagbabayad.",
+        "payment_method_loading_error": "Kasalukuyang naglo-load ang paraan ng pagbabayad na ito. Subukan muli pagkalipas ng ilang segundo.",
+        "paypal_label": "PayPal"
       },
       "order_payment_collection": {
         "order_review_and_pay": "Na-update ang iyong order. Suriin at magbayad upang kumpirmahin ang iyong order.",
@@ -2559,6 +2665,25 @@
       "email": "Email",
       "create_account": "Gumawa ng account",
       "alternate_provider_separator": "o"
+    }
+  },
+  "pagefly": {
+    "password_page": {
+      "login_form_message": "Pumasok sa tindahan gamit ang password:",
+      "login_form_submit": "Pumasok",
+      "signup_form_success": "Padadalhan ka namin ng email bago pa man kami magbukas!",
+      "login_form_password_label": "Password",
+      "password_link": "Pumasok gamit ang password",
+      "login_form_password_placeholder": "Ang iyong password",
+      "signup_form_email_label": "Email"
+    },
+    "comments": {
+      "success_moderated": "Matagumpay na na-post ang iyong komento. Ipo-publish namin ito sa ilang sandali, dahil dumadaan sa moderasyon ang aming blog.",
+      "comments_with_count": {
+        "other": "{{ count }} mga komento",
+        "one": "{{ count }} komento"
+      },
+      "success": "Matagumpay na na-post ang iyong komento! Salamat!"
     }
   }
 }
