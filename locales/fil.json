@@ -1062,5 +1062,131 @@
       "announcement_bar": "Bar ng anunsyo",
       "announcement": "Paunawa"
     }
+  },
+  "products": {
+    "product": {
+      "inventory_out_of_stock": "Wala nang stock",
+      "quantity": {
+        "decrease": "Bawasan ang dami para sa {{ product }}",
+        "multiples_of": "Mga dagdag na {{ quantity }}",
+        "in_cart_aria_label": "Dami ({{ quantity }}  nasa cart)",
+        "in_cart_html": "<span class=\"quantity-cart\">{{ quantity }}</span>nasa cart",
+        "label": "Dami",
+        "input_label": "Dami para sa {{ product }}",
+        "increase": "Dagdagan ang dami para sa {{ product }}",
+        "max_of": "Max {{ quantity }}",
+        "note": "Tingnan ang mga tuntunin sa dami",
+        "minimum_of": "Pinakamababa na {{ quantity }}",
+        "maximum_of": "Pinakamataas na {{ quantity }}",
+        "min_of": "Min {{ quantity }}"
+      },
+      "volume_pricing": {
+        "price_range": "{{ minimum }} Ang mga sumusunod ay mga halimbawa ng mga karaniwang uri ng mga dokumentong maaaring kailanganin: {{ maximum }}",
+        "title": "Pagpepresyo batay sa dami",
+        "minimum": "{{ quantity }}+",
+        "price_at_each_html": "at {{ price }}/ea",
+        "note": "May nakalaang presyo para sa bultuhang pagbili."
+      },
+      "media": {
+        "open_media": "Buksan ang media {{ index }} sa modal",
+        "play_model": "I-play ang 3D Viewer",
+        "image_available": "Larawan {{ index }} maaari nang gamitin sa gallery view",
+        "play_video": "I-play ang video",
+        "load_model": "I-load ang 3D model {{ index }} sa gallery view",
+        "gallery_viewer": "Tagatingin ng Gallery",
+        "load_image": "I-load ang imahe {{ index }} sa gallery view",
+        "load_video": "I-play ang video {{ index }} sa gallery view"
+      },
+      "pickup_availability": {
+        "view_store_info": "Tingnan ang impormasyon ng tindahan",
+        "check_other_stores": "Tingnan ang availability sa ibang mga tindahan",
+        "pick_up_available": "Maaaring kunin",
+        "pick_up_available_at_html": "Maaaring kunin sa<span class=\"color-foreground\">{{ location_name }}</span>",
+        "pick_up_unavailable_at_html": "Hindi muna maaaring mag-pickup sa<span class=\"color-foreground\">{{ location_name }}</span>",
+        "refresh": "I-refresh",
+        "unavailable": "Hindi ma-load ang availability para sa pickup"
+      },
+      "unavailable": "Hindi magagamit",
+      "value_unavailable": "{{ option_value }} - Hindi available",
+      "variant_sold_out_or_unavailable": "Naubos na o hindi available ang variant",
+      "share": "Ibahagi ang produktong ito",
+      "video_exit_message": "{{ title }} nagbubukas ng full-screen na video sa parehong window.",
+      "inventory_out_of_stock_continue_selling": "May stock",
+      "price": {
+        "unit_price": "Presyo bawat yunit",
+        "regular_price": "Karaniwang presyo",
+        "sale_price": "Presyong pang-sale",
+        "from_price_html": "Mula sa {{ price }}"
+      },
+      "on_sale": "Sale",
+      "view_full_details": "Tingnan ang kumpletong detalye",
+      "nested_label": "{{ title }} para sa {{ parent_title }}",
+      "vendor": "Nagbebenta",
+      "sold_out": "Ubos na",
+      "sku": "SKU",
+      "product_variants": "Mga baryasyon ng produkto"
+    }
+  },
+  "customer": {
+    "order": {
+      "cancelled_reason": "Dahilan: {{ reason }}",
+      "shipping_address": "Address ng Pagpapadala",
+      "discount": "Diskwento",
+      "tax": "Buwis",
+      "product": "Produkto",
+      "sku": "SKU",
+      "track_shipment": "Subaybayan ang shipment",
+      "quantity": "Dami",
+      "tracking_url": "Link sa pagsubaybay",
+      "billing_address": "Address para sa Pagsingil",
+      "total": "Kabuuan",
+      "fulfilled_at_html": "Natupad {{ date }}",
+      "total_duties": "Mga Tungkulin",
+      "fulfillment_status": "Katayuan ng Pagtupad",
+      "tracking_number": "Tracking number",
+      "title": "Umorder {{ name }}",
+      "payment_status": "Katayuan ng Pagbabayad",
+      "shipping": "Pagpapadala",
+      "price": "Presyo",
+      "total_refunded": "Naibalik na ang bayad",
+      "date_html": "Inilagay sa {{ date }}",
+      "cancelled_html": "Kinansela ang order noong {{ date }}",
+      "tracking_company": "Tagapagdala",
+      "subtotal": "Sub-total"
+    },
+    "orders": {
+      "payment_status": "Katayuan ng pagbabayad",
+      "total": "Kabuuan",
+      "order_number": "Umorder",
+      "date": "Petsa",
+      "fulfillment_status": "Katayuan ng pagtupad",
+      "order_number_link": "Numero ng order {{ number }}",
+      "none": "Wala ka pang inilalagay na order.",
+      "title": "Kasaysayan ng order"
+    },
+    "recover_password": {
+      "success": "Nagpadala kami sa iyo ng email na may link para i-update ang iyong password.",
+      "subtext": "Padadalhan ka namin ng email para i-reset ang iyong password.",
+      "title": "I-reset ang iyong password"
+    },
+    "register": {
+      "last_name": "Apelyido",
+      "email": "Email",
+      "title": "Gumawa ng account",
+      "first_name": "Pangalan",
+      "password": "Password"
+    },
+    "login_page": {
+      "password": "Password",
+      "title": "Mag-log in",
+      "guest_continue": "Magpatuloy",
+      "sign_in": "Mag-sign in",
+      "submit": "Isumite",
+      "guest_title": "Magpatuloy bilang bisita",
+      "forgot_password": "Nakalimutan ang iyong password?",
+      "email": "Email",
+      "create_account": "Gumawa ng account",
+      "alternate_provider_separator": "o"
+    }
   }
 }
