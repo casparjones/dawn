@@ -743,7 +743,67 @@
         "full_price": "Buong presyo: %{price}",
         "alternative_payment_currency_total": "Sinampahan ng kasong %{amount_due}",
         "gift_card_masked": "•••• %{last_characters}",
-        "deferred_total_due_date_label_next": "Dapat bayaran %{date}"
+        "deferred_total_due_date_label_next": "Dapat bayaran %{date}",
+        "customer_does_not_meet_discount_requirements_notice": "<strong style=\"text-transform:uppercase\">%{code}</strong>Hindi available sa iyo ang discount code sa ngayon.",
+        "no_pickup_location": "Walang mga lokasyon ng pickup na available.",
+        "estimated_taxes_label": "Tinatayang buwis",
+        "total_savings": "Kabuuang ipon",
+        "eligible_customer_missing_notice": "<strong style=\"text-transform:uppercase\">%{code}</strong>Ang discount code ay nangangailangan ng kwalipikadong customer.",
+        "subtotal_label": "Sub-total",
+        "tax_line": {
+          "hst": "HST",
+          "gst": "GST",
+          "rst": "RST",
+          "pst": "PST",
+          "vpt": "VPT",
+          "qst": "QST"
+        },
+        "order_total_label": "Kabuuang Halaga ng Order",
+        "total_paid_label": "Kabuuang halagang ibinayad",
+        "total_price_label": "Kabuuang presyo",
+        "customer_already_used_once_per_customer_discount_notice": "Ang<strong style=\"text-transform:uppercase\">%{code}</strong> Nagamit na ang discount code.",
+        "pickup_unavailable_banner_title_with_country": {
+          "other": "Walang mga tindahang available sa %{country} kasama ang iyong mga gamit",
+          "one": "Walang mga tindahang available sa %{country} kasama ang iyong gamit"
+        },
+        "pickup_unavailable_banner_body": {
+          "ship_to_address_instead_html": "%{link} sa halip",
+          "ship_to_address": "Address na pagpapadalhan"
+        },
+        "estimated_taxes_label_short": "Tinataya",
+        "price_after_discount_aria_text": "Presyong may diskwento",
+        "total_label": "Kabuuan",
+        "price_before_discount_aria_text": "Orihinal na presyo",
+        "shipping_information_does_not_meet_discount_requirements_notice": "<strong style=\"text-transform:uppercase\">%{code}</strong>Hindi magagamit ang discount code para sa iyong shipping address.",
+        "subtotal_label_with_quantity": {
+          "other": "Sub-total· %{count} mga gamit",
+          "one": "Sub-total· %{count} bagay"
+        },
+        "calculating_shipping": "Nagkakalkula…",
+        "shipping_discount_title": "Diskwento sa Pagpapadala",
+        "shipping_pending_value": "—",
+        "discount_already_applied": "Nilapatan na ng diskwento ang order na ito. Hindi ka na maaaring magdagdag ng isa pang diskwento.",
+        "shipping_label": "Pagpapadala",
+        "tip_label": "Payo",
+        "shipping_policy_link": "Gastos sa pagpapadala",
+        "information_estimated_taxes_label": "Mga buwis (tinatayang)",
+        "estimated_taxes_finalization_tooltip_content": "Ang pinal na halaga ng buwis at kabuuang babayaran ay kukumpirmahin sa pamamagitan ng email o text matapos mong ilagay ang iyong order.",
+        "cart_does_not_meet_discount_requirements_notice": "<strong style=\"text-transform:uppercase\">%{code}</strong>Hindi valid ang discount code para sa mga item sa iyong cart.",
+        "pickup_label": "Kunin sa tindahan",
+        "unconfirmed_label": "Hindi pa kumpirmado",
+        "calculating": "Nagkakalkula…",
+        "total_outstanding_label": "Halagang babayaran",
+        "total_due_label": "Kabuuang halagang dapat bayaran",
+        "estimated_taxes_finalization_tooltip_content_short": "Pinal na ang buwis matapos ang pagbabayad",
+        "discount_requires_customer_notice": "Ilagay ang iyong impormasyon sa pagpapadala upang mailapat ang<strong style=\"text-transform:uppercase\">%{code}</strong> discount code",
+        "pickup_unavailable_banner_title": {
+          "one": "Walang tindahang mayroon ng iyong item",
+          "other": "Walang available na tindahan para sa iyong mga item"
+        },
+        "shipping_default_value": "Kakalkulahin sa susunod na hakbang",
+        "shipping_pending_message": "Hindi pa available",
+        "taxes_label": "Mga Buwis",
+        "discount_code_aria_text": "Discount code"
       },
       "thank_you": {
         "confirmation_email_sent_text": "Isang confirmation email ang ipinadala sa %{email}",
@@ -1263,11 +1323,85 @@
         "list_item_accessibility_label": "{{name}}: {{address}}",
         "list_item_without_address_accessibility_label": "{{name}}: Walang address",
         "list_loading_address_accessibility_message": "Inilo-load ang address para sa {{locationName}}",
-        "list_loading_finished_accessibility_message": "Na-load na ang listahan ng mga lokasyon."
+        "list_loading_finished_accessibility_message": "Na-load na ang listahan ng mga lokasyon.",
+        "selection_confirmation_button": "Pumili ng lokasyon",
+        "title_choose_location": "Pumili ng lokasyon",
+        "title": "Para saang lokasyon ka bibili?",
+        "clear_search": "Linisin ang paghahanap",
+        "selection_continue_button": "Magpatuloy",
+        "no_location_description": "Wala ka nang pahintulot na mag-order para sa {{company}}. Maaari ka pa ring mag-order para sa personal na gamit.",
+        "no_locations_found": "Walang nahanap na lokasyon",
+        "try_new_search": "Subukan ang bagong paghahanap",
+        "search": "Maghanap ng mga lokasyon",
+        "search_location_title": "Pumili ng lokasyon",
+        "selection_cancel_button": "Kanselahin"
       },
       "account_information": {
         "company_card_name_label": "Pangalan ng kumpanya",
         "company_card_section_accessibility_label": "Kumpanya"
+      },
+      "orders": {
+        "draft_order_list": {
+          "title": "Nakabinbin",
+          "hide_all": "Itago ang lahat",
+          "show_all_orders_in_review": "Ipakita ang lahat ng order na sinusuri",
+          "pending_orders_count_more_than_pagination_length": "{{count}}+",
+          "show_less_orders_in_review": "Magpakita ng mas kaunting mga order na sinusuri",
+          "pending_tab_accessibility_label": {
+            "more_than_pagination_length": "Mayroon kang higit sa {{count}} mga nakabinbing order",
+            "pending_orders": {
+              "one": "Mayroon ka {{count}} nakabinbing order",
+              "other": "Mayroon ka {{count}} mga nakabinbing order"
+            },
+            "no_pending_orders": "Wala kang mga nakabinbing order."
+          },
+          "show_all": "Ipakita ang lahat",
+          "show_all_accessibility_label": "Ipakita ang lahat ng order na sinusuri",
+          "hide_all_accessibility_label": "Itago ang lahat ng order na sinusuri",
+          "pagination": {
+            "nav_accessibility_label": "Mga button ng nabigasyon para sa mga order na sinusuri"
+          }
+        },
+        "order_list_column_headers_location": "Lokasyon",
+        "order_list_column_headers_status": "Katayuan",
+        "removed_company_contact_tooltip": "Tinanggal sa kumpanya",
+        "order_list_column_headers_contact": "Makipag-ugnayan"
+      },
+      "draft_order_details": {
+        "payment_status": {
+          "pending": {
+            "banner_overdue": {
+              "other": "Ang iyong bayad ay {{count}} ilang araw na lampas sa takdang panahon",
+              "one": "Ang iyong bayad ay {{count}} lumampas na sa takdang araw"
+            },
+            "banner_due": {
+              "one": "Ang iyong bayad ay kailangang bayaran sa loob ng {{count}} araw",
+              "other": "Ang iyong bayad ay kailangang bayaran sa loob ng {{count}} mga araw"
+            },
+            "banner_due_today_for_multiple_fulfillments": "Dapat bayaran ngayon para sa {{count}} mga katuparan",
+            "banner_due_today": "Ang iyong bayad ay kailangang bayaran ngayon.",
+            "banner_overdue_for_single_fulfillment": {
+              "one": "{{amount}} ang bayad ay {{count}} Lumampas na sa takdang araw. {{link}}"
+            },
+            "banner_due_today_for_single_fulfillment": "{{amount}} Ang bayad ay dapat bayaran ngayon. {{link}}"
+          }
+        },
+        "loading": "Inilo-load ang mga detalye ng order",
+        "loading_finished_accessibility_message": "Na-load na ang mga detalye ng order.",
+        "draft_order_subtitle": "Nakumpirma {{date}} mula sa order {{draftOrderName}}"
+      },
+      "addresses": {
+        "add_shipping_address_button": "Magdagdag ng shipping address",
+        "add_shipping_address_section_accessibility_label": "Magdagdag ng shipping address",
+        "save_new_shipping_address_accessibility_label": "I-save ang shipping address",
+        "cancel_adding_billing_address_accessibility_label": "Kanselahin ang pagdaragdag ng billing address",
+        "add_billing_address_button": "Magdagdag ng billing address",
+        "cancel_adding_shipping_address_accessibility_label": "Kanselahin ang pagdaragdag ng shipping address",
+        "save_new_billing_address_accessibility_label": "I-save ang billing address",
+        "no_billing_address_banner": "Walang idinagdag na billing address",
+        "add_billing_address_section_accessibility_label": "Magdagdag ng billing address",
+        "billing_address_card_title": "Address para sa pagsingil",
+        "shipping_address_card_title": "Address na pagpapadalhan"
       }
     },
     "order_details": {
