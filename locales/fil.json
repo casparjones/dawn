@@ -177,7 +177,79 @@
         "detected_card_brand": "Natukoy na brand ng card: {brand}",
         "credit_card_vaulting_sign_in_banner_button_label": "Mag-log in",
         "network_card_payment_options": "Pumili ng card network",
-        "apply_gift_card_button_label": "Mag-apply"
+        "apply_gift_card_button_label": "Mag-apply",
+        "store_credit": {
+          "apply_label": "Gamitin ang store credit",
+          "add_label": "Magdagdag ng store credit",
+          "label": "Store credit",
+          "buying_gift_card": "Hindi ka maaaring gumamit ng store credit para bumili ng gift card.",
+          "no_fixed_selling_plans": "Hindi ka maaaring gumamit ng store credit kasabay ng mga opsyon sa pagbiling ipinagpaliban ang bayad.",
+          "manage_label": "Pamahalaan ang store credit"
+        },
+        "billing_must_match_shipping_notice": "Ang billing address ng iyong paraan ng pagbabayad ay dapat tumugma sa shipping address.",
+        "location_shipping_address_label": "Lokasyon ng shipping address",
+        "google": {
+          "connect": "I-click upang ikonekta ang iyong Google Pay account",
+          "error_authorizing": "Nagkaroon ng error sa pag-awtorisa ng bayad"
+        },
+        "account_connected": "Nakakonekta na ang account.",
+        "pending_payment": {
+          "due_notice": "Ang iyong bayad na %{amount_due} dapat bayaran sa %{due_date}Ang mga sumusunod ay mga halimbawa ng mga karaniwang uri ng mga dokumentong maaaring kailanganin: *   Katibayan ng pagkakakilanlan (halimbawa: pasaporte, driver's license, o national ID) *   Katibayan ng tirahan (halimbawa: utility bill o bank statement) *   Katibayan ng kita (halimbawa: payslip o tax return)",
+          "multibanco": {
+            "instruction_html": "Magbayad sa Multibanco o online gamit ang mga detalye sa ibaba. Para sa mga katanungan o upang i-update ang mga detalye ng pagbabayad, %{contact_us}Ang mga sumusunod ay mga halimbawa ng mga karaniwang uri ng mga dokumentong maaaring kailanganin: *   Katibayan ng pagkakakilanlan (halimbawa: pasaporte, driver's license, o national ID) *   Katibayan ng tirahan (halimbawa: utility bill o bank statement) *   Katibayan ng kita (halimbawa: payslip o tax return)",
+            "reference": "Sanggunian",
+            "amount": "Halaga",
+            "find_nearest_atm": "Hanapin ang pinakamalapit na ATM",
+            "buyer_action_info": "Ang iyong bayad na %{amount_due} kailangan nang bayaran / nakatakda na",
+            "entity": "Entidad"
+          },
+          "oxxo": {
+            "expiry_date_time": "%{date} at %{time}",
+            "pay": "Magbayad %{amount}"
+          }
+        },
+        "use_order_billing_address_label": "Gamitin ang billing address ng order",
+        "no_working_method_error": "Hindi makatanggap ng mga bayad ang tindahang ito sa ngayon. I-refresh ang pahinang ito o bumalik na lang mamaya.",
+        "card_fields": {
+          "errors": {
+            "required": {
+              "issue_date": "Maglagay ng wastong petsa ng paglabas",
+              "issue_number": "Maglagay ng wastong numero ng isyu"
+            },
+            "invalid": {
+              "verification_value": "Maglagay ng wastong CVV o security code"
+            }
+          }
+        },
+        "clear": "Malinaw",
+        "billing_address_invalid_phone": "I-update ang numero ng telepono sa iyong billing address para sa {{label}} {{last_digits}}  upang magpatuloy.",
+        "order_covered_by_redeemables_notice": "Sakop ang iyong order.",
+        "use_location_billing_address_label": "Gamitin ang billing address ng lokasyon",
+        "shipping_rate_updated": "Na-update na ang mga available na paraan ng pagpapadala. Kumpirmahin ang iyong napili bago mag-checkout.",
+        "billing_address_invalid_phone_no_card": "I-update ang numero ng telepono sa iyong billing address upang magpatuloy.",
+        "business_customer_with_bank_account_vaulting_payment_label": "I-save ang paraan ng pagbabayad na ito sa checkout at mag-authorize %{company} upang ibawas sa iyong account ang halaga ng mga susunod na pagbiling aaprubahan mo para sa lokasyong ito, hangga't hindi mo ito kinakansela. Maaaring gamitin ng lahat ng contact na nakatalaga sa lokasyong ito ang paraan ng pagbabayad.",
+        "purchase_options_cancellation_policy_label": "patakaran sa pagkansela",
+        "order_covered_by_store_credit_notice": "Sakop ng iyong store credit ang iyong order.",
+        "brand_not_available": "Hindi tumatanggap ang tindahang ito ng {{brand}}. Gumamit ng ibang card pambayad.",
+        "vaulting_agreement_label": "I-save ang impormasyon ng aking pagbabayad sa %{company} para sa mas mabilis na checkout",
+        "fact_billing_address_label": "Address para sa pagsingil",
+        "preview_not_available": {
+          "title": "Hindi available ang preview",
+          "button": "Sige",
+          "content": "Huwag mag-alala, ang express checkout na ito ay angkop para sa iyong mga customer."
+        },
+        "simulated_checkout": "Malapit na ang preview",
+        "simulated_express_checkout": "Hindi magagamit ang mga wallet sa preview ng editor dahil sa iyong rehiyon o browser.",
+        "apple": {
+          "not_available": "Hindi magagamit ang Apple Pay sa browser na ito. Para mai-connect ang iyong Apple Pay account, kailangan mong gamitin ang Safari sa isang Apple device."
+        },
+        "update_payment_method": "I-update ang paraan ng pagbabayad",
+        "same_billing_address_checkbox_label": "Gamitin ang shipping address bilang billing address",
+        "mor_disclaimer_html": "Sa pag-click sa ibaba at pagkumpleto ng iyong order, sumasang-ayon kang bilhin ang iyong (mga) produkto mula sa Global-e bilang merchant of record.\npara sa transaksyong ito, batay sa <a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{mor_terms}\" href=\"%{terms_href}\">Mga Tuntunin at Kundisyon</a> ng Global-e\nat <a data-modal=\"true\" data-title-text=\"%{privacy_policy}\" class=\"link--small\" href=\"%{policy_href}\">Patakaran sa Privacy</a>. Ang Global-e ay isang internasyonal\ntagapagbigay ng serbisyo sa pagtupad ng order para sa %{shop_name}",
+        "business_customer_vaulting_payment_label": "I-save ang paraan ng pagbabayad na ito sa checkout at mag-authorize %{company} upang gamitin ito sa pagbabayad para sa mga susunod na pagbili sa lokasyong ito. Maaaring gamitin ng lahat ng contact na nakatalaga sa lokasyong ito ang paraan ng pagbabayad.",
+        "purchase_options_and_vaulting_agreement_label": "Ang isa o higit pang item sa iyong cart ay isang deferred purchase o subscription. Sa pagpapatuloy ng iyong pagbabayad, sumasang-ayon kang awtomatikong sisingilin ang iyong paraan ng pagbabayad batay sa presyo at dalas na nakasaad sa pahinang ito hanggang sa matapos ang serbisyo o ikaw ay magkansela. Ang lahat ng pagkansela ay napapailalim sa %{cancellation_policy_label}Ang mga sumusunod ay mga halimbawa ng mga karaniwang uri ng mga dokumentong maaaring kailanganin: *   Katibayan ng pagkakakilanlan (halimbawa: pasaporte, driver's license, o national ID) *   Katibayan ng tirahan (halimbawa: utility bill o bank statement) *   Katibayan ng kita (halimbawa: payslip o tax return)",
+        "location_billing_address_label": "Address ng pagsingil para sa lokasyon",
+        "use_location_shipping_address_label": "Gamitin ang shipping address ng lokasyon"
       },
       "order_payment_collection": {
         "order_review_and_pay": "Na-update ang iyong order. Suriin at magbayad upang kumpirmahin ang iyong order.",
@@ -389,7 +461,37 @@
       },
       "payment_gateway": {
         "credit_card_label": "Credit card",
-        "bogus_label": "Test Payment Gateway"
+        "bogus_label": "Test Payment Gateway",
+        "money_order_label": "Money Order",
+        "debit_card_label": "Debit card",
+        "bank_deposit_label": "Deposito sa bangko",
+        "fixed_payment_label": "Ang iyong bayad ay dapat bayaran sa {{dueDate}}Ang mga sumusunod ay mga halimbawa ng mga karaniwang uri ng mga dokumentong maaaring kailanganin: *   Katibayan ng pagkakakilanlan (halimbawa: pasaporte, driver's license, o national ID) *   Katibayan ng tirahan (halimbawa: utility bill o bank statement) *   Katibayan ng kita (halimbawa: payslip o tax return)",
+        "direct_payment_terms": "Ikaw na ang bahala {{translatedName}} mga tuntunin. Sisingilin ang iyong card sa {{dueDate}}Ang mga sumusunod ay mga halimbawa ng mga karaniwang uri ng mga dokumentong maaaring kailanganin: *   Katibayan ng pagkakakilanlan (halimbawa: pasaporte, driver's license, o national ID) *   Katibayan ng tirahan (halimbawa: utility bill o bank statement) *   Katibayan ng kita (halimbawa: payslip o tax return)",
+        "order_due_on_fulfillment_choose_later": "Kailangang bayaran ang iyong order kapag naisakatuparan na ito.",
+        "order_due_on_fulfillment_payment": "Sisingilin ang iyong card kapag naisakatuparan na ang iyong order.",
+        "draft_order_payment_due_on_fulfillment": "Kailangang bayaran ang iyong order kapag ito ay nakumpirma at naisakatuparan na.",
+        "bank_account_label": "Bank account",
+        "credit_or_debit_card_label": "Credit/Debit",
+        "cash_on_delivery_label": "Pagbabayad sa Paghahatid (COD)",
+        "fixed_direct_payment_terms": "Sisingilin ang iyong card sa {{dueDate}}Ang mga sumusunod ay mga halimbawa ng mga karaniwang uri ng mga dokumentong maaaring kailanganin: *   Katibayan ng pagkakakilanlan (halimbawa: pasaporte, driver's license, o national ID) *   Katibayan ng tirahan (halimbawa: utility bill o bank statement) *   Katibayan ng kita (halimbawa: payslip o tax return)",
+        "draft_order_payment_due_later_terms": "Mapapasalang ka {{translatedName}} mga tuntunin kapag nakumpirma na ang iyong order.",
+        "draft_order_deposit_due_later": "{{depositAmount}} ay kailangang bayaran kapag nakumpirma na ang iyong order. Ang natitirang balanse ay sa {{translatedName}} mga tuntunin.",
+        "order_deposit_due_on_fixed_date": "{{depositAmount}} ay dapat bayaran ngayon. Ang natitirang balanse ay dapat bayaran sa {{dueDate}}Ang mga sumusunod ay mga halimbawa ng mga karaniwang uri ng mga dokumentong maaaring kailanganin: *   Katibayan ng pagkakakilanlan (halimbawa: pasaporte, driver's license, o national ID) *   Katibayan ng tirahan (halimbawa: utility bill o bank statement) *   Katibayan ng kita (halimbawa: payslip o tax return)",
+        "login_prompt": {
+          "no_access": {
+            "message": "{{logIn}} sa isang account na may access sa lokasyong ito upang magdagdag o gumamit ng mga naka-save na paraan ng pagbabayad.",
+            "link": "Mag-log in"
+          }
+        },
+        "draft_order_payment_due_later_no_terms": "Kailangang bayaran ang iyong order kapag nakumpirma na ito.",
+        "deferred_payment_label": "Pumili ng paraan ng pagbabayad mamaya",
+        "order_due_on_receipt_choose_later": "Dapat bayaran ang iyong bayarin sa oras ng pagtanggap.",
+        "order_deposit_due_now": "{{depositAmount}} ay kailangang bayaran ngayon. Ang balanse ay nasa {{translatedName}} mga tuntunin at dapat bayaran sa {{dueDate}}Ang mga sumusunod ay mga halimbawa ng mga karaniwang uri ng mga dokumentong maaaring kailanganin: *   Katibayan ng pagkakakilanlan (halimbawa: pasaporte, driver's license, o national ID) *   Katibayan ng tirahan (halimbawa: utility bill o bank statement) *   Katibayan ng kita (halimbawa: payslip o tax return)",
+        "order_deposit_due_on_receipt": "{{depositAmount}} ay kailangang bayaran ngayon. Ang natitirang halaga ay kailangang bayaran sa ibang pagkakataon.",
+        "draft_order_deposit_due_on_fulfillment": "{{depositAmount}} Kailangang bayaran ito kapag nakumpirma na ang iyong order. Ang natitirang balanse ay babayaran naman kapag naisakatuparan na ang iyong order.",
+        "generic_payment_terms": "Ikaw na ang bahala {{translatedName}} mga tuntunin. Ang iyong bayad ay dapat bayaran sa {{dueDate}}Ang mga sumusunod ay mga halimbawa ng mga karaniwang uri ng mga dokumentong maaaring kailanganin: *   Katibayan ng pagkakakilanlan (halimbawa: pasaporte, driver's license, o national ID) *   Katibayan ng tirahan (halimbawa: utility bill o bank statement) *   Katibayan ng kita (halimbawa: payslip o tax return)",
+        "order_deposit_due_on_fulfillment": "{{depositAmount}} ay dapat bayaran ngayon. Ang natitirang balanse ay dapat bayaran kapag naisakatuparan na ang iyong order.",
+        "draft_order_payment_due_later_no_terms_payment_selected": "Sisingilin ang iyong card kapag nakumpirma na ang iyong order."
       },
       "marketplaces": {
         "legal_notice": {
@@ -561,6 +663,104 @@
           "tax_credential_type_mx": "Sistema ng Pagbubuwis",
           "tax_credential_tr": "Numero ng Pagkakakilanlan sa Republika ng Turkey/VAT"
         }
+      },
+      "order_summary": {
+        "deferred_payment_info": {
+          "title": "Pagbabayad ng %{amount_due} dapat bayaran sa %{due_at}",
+          "paid_today_next": "Binayaran ngayong araw",
+          "due_on_receipt_title": "Pagbabayad ng %{amount_due} dapat bayaran pagkatanggap",
+          "paid_today": "Kabuuang halagang ibinayad ngayong araw",
+          "description_html": "Para sa mga katanungan tungkol sa iyong order, %{contact_us}Ang mga sumusunod ay mga halimbawa ng mga karaniwang uri ng mga dokumentong maaaring kailanganin: *   Katibayan ng pagkakakilanlan (halimbawa: pasaporte, driver's license, o national ID) *   Katibayan ng tirahan (halimbawa: utility bill o bank statement) *   Katibayan ng kita (halimbawa: payslip o tax return)",
+          "due_on_fulfillment_title": "Pagbabayad ng %{amount_due} dapat bayaran sa oras ng pagtupad"
+        },
+        "payment_terms_totals": {
+          "due_later": "Total due %{due_at}",
+          "due_on_fulfillment": "Kabuuang halagang dapat bayaran sa pagtupad",
+          "due_later_checkout_to_draft": "Kabuuang halagang babayaran sa ibang pagkakataon",
+          "due_today_next": "Dapat bayaran o ipasa ngayon",
+          "total_paid": "Kabuuang halagang ibinayad",
+          "due_on_fulfillment_next": "Babayaran sa oras ng pagtupad",
+          "due_today": "Kabuuang halagang dapat bayaran ngayon",
+          "due_on_receipt": "Kabuuang halagang dapat bayaran pagkatanggap"
+        },
+        "custom_discount": "Espesyal na diskwento",
+        "expand_component_information": {
+          "one": "Ipakita %{count} bagay",
+          "other": "Ipakita %{count} mga gamit"
+        },
+        "discount_discovery": {
+          "merchandise_quantity_label": {
+            "one": "%{count} bagay",
+            "other": "%{count} mga gamit"
+          },
+          "back_to_finalize_order": "Bumalik para tapusin ang order",
+          "add_code": "Magdagdag ng diskwento"
+        },
+        "duties_and_taxes_label": "Mga tungkulin at buwis",
+        "error_duties_tooltip": "Ang order na ito ay ipinapadala mula sa ibang bansa, kaya maaaring singilin ang mga tungkulin (duties) at buwis sa oras ng paghahatid.",
+        "collapse_component_information": {
+          "one": "Itago %{count} bagay",
+          "other": "Itago %{count} mga gamit"
+        },
+        "component_quantity_title": "%{quantity} × %{product_title}",
+        "due_on_fulfillment": "Babayaran sa oras ng pagtupad",
+        "updated_shipping_method": "Na-update na paraan ng pagpapadala: %{shipping_method}",
+        "maximum_discount_code_limit_reached": "Naabot mo na ang maximum na bilang ng mga discount code. Mag-alis ng kasalukuyang code para makagamit.<strong style=\"text-transform:uppercase\">%{code}</strong> Ang mga sumusunod ay mga halimbawa ng mga karaniwang uri ng mga dokumentong maaaring kailanganin: *   Katibayan ng pagkakakilanlan (halimbawa: pasaporte, driver's license, o national ID) *   Katibayan ng tirahan (halimbawa: utility bill o bank statement) *   Katibayan ng kita (halimbawa: payslip o tax return)",
+        "deferred_total_due_date_label": "Total due {{date}}",
+        "lpm": {
+          "wechat_pay": {
+            "post_purchase_disclosure": "Tingnan ang kabuuang halaga sa CNY sa WeChat",
+            "checkout_disclosure_with_alternative_payment_currency": "%{shop_name} ipoproseso ang bayad na ito bilang %{amount_due} %{processing_currency}, na ikino-convert ng WeChat sa CNY",
+            "checkout_disclosure": "Kumpirmahin ang pinal na kabuuang halaga sa CNY sa WeChat app.",
+            "checkout_disclosure_charged_in_cny": "%{shop_name} ipoproseso ang bayad na ito bilang %{amount_due} %{processing_currency}"
+          },
+          "alipay": {
+            "checkout_disclosure_with_alternative_payment_currency": "%{shop_name} ipoproseso ang bayad na ito bilang %{amount_due} %{processing_currency}, na ikinokonberte ng Alipay sa CNY",
+            "checkout_disclosure": "Kumpirmahin ang pinal na kabuuang halaga sa CNY sa Alipay app."
+          }
+        },
+        "may_be_charged_on_delivery": "Maaaring singilin sa oras ng paghahatid",
+        "recurring_payments": "Mga Paulit-ulit na Pagbabayad",
+        "recurring_total_multiple_label": "Ang order na ito ay may paulit-ulit na singil para sa maraming item.",
+        "deferred_balance_info": {
+          "title": "Balanse ng {{amount_due}} dapat bayaran sa {{due_at}}",
+          "due_on_fulfillment_title": "Balanse ng {{amount_due}} dapat bayaran sa oras ng pagtupad"
+        },
+        "duties_label": "Mga Tungkulin",
+        "total_updated_label_with_price": "Na-update na kabuuang presyo: %{totalPrice}",
+        "subscriptions": "Mga Subskripsyon",
+        "alternative_payment_currency_chinese_yuan": "Kumpirmahin ang pinal na kabuuang halaga sa CNY sa %{wallet} app.",
+        "discount_code_application_failed": "<strong style=\"text-transform:uppercase\">%{code}</strong>Hindi gumagana sa ngayon. Makipag-ugnayan sa amin para sa tulong.",
+        "full_price": "Buong presyo: %{price}",
+        "alternative_payment_currency_total": "Sinampahan ng kasong %{amount_due}",
+        "gift_card_masked": "•••• %{last_characters}",
+        "deferred_total_due_date_label_next": "Dapat bayaran %{date}"
+      },
+      "thank_you": {
+        "confirmation_email_sent_text": "Isang confirmation email ang ipinadala sa %{email}",
+        "print_link_label": "Mag-print ng resibo",
+        "shipping_information_title": "Impormasyon sa pagpapadala",
+        "page_title": "Salamat, %{display_name}!",
+        "purchase_order_number_title": "Numero ng PO #%{purchase_order_number}",
+        "customer_information_title": "Mga detalye ng order",
+        "shipping_address_map_title": "Google map na nagpapakita ng lokasyon ng shipping address: %{address}",
+        "tracking_number": "Tracking number:",
+        "estimated_arrival": "Inaasahang petsa ng paghahatid: ",
+        "failed_pending_payment_page_title": "May problema sa iyong pagbabayad.",
+        "payment_information_title": "Impormasyon sa pagbabayad",
+        "cashback_notice": "Matatanggap mo ang iyong cashback pagkalipas ng 30 araw.",
+        "cancelled_page_title": "Kinansela ang order",
+        "shipping_method_title": "Paraan ng pagpapadala",
+        "return_to_store_link_label": "Magpatuloy sa pamimili",
+        "title": "Salamat sa iyong pagbili!",
+        "company_location_title": "Lokasyon",
+        "billing_address_title": "Address para sa pagsingil",
+        "payment_method_not_charged": "Hindi siningil",
+        "page_title_no_name": "Salamat!",
+        "contact_information_title": "Impormasyon sa pakikipag-ugnayan",
+        "shipping_address_title": "Address na pagpapadalhan",
+        "payment_method_title": "Paraan ng pagbabayad",
+        "company_tracking_number": "%{company} tracking number:"
       }
     },
     "sentence": {
