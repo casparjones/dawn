@@ -217,6 +217,136 @@
       },
       "notifications": {
         "title": "Mga Notipikasyon"
+      },
+      "payment_errors": {
+        "test_mode_enabled_only_test_cards": "Naka-enable ang test mode; mga test credit card lamang ang maaaring idagdag.",
+        "successful_offsite_with_gift_card_error": "Nagkaroon ng problema sa pagproseso ng iyong pagbabayad gamit ang gift card. Subukan muli o gumamit ng ibang paraan ng pagbabayad.",
+        "development_store_with_order_limit": "Para makapag-place ng test order, kakailanganin mong gumamit ng test payment gateway. Alamin ang higit pa tungkol sa %{development_store_order_testing_docs_link}Ang mga sumusunod ay mga halimbawa ng mga karaniwang uri ng mga dokumentong maaaring kailanganin: *   Katibayan ng pagkakakilanlan (halimbawa: pasaporte, driver's license, o national ID) *   Katibayan ng tirahan (halimbawa: utility bill o bank statement) *   Katibayan ng kita (halimbawa: payslip o tax return)",
+        "risky": "Nagkaroon ng problema sa pagproseso ng iyong bayad. Subukan muli o gumamit ng ibang paraan ng pagbabayad.",
+        "market_manager_blocks_wallet_payments": "Hindi sinusuportahan ang paraan ng pagbabayad sa iyong bansa.",
+        "paypal_over_capture": "Na-update ang kabuuang halaga ng iyong order. Magbayad gamit ang {{walletName}} upang makumpleto ang iyong order.",
+        "processing_error": "Nagkaroon ng problema sa pagproseso ng iyong bayad. Subukan muli o gumamit ng ibang paraan ng pagbabayad.",
+        "call_issuer": "Hindi tinanggap ang iyong card. Gumamit ng ibang paraan ng pagbabayad o makipag-ugnayan sa iyong bangko para sa karagdagang impormasyon.",
+        "transient_error": "Nagkaroon ng problema sa pagproseso ng iyong bayad. Subukang i-refresh ang pahinang ito o suriin ang iyong koneksyon sa internet.",
+        "shop_pay_wallet_not_available": "Hindi magagamit ang Shop Pay para sa checkout na ito.",
+        "invalid_shipping_address": "Hindi naproseso ang iyong bayad dahil hindi namin mahanap ang iyong shipping address. Suriin ang iyong shipping address at subukang muli.",
+        "development_store_order_testing_docs_link": "pagsubok ng mga order sa mga development store",
+        "payment_credential_delegation_error": "Nagkaroon ng problema sa pagproseso ng iyong bayad. Pumili ng bagong paraan ng pagbabayad.",
+        "payment_method_not_applicable": "Hindi naaangkop ang paraan ng pagbabayad na ito. Gumamit ng ibang paraan ng pagbabayad.",
+        "card_declined": "Hindi tinanggap ang iyong card. Subukan muli o gumamit ng ibang paraan ng pagbabayad.",
+        "processing_error_checkout_as_guest": "Nagkaroon ng problema sa pagproseso ng iyong bayad. Subukan muli gamit ang ibang paraan ng pagbabayad o {{checkout_as_guest_link}}Ang mga sumusunod ay mga halimbawa ng mga karaniwang uri ng mga dokumentong maaaring kailanganin: *   Katibayan ng pagkakakilanlan (halimbawa: pasaporte, driver's license, o national ID) *   Katibayan ng tirahan (halimbawa: utility bill o bank statement) *   Katibayan ng kita (halimbawa: payslip o tax return)",
+        "expired_buyer_action": "Nag-time out ang paraan ng pagbabayad. Subukan muli.",
+        "captcha_required_without_payment_information": "Sagutan ang captcha upang makumpleto ang iyong pagbili.",
+        "selected_payment_method": "Nagkaroon ng problema sa pinili mong paraan ng pagbabayad at hindi ka pa siningil. Subukan muli o gumamit ng ibang paraan ng pagbabayad.",
+        "missing_shipping_address": "Hindi naproseso ang iyong bayad dahil walang nakalagay na shipping address. Magdagdag ng shipping address at subukan muli.",
+        "development_store_order_limit_reached": "Naabot mo na ang limitasyon para sa mga order sa development store gamit ang payment processor na ito. Para makapag-place ng isa pang order, kakailanganin mong gumamit ng test payment gateway. Matuto pa tungkol sa %{development_store_order_testing_docs_link}Ang mga sumusunod ay mga halimbawa ng mga karaniwang uri ng mga dokumentong maaaring kailanganin: *   Katibayan ng pagkakakilanlan (halimbawa: pasaporte, driver's license, o national ID) *   Katibayan ng tirahan (halimbawa: utility bill o bank statement) *   Katibayan ng kita (halimbawa: payslip o tax return)",
+        "captcha_required": "Ilagay ang impormasyon sa pagbabayad at sagutan ang captcha upang makumpleto ang iyong pagbili.",
+        "expired_card": "Nag-expire na ang iyong card. Gumamit ng ibang paraan ng pagbabayad.",
+        "payment_method_billing_address": "Nagkaroon ng problema sa billing address ng napili mong paraan ng pagbabayad. Suriin ang address at subukang muli, o gumamit ng ibang paraan ng pagbabayad.",
+        "test_mode_live_card": "Hindi makatatanggap ang tindahang ito ng mga totoong order o totoong bayad.",
+        "payment_above_threshold": "Ang halaga ng bayad ay higit sa limitasyong itinakda para sa rehiyong ito. Bawasan ang kabuuang halaga at subukan muli.",
+        "name_mismatch": "Suriin ang mga detalye ng iyong card. Hindi magkatugma ang pangalan sa iyong card at ang billing address."
+      },
+      "shipping_errors": {
+        "unavailable_selected_address_for_region": "Hindi available ang pagpapadala para sa {{region}}. Pumili ng ibang address para magpatuloy",
+        "unavailable_selected_address": "Hindi available ang pagpapadala para sa napiling address",
+        "shipping_method": "Nagbago ang mga opsyon sa pagpapadala para sa iyong order. Suriin ang iyong pinili.",
+        "unavailable_addresses_only_countries": "Ang iyong order ay maaari lamang ipadala sa {{countriesList}}. Magdagdag ng bagong address upang magpatuloy.",
+        "shipping_method_not_available_generic": {
+          "one": "Hindi maaaring ipadala ang iyong order sa napiling address. Suriin ang iyong address upang matiyak na tama ito at subukang muli, o pumili ng ibang address.",
+          "other": "Hindi maaaring ipadala ang ilang item sa iyong cart sa address na iyong inilagay. Suriin ang iyong address upang matiyak na tama ito at subukang muli, o pumili ng ibang address."
+        },
+        "payment_method_not_supported": "Hindi mo maaaring gamitin ang paraan ng pagbabayad na ito para sa %{country}. Gumamit ng ibang paraan ng pagbabayad para makapagpadala sa bansang ito.",
+        "title": "Hindi available ang pagpapadala",
+        "shipping_method_not_available_due_to_unsatisfied_conditions": "Hindi pasok sa mga kinakailangang presyo o timbang para sa shipping ang mga item sa iyong cart. I-update ang iyong cart at subukan muli.",
+        "empty_state": "Ilagay ang iyong shipping address upang makita ang mga available na paraan ng pagpapadala.",
+        "invalid_selected_address_with_update_link": "Hindi wasto ang napiling shipping address. %{update_address_link} o pumili ng ibang address",
+        "unavailable_address_country": "Hindi available ang pagpapadala sa bansang pinili mo. Gumamit ng ibang address para magpatuloy.",
+        "shipping_method_not_available_updated": {
+          "one": "Hindi ipinapadala sa iyong lokasyon ang item na idinagdag mo. Alisin ito para makapag-checkout, o makipag-ugnayan sa tindahan.",
+          "other": "Ang isa o higit pang item na idinagdag mo ay hindi ipinapadala sa iyong lokasyon. Alisin ang mga ito para makapag-check out, o makipag-ugnayan sa tindahan."
+        },
+        "invalid_selected_address": "Hindi wasto ang napiling shipping address.",
+        "shipping_method_not_available": "Na-update na ang iyong cart at hindi maaaring ipadala sa iyong address ang mga item na idinagdag mo. Alisin ang mga item upang makumpleto ang iyong order."
+      },
+      "alternative_payment_method_banner": {
+        "or_check_out_another_way": "O kaya, tingnan ang ibang paraan.",
+        "hide_more_options": "Itago ang iba pang mga opsyon",
+        "or_pay_with_credit_card": "O magbayad gamit ang credit card",
+        "express_checkout": "Mabilis na pagbabayad",
+        "or": "O",
+        "show_more_options": "Magpakita ng higit pang mga opsyon",
+        "or_pay_another_way": "O magbayad sa ibang paraan"
+      },
+      "processing": {
+        "wait": {
+          "short": "Pinoproseso na ang iyong order.",
+          "medium": {
+            "one": "Pinoproseso na ang iyong order. Ang tinatayang oras ng paghihintay ay %{count} minuto.",
+            "other": "Pinoproseso na ang iyong order. Ang tinatayang oras ng paghihintay ay %{count} mga minuto."
+          },
+          "refresh_this_page": "i-refresh ang pahinang ito",
+          "long": "Makakatanggap ka ng email sa oras na maproseso ang iyong order. Kasalukuyang marami ang bilang ng mga order.",
+          "no_auto_refresh_html": "Kung hindi ka awtomatikong nailipat, %{link}Ang mga sumusunod ay mga halimbawa ng mga karaniwang uri ng mga dokumentong maaaring kailanganin: *   Katibayan ng pagkakakilanlan (halimbawa: pasaporte, driver's license, o national ID) *   Katibayan ng tirahan (halimbawa: utility bill o bank statement) *   Katibayan ng kita (halimbawa: payslip o tax return)"
+        },
+        "remote_shops_payments_processing": "Pagproseso ng mga bayad",
+        "remote_checkout_count": "%{current} ng %{total}",
+        "complete_your_purchase_title": "Kumpletuhin ang iyong pagbili",
+        "complete_your_purchase_title_error": "Itama ang iyong impormasyon sa pagbabayad",
+        "you_will_receive_confirmation": "Marami kaming natatanggap na mga order ngayon. Makatatanggap ka agad ng kumpirmasyon sa pamamagitan ng email o text. Kung hindi mo ito matanggap sa loob ng susunod na oras, ipaalam sa amin.",
+        "you_will_not_be_charged": "Hindi ka pa sisingilin.",
+        "continue_to_payment_gateway_notice_error": "Hindi na-verify ang iyong impormasyon sa pagbabayad.",
+        "redirecting_page_title": "Inililipat…",
+        "continue_to_payment_gateway_button_label_error": "I-update ang impormasyon sa pagbabayad",
+        "page_title": "Pinoproseso ang order",
+        "your_order_has_been_received_title": "Salamat sa iyong order.",
+        "modal_notice": "Nakikipag-ugnayan kami {{paymentMethod}}",
+        "redirecting_title": "Inililipat…",
+        "redirecting_to_bank": "Inililipat sa {{bank}}",
+        "title": "Pinoproseso ang order",
+        "continue_to_payment_gateway_button_label": "Magpatuloy sa pagbabayad",
+        "action_required": "Kinakailangan ang aksyon",
+        "redirecting_notice": "Maghintay habang inililipat ka namin.",
+        "continue_to_payment_gateway_notice": "Magpatuloy sa pagbabayad upang idagdag ang iyong impormasyon sa pagbabayad."
+      },
+      "post_purchase": {
+        "components": {
+          "processing": "Pinoproseso…",
+          "submit": "Isumite",
+          "expand": "Tingnan ang iba pa",
+          "close": "Isara"
+        },
+        "escape_confirmation": "Nabayaran mo na ang iyong order.",
+        "title": "Pagkatapos ng pagbili",
+        "page_title": "Pagkatapos ng pagbili",
+        "escape_action": "Tingnan ang kumpirmasyon ng order ›"
+      },
+      "payment_challenge_modal": {
+        "qr_code": {
+          "instructions": "Complete your purchase using your {{paymentMethod}} code",
+          "wechat_instructions": "I-scan ang QR code na ito gamit ang WeChat app sa iyong telepono upang tapusin ang iyong pagbili.",
+          "wechat_instructions_mobile": "I-scan ang QR code na ito gamit ang WeChat app sa ibang device upang tapusin ang iyong pagbili."
+        },
+        "close": "Isara ang hamon",
+        "copy_text": "Kopya {{paymentMethod}} kodigo",
+        "external": {
+          "instructions": "Kumpirmahin ang pagbabayad sa iyong app upang makumpleto ang pagbiling ito."
+        },
+        "instructions": "Complete your purchase using your {{paymentMethod}} code",
+        "open_app_text": "Buksan {{paymentMethod}} app",
+        "timer_message": "Mayroon ka {{timeLeft}} magbayad",
+        "header": "Magbayad gamit ang {{paymentMethod}}"
+      },
+      "failed_payment": {
+        "payment_not_processed_text": "Hindi ka pa pinapabayad. Bumalik sa iyong cart upang tapusin ang iyong pagbili.",
+        "payment_not_processed_title": "Hindi naiproseso ang iyong bayad.",
+        "return_to_cart_button_label": "Bumalik sa cart",
+        "page_title": "Hindi naiproseso ang bayad",
+        "title": "Hindi naiproseso ang bayad"
+      },
+      "payment_gateway": {
+        "credit_card_label": "Credit card",
+        "bogus_label": "Test Payment Gateway"
       }
     }
   },
@@ -426,6 +556,70 @@
       "company": "Kumpanya",
       "hide_items": "Itago ang mga item",
       "loading": "Inilo-load ang mga detalye ng order"
+    },
+    "active_inspector": {
+      "extension": {
+        "unselect": "Alisin ang pagkakapili sa extension na pinangalanang {{extensionName}}",
+        "move_down": "Ilipat ang extension sa susunod na posisyon",
+        "move_up": "Ilipat ang extension sa nakaraang posisyon",
+        "move_up_tooltip": "Lumipat sa nakaraang posisyon",
+        "remove": "Alisin ang extension",
+        "select": "Piliin ang extension na pinangalanang {{extensionName}}",
+        "move_down_tooltip": "Lumipat sa susunod na posisyon",
+        "remove_tooltip": "Alisin"
+      }
+    },
+    "ui_components": {
+      "addFile": "Magdagdag ng file",
+      "dropzoneInvalidFileType": "Hindi suportado ang uri ng file",
+      "moneyLinesHeaderItem": "Aytem",
+      "removeChip": "Alisin ang item",
+      "reviewItemHeaderValue": "Halaga",
+      "expandSheet": "Palawakin",
+      "qrCode": "QR code",
+      "dropzoneDraggedOver": "I-drop ang file para i-upload",
+      "externalNewWindow": "Nagbubukas ng panlabas na website sa bagong window.",
+      "external": "Nagbubukas ng panlabas na website.",
+      "newWindow": "Bubukas sa bagong window.",
+      "moneyLinesHeaderValue": "Halaga",
+      "productThumbnailQuantityLabel": "Dami",
+      "reviewItemHeaderChangeValue": "Baguhin ang halaga",
+      "loading": "Naglo-load…",
+      "reviewItemHeaderSection": "Seksyon"
+    },
+    "profile_preview_bar": {
+      "viewing": "Ang tinitingnan mo ay:",
+      "badge_launches": "Mga paglulunsad {{date}}",
+      "badge_scheduled": "Naka-iskedyul",
+      "edit": "I-edit",
+      "exit_preview": "Lumabas sa preview",
+      "hide_bar": "Itago ang Bar",
+      "badge_active": "Aktibo",
+      "close_preview": "Isara ang preview",
+      "not_available": "Hindi available ang datos ng profile",
+      "navigate_to_admin": "Pumunta sa admin",
+      "saved_at": "Nai-save {{date}} at {{time}}",
+      "badge_traffic": "{{percentage}} ng trapiko",
+      "badge_draft": "Burador",
+      "badge_paused": "Ipinause",
+      "hide_bar_action": "Itago ang bar",
+      "rollout_label": "Paglulunsad",
+      "previewing": "Tinitingnan mo ang preview ng:",
+      "actions_button": "Mga Aksyon",
+      "customize_button": "I-customize"
+    },
+    "settings": {
+      "log_out_everywhere": {
+        "description": "Kung nawala mo ang iyong device o may mga alalahanin sa seguridad, mag-log out sa lahat ng lugar upang matiyak ang seguridad ng iyong account.",
+        "warning_message": "Maa-sign out ka rin sa device na ito.",
+        "title": "Mag-sign out sa lahat ng device",
+        "button": "Mag-sign out sa lahat ng device"
+      },
+      "loading_accessibility_message": "Inilo-load ang pahina ng mga setting",
+      "title": "Mga Setting"
+    },
+    "editor": {
+      "link_new_tab_confirmation": "Hindi mabubuksan ang link na ito sa loob ng editor. Bubuksan ito sa isang bagong window ({{resolved_to_link}} ). I-click ang OK upang magpatuloy."
     }
   }
 }
