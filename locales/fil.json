@@ -1740,6 +1740,23 @@
             "download_shop_app_label": "Tindahan ng mga Download",
             "has_shop_app_label": "Kunin ang iyong Shop Cash",
             "no_shop_app_label": "{{appDownloadLink}} upang i-claim ang Shop Cash"
+          },
+          "details_modal": {
+            "title": "Paghahatid na sinusuportahan ng",
+            "shop_cash_claim": {
+              "may_be_eligible_not_authorized_label": "Maaari kang maging kwalipikadong makakuha ng Shop Cash dahil nahuli ang pagdating ng order na ito. Mag-sign in upang makita ang mga detalye.",
+              "expired_label": "Hindi kwalipikado ang order na ito para sa claim sa huling paghahatid dahil lumipas na ang 30-araw na garantiya.",
+              "no_longer_guaranteed_label": "Hindi na saklaw ng garantiya sa paghahatid ang mga produktong ito.",
+              "may_be_eligible_label": "Ginagarantiya ng Shop Promise ang mabilis at maaasahang paghahatid. Maaari kang humiling ng Shop Cash kung mahuhuli ang pagdating ng iyong order.",
+              "no_shop_cash_label": "Hindi kwalipikado ang order na ito para sa claim sa huling paghahatid dahil hindi ito binayaran gamit ang Shop Pay.",
+              "claim_shop_cash_title": "I-scan para makuha {{amount}} sa Shop Cash",
+              "claim_shop_cash_description": "Maaari mong gamitin ang iyong Shop Cash sa mga susunod na pagbili sa Shop app.",
+              "redeemed_label": "Na-claim mo na ang Shop Cash dahil nahuli ang dating ng order na ito."
+            },
+            "delivery_by_label": "Paghahatid sa {{date}}",
+            "delivery_guarantee_label": "Garantiya sa paghahatid",
+            "delivery_guaranteed_by_label": "Garantisadong maihahatid sa o bago ang {{date}}",
+            "modal_accessiblity_label": "Mga detalye ng pangako sa paghahatid"
           }
         },
         "buy_with_prime_logo_accessibility_label": "Logo ng Amazon Buy with Prime",
@@ -1770,7 +1787,36 @@
         "on_its_way_label": "Papunta na",
         "track_shipment": "Subaybayan ang shipment",
         "multiple_statuses_label": "Maramihang katayuan ng order",
-        "submitted_description": "Suriin ang mga detalye ng order at pagbabayad."
+        "submitted_description": "Suriin ang mga detalye ng order at pagbabayad.",
+        "delivery_exception_attempted_description": "{{link}} kasama ang {{carrier}} o tingnan kung may notice ng delivery",
+        "delivery_exception_failed_action": "Sumangguni sa {{carrier}}",
+        "pickup_location_label": "Lokasyon ng pagkuha:",
+        "delivery_exception_shop_promise_delivered_late_description": "Sakop ng Shop Promise ang iyong order. Dahil dumating ito nang huli, mag-claim {{amount}} bilang Shop Cash.",
+        "pickup_qr_code_accessibility_label": "QR code na i-scan sa tindahan kapag kukunin mo ang iyong order",
+        "delivery_exception_delivery_failed": "Nabigo ang paghahatid",
+        "delivery_exception_failed_description": "{{link}} o makipag-ugnayan sa amin para sa karagdagang impormasyon",
+        "delivery_exception_on_hold_action": "I-update ang mga detalye ng paghahatid",
+        "delivery_exception_returning_to_sender_description": "{{link}} para sa karagdagang impormasyon",
+        "delivery_exception_returning_to_sender_description_unknown": "Makipag-ugnayan sa carrier para sa karagdagang impormasyon.",
+        "delivery_exception_attempted_title": "Sinubukang ihatid",
+        "delivery_exception_failed_description_unknown": "Makipag-ugnayan sa carrier para sa karagdagang impormasyon.",
+        "pickup_address_map_link_accessibility_label": "Tingnan ang lokasyon ng pickup sa {{address}} sa mapa (magbubukas ng bagong window)",
+        "delivery_exception_returning_to_sender_title": "Hindi naihatid",
+        "delivery_exception_attempted_description_unknown": "{{link}} o tingnan kung may notice ng delivery",
+        "delivery_exception_on_hold_description_unknown": "{{link}} upang mapausad muli ang iyong order",
+        "delivery_exception_returning_to_sender_action": "Makipag-ugnayan {{carrier}}",
+        "delivery_exception_on_hold_description": "{{link}} kasama ang {{carrier}} upang mapausad muli ang iyong order",
+        "arrives": "Dumating {{date}}",
+        "delivery_estimate_early_description": "Mas mabilis kaysa sa karaniwan ang mga delivery sa inyong lugar. Maaaring dumating nang mas maaga ang order na ito.",
+        "delivery_exception_attempted_action": "Mag-iskedyul ng bagong delivery",
+        "delivery_exception_on_hold_title": "Naka-hold",
+        "delivery_estimate_delayed_description": "Mas mabagal kaysa sa karaniwan ang mga delivery sa inyong lugar. Maaaring mahuli ang pagdating ng iyong order.",
+        "delivery_exception_shop_promise_delivered_late_title": "Naantala ang paghahatid",
+        "predicted_by_shop": "Hinulaan ng Shop",
+        "delivery_estimate_backed_by": "Suportado ng",
+        "delivery_estimate_delayed_title": "Naantala",
+        "delivery_exception_action_required": "Kinakailangan ang aksyon",
+        "delivery_exception_failed_title": "Hindi naihatid"
       },
       "order_list": {
         "filter": {
@@ -1785,8 +1831,74 @@
         },
         "view_order": "Tingnan ang order",
         "show_order_actions_accessibility_label": "Ipakita ang mga aksyon para sa order {{name}}",
-        "view_order_accessibility_label": "Tingnan ang order {{orderName}}"
-      }
+        "view_order_accessibility_label": "Tingnan ang order {{orderName}}",
+        "order_number": "Umorder {{name}}",
+        "column_headers": {
+          "order": "Umorder",
+          "actions_accessibility_label": "Mga Aksyon",
+          "products_accessibility_label": "Mga Produkto",
+          "total": "Kabuuan"
+        },
+        "empty_state_redesign_subtitle": "Handa na bang mamili?",
+        "carousel": {
+          "two_products_accessibility_label": "Kasama sa order {{lineItemName1}} dami {{lineItemQuantity1}}, {{lineItemName2}} dami {{lineItemQuantity2}}",
+          "three_products_accessibility_label": "Kasama sa order {{lineItemName1}} dami {{lineItemQuantity1}}, {{lineItemName2}} dami {{lineItemQuantity2}}, {{lineItemName3}} dami {{lineItemQuantity3}}",
+          "one_products_accessibility_label": "Kasama sa order {{lineItemName1}} dami {{lineItemQuantity1}}",
+          "view_order_details": "Tingnan ang mga detalye ng order",
+          "next": "Susunod",
+          "four_products_accessibility_label": "Kasama sa order {{lineItemName1}} dami {{lineItemQuantity1}}, {{lineItemName2}} dami {{lineItemQuantity2}}, {{lineItemName3}} dami {{lineItemQuantity3}}, {{lineItemName4}} dami {{lineItemQuantity4}}",
+          "six_and_more_products_accessibility_label": "Kasama sa order {{lineItemName1}} dami {{lineItemQuantity1}}, {{lineItemName2}} dami {{lineItemQuantity2}}, {{lineItemName3}} dami {{lineItemQuantity3}}, {{lineItemName4}} dami {{lineItemQuantity4}}, {{lineItemName5}} dami {{lineItemQuantity5}}, {{lineItemName6}} dami {{lineItemQuantity6}} at marami pang iba",
+          "six_products_accessibility_label": "Kasama sa order {{lineItemName1}} dami {{lineItemQuantity1}}, {{lineItemName2}} dami {{lineItemQuantity2}}, {{lineItemName3}} dami {{lineItemQuantity3}}, {{lineItemName4}} dami {{lineItemQuantity4}}, {{lineItemName5}} dami {{lineItemQuantity5}}, {{lineItemName6}} dami {{lineItemQuantity6}}",
+          "previous": "Nakaraan",
+          "five_products_accessibility_label": "Kasama sa order {{lineItemName1}} dami {{lineItemQuantity1}}, {{lineItemName2}} dami {{lineItemQuantity2}}, {{lineItemName3}} dami {{lineItemQuantity3}}, {{lineItemName4}} dami {{lineItemQuantity4}}, {{lineItemName5}} dami {{lineItemQuantity5}}"
+        },
+        "order_status_and_message": "{{orderStatus}} Ang mga sumusunod ay mga halimbawa ng mga karaniwang uri ng mga dokumentong maaaring kailanganin: {{message}}",
+        "more_than_four_products_accessibility_label": "Kasama sa order {{lineItemName1}}, {{lineItemName2}}, {{lineItemName3}}, at {{numberOfAdditionalProducts}} karagdagang mga produkto",
+        "orders_title": "Nakumpirma",
+        "empty_state_redesign_welcome": "Maligayang pagdating",
+        "empty_state_subtitle": "Pumunta sa tindahan para mag-order.",
+        "more_than_three_products_accessibility_label": "Kasama sa order {{lineItemName1}}, {{lineItemName2}}, at {{numberOfAdditionalProducts}} karagdagang mga produkto",
+        "estimated_shortform": "Itinatag {{date}}",
+        "pagination": {
+          "nav_accessibility_label": "Mga button sa pag-navigate ng mga order",
+          "next": "Susunod"
+        },
+        "delivered": "Naipadala na {{date}}",
+        "one_images_accessibility_label": "Kasama sa order {{lineItemName1}}",
+        "three_images_accessibility_label": "Kasama sa order {{lineItemName1}}, {{lineItemName2}}, {{lineItemName3}}",
+        "four_images_accessibility_label": "Kasama sa order {{lineItemName1}}, {{lineItemName2}}, {{lineItemName3}}, {{lineItemName4}}",
+        "items": {
+          "one": "{{count}} bagay",
+          "other": "{{count}} mga gamit"
+        },
+        "no_filtered_results_title": "Walang mga resultang na-filter",
+        "empty_state_title": "Wala pang mga order",
+        "plus_more": "+{{numberOfAdditionalProducts}}",
+        "plus_more_products": "+{{numberOfAdditionalProducts}}  mga produkto",
+        "no_filtered_results_description": "Alisin o baguhin ang mga filter upang makita ang iyong mga order",
+        "empty_state_order_source_description": "Mga order lamang na ginawa ng {{email}} Ipapakita rito.",
+        "empty_state_with_location_title": "Walang mga order para sa {{locationName}}",
+        "empty_state_title_for_pending_orders": "Walang nakabinbing order",
+        "no_order_banner": "Para subukan ang iyong extension sa pahina ng status ng order, gumawa ng order.",
+        "two_images_accessibility_label": "Kasama sa order {{lineItemName1}}, {{lineItemName2}}",
+        "order_link": "Tingnan ang order {{name}}",
+        "empty_state_redesign_cta": "Mamili na",
+        "empty_state_redesign_welcome_with_name": "Maligayang pagdating, {{firstName}}",
+        "estimated_delivery": "Inaasahan {{date}}"
+      },
+      "switch_order_type_pending_orders_accessibility_label": "Baguhin ang uri ng order; kasalukuyang tinitingnan ang mga pending na order.",
+      "list_title_with_pending_orders": "Mga Order:",
+      "switch_order_type_confirmed_orders_accessibility_label": "Baguhin ang uri ng order; kasalukuyang tinitingnan ang mga kumpirmadong order.",
+      "list_title_confirmed_orders_accessibility_label": "Mga order: kumpirmado",
+      "list_title_pending_orders_accessibility_label": "Mga order: nakabinbin",
+      "manage": "Pamahalaan",
+      "status_mark_as_delivered": "Markahan bilang naihatid",
+      "manage_accessiblity_label": "Pamahalaan ang order {{orderId}}",
+      "buy_again_accessibility_label": "Umorder muli {{orderId}}",
+      "fulfillment_status_title": "Katayuan ng pagtugon sa order: {{status}}",
+      "buy_again": "Bumili muli",
+      "group_title_label_with_parent": "Para sa: {{groupTitle}}",
+      "group_title_label": "Bahagi ng: {{groupTitle}}"
     },
     "account_menu": {
       "aria_labels": {
