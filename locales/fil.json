@@ -134,7 +134,50 @@
         "vault_for_payment_later": {
           "notice": "Hindi ka sisingilin ngayon. Sa pagpapatuloy ng iyong pagbabayad, sumasang-ayon kang sisingilin ang iyong paraan ng pagbabayad kapag naproseso na ang iyong order.",
           "pay_button_label": "Mag-order"
-        }
+        },
+        "amazon_payments_failed_mfa_challenge": "Hindi magamit ang napiling paraan ng pagbabayad. Pumili ng ibang paraan o makipag-ugnayan sa iyong bangko o sa nag-isyu ng iyong card.",
+        "discount_codes_removed_or_modified_summary": {
+          "one": "%{count} Inalis o binago ang discount code.",
+          "other": "%{count} Inalis o binago ang mga discount code."
+        },
+        "card_number_label": "Numero ng card",
+        "amazon_payments_label": "Amazon Pay",
+        "discount_codes_modified_summary": {
+          "one": "%{count} Binago ang discount code.",
+          "other": "%{count} Binago ang mga discount code."
+        },
+        "bogus_test_checkout": {
+          "title": "Panuto sa pagsubok",
+          "approved_transaction": "{{card_number}} upang gayahin ang isang inaprubahang transaksyon",
+          "intro": "Gamitin ang mga value na ito para subukan ang iyong checkout:"
+        },
+        "network_card_persistence_description": "Ang napiling network ay ise-save kasama ng iyong paraan ng pagbabayad para sa mga susunod na transaksyon.",
+        "amazon_payments_could_not_enqueue_authorize": "Nagkaroon ng problema sa pagproseso ng iyong bayad. Subukan muli o gumamit ng ibang paraan ng pagbabayad.",
+        "credit_card_vaulting_sign_in_banner_info": "Mag-log in o gumawa ng account upang i-save ang iyong credit card para sa mga susunod na pagbili.",
+        "ftd_vault_credit_card_label": "I-save ang credit card na ito sa aking account para sa mas mabilis na checkout.",
+        "card_number_placeholder": "Numero ng card",
+        "discount_codes_removed_summary": {
+          "one": "%{count} Inalis ang discount code.",
+          "other": "%{count} Inalis ang mga discount code."
+        },
+        "discount_show_more_warnings": {
+          "one": "Show %{count} more",
+          "other": "Show %{count} more"
+        },
+        "amazon_payments_login_hint": "Hihilingin sa iyong mag-sign in gamit ang Amazon.",
+        "gift_card_code_label": "Code ng gift card",
+        "amazon_payments_logout": "Mag-sign out sa Amazon Pay",
+        "discount_button_action_label": "Gamitin ang discount code",
+        "credit_card_vaulting_sign_in_banner_title": "I-save ang iyong credit card",
+        "amazon_payments_abandoned_mfa_challenge": "Hindi natapos ang iyong pagbabayad. Subukan ang ibang paraan ng pagbabayad o makipag-ugnayan sa iyong bangko o sa nag-isyu ng iyong card.",
+        "title": "Pagbabayad",
+        "amount_left_to_pay_label": "Takdang petsa ng pagbabayad:",
+        "gift_card_balance_label": "Balanse:",
+        "supported_card_brands_more_label": "at marami pang iba…",
+        "detected_card_brand": "Natukoy na brand ng card: {brand}",
+        "credit_card_vaulting_sign_in_banner_button_label": "Mag-log in",
+        "network_card_payment_options": "Pumili ng card network",
+        "apply_gift_card_button_label": "Mag-apply"
       },
       "order_payment_collection": {
         "order_review_and_pay": "Na-update ang iyong order. Suriin at magbayad upang kumpirmahin ang iyong order.",
@@ -436,7 +479,94 @@
       },
       "online_store_chat": {
         "title": "May mga tanong? Makipag-chat sa amin."
+      },
+      "general": {
+        "page_title": "Pagbabayad",
+        "error_page_title": "Mali",
+        "autocomplete_close": "Isara ang mga mungkahi",
+        "forwarding_indicator": {
+          "external": "Nagbubukas ng panlabas na website.",
+          "external_and_new_window": "Nagbubukas ng panlabas na website sa bagong window.",
+          "new_window": "Bubukas sa bagong window."
+        },
+        "qr_code": "QR code",
+        "pay_now_button_label": "Magbayad na",
+        "all_rights_reserved": "Nakalaan ang lahat ng karapatan %{shop_name}",
+        "errors": {
+          "only_empty_terms_accepted": "Tinatanggap lamang ng patakarang ito ang mga walang-lamang termino.",
+          "session_identifier_not_unique_error": "May naging problema sa iyong order; subukang mag-check out muli.",
+          "merchandise": {
+            "only_value_constraint": "Mga eksaktong halaga lamang ang pinapayagan sa input para sa paninda.",
+            "merchandise_not_applicable": "Hindi maaaring bilhin ang variant ng produkto.",
+            "merchandise_variant_not_found": "Hindi nahanap ang variant ng produkto.",
+            "merchandise_not_found": "Hindi nahanap ang produkto."
+          },
+          "line_item_limit_reached": "Naabot na ang pinakamataas na bilang ng mga line item.",
+          "session_is_already_finished": "Tapos na ang checkout session na ito."
+        },
+        "continue_button_label": "Magpatuloy",
+        "edit_link_label": "I-edit",
+        "print_policies_link_label": "I-print",
+        "choose_billing_address": "Pumili ng billing address",
+        "tooltip_accessibility_label": "Karagdagang impormasyon",
+        "autocomplete_selection": "{{number}} ng {{total}}",
+        "skip_to_content": "Dumiretso sa nilalaman",
+        "close_modal_label": "Isara",
+        "continue_to_shipping_method": "Magpatuloy sa pagpapadala",
+        "continue_to_payment_method": "Magpatuloy sa pagbabayad",
+        "back_to_payment_method": "Bumalik sa pagbabayad",
+        "cart": "Cart",
+        "expand_notice_label": "Tingnan ang iba pa",
+        "continue_to_review": "Suriin ang order",
+        "contact_us_html": "Makipag-ugnayan sa amin para sa karagdagang impormasyon.",
+        "checkout_context": {
+          "step_one": "%{shop_name} - Pagbabayad"
+        },
+        "complete_purchase_button_label": "Kumpletong order",
+        "close_notice_label": "Isara",
+        "back_to_contact_information": "Bumalik sa impormasyon",
+        "choose_payment_method": "Pumili ng paraan ng pagbabayad",
+        "autocomplete_title": "Mga mungkahi",
+        "autocomplete_single_item": "May 1 item na available",
+        "autocomplete_multi_item": "{{number}} mga available na gamit",
+        "breadcrumb": "Breadcrumb",
+        "finalize_order_accessibility_label": "Tapusin ang order",
+        "authenticate_purchase_button_label": "Patotohanan ang pagbabayad",
+        "back_to_shipping_method": "Bumalik sa pagpapadala",
+        "choose_shipping_method": "Pumili ng paraan ng pagpapadala",
+        "back_to_cart": "Bumalik sa cart"
+      },
+      "ucp": {
+        "standard_errors": {
+          "item_unavailable": "Hindi maaaring bilhin ang item"
+        }
+      },
+      "localized_fields": {
+        "additional_information": {
+          "shipping_credential_pe": "DNI/RUC/CE",
+          "shipping_credential_pt": "NIF/IVA",
+          "tax_credential_mx": "RFC",
+          "tax_credential_pe": "DNI/RUC/CE",
+          "shipping_credential_my": "TIN/Numero ng Pagpaparehistro",
+          "shipping_credential_py": "CI/RUC/IVA",
+          "shipping_credential_es": "DNI/NIF",
+          "shipping_credential_tr": "Numero ng Pagkakakilanlan sa Republika ng Turkey/VAT",
+          "tax_credential_pt": "NIF/IVA",
+          "shipping_credential_tw": "Numero ng Pambansang ID/VAT",
+          "tax_credential_py": "CI/RUC/IVA",
+          "tax_credential_my": "TIN/Numero ng Pagpaparehistro",
+          "shipping_credential_mx": "RFC",
+          "tax_credential_use_mx": "Paggamit ng CFDI",
+          "tax_credential_es": "DNI/NIF",
+          "tax_credential_type_mx": "Sistema ng Pagbubuwis",
+          "tax_credential_tr": "Numero ng Pagkakakilanlan sa Republika ng Turkey/VAT"
+        }
       }
+    },
+    "sentence": {
+      "last_word_connector": ", at ",
+      "words_connector": ", ",
+      "two_words_connector": " at "
     }
   },
   "customer_accounts": {
@@ -853,6 +983,84 @@
         "replace_method_with_new_method_description": "Iyong {{currentPaymentMethodName}} buburahin at papalitan ng sa iyo {{newPaymentMethodName}}Ang mga sumusunod ay mga halimbawa ng mga karaniwang uri ng mga dokumentong maaaring kailanganin: *   Katibayan ng pagkakakilanlan (halimbawa: pasaporte, driver's license, o national ID) *   Katibayan ng tirahan (halimbawa: utility bill o bank statement) *   Katibayan ng kita (halimbawa: payslip o tax return)",
         "delete_and_replace_button": "Burahin at palitan"
       }
+    }
+  },
+  "sections": {
+    "cart": {
+      "caption": "Mga item sa cart",
+      "duties_included_taxes_at_checkout_shipping_at_checkout_without_policy": "Kasama na ang mga tungkulin (duties). Ang mga buwis, diskwento, at bayad sa pagpapadala ay kakalkulahin sa checkout.",
+      "update": "Pag-update",
+      "login": {
+        "paragraph_html": "<a class=\"link underlined-link\" href=\"{{ link }}\">Mag-log in</a> para mas mabilis na makapag-checkout.",
+        "title": "May account ka ba?"
+      },
+      "headings": {
+        "price": "Presyo",
+        "total": "Kabuuan",
+        "image": "Larawan ng produkto",
+        "quantity": "Dami",
+        "product": "Produkto"
+      },
+      "estimated_total": "Tinatayang kabuuang halaga",
+      "taxes_included_shipping_at_checkout_with_policy_html": "Kasama na ang mga buwis. Kakalkulahin ang mga diskwento at <a href=\"{{ link }}\">bayad sa pagpapadala</a> sa checkout.",
+      "duties_and_taxes_included_shipping_at_checkout_with_policy_html": "Kasama na ang mga buwis at bayarin sa customs. Kakalkulahin ang mga diskwento at <a href=\"{{ link }}\">bayad sa pagpapadala</a> sa checkout.",
+      "taxes_at_checkout_shipping_at_checkout_with_policy_html": "Ang mga buwis, diskwento, at <a href=\"{{ link }}\">bayad sa pagpapadala</a> ay kakalkulahin sa checkout.",
+      "new_estimated_total": "Bagong tinatayang kabuuang halaga",
+      "cart_error": "Nagkaroon ng error habang ina-update ang iyong cart. Pakisubukan muli.",
+      "cart_quantity_error_html": "Maaari ka lamang magdagdag {{ quantity }} ng item na ito sa iyong cart.",
+      "duties_included_taxes_at_checkout_shipping_at_checkout_with_policy_html": "Kasama na ang mga tungkulin (duties). Ang mga buwis, diskwento, at <a href=\"{{ link }}\">bayad sa pagpapadala</a> ay kakalkulahin sa checkout.",
+      "taxes_at_checkout_shipping_at_checkout_without_policy": "Ang mga buwis, diskwento, at bayad sa pagpapadala ay kakalkulahin sa checkout.",
+      "title": "Ang iyong cart",
+      "remove_title": "Alisin {{ title }}",
+      "note": "Mga espesyal na tagubilin para sa order",
+      "checkout": "Tingnan",
+      "empty": "Walang laman ang iyong cart.",
+      "duties_and_taxes_included_shipping_at_checkout_without_policy": "Kasama na ang mga buwis at bayarin sa customs. Kakalkulahin ang mga diskwento at bayad sa pagpapadala sa checkout.",
+      "taxes_included_shipping_at_checkout_without_policy": "Kasama na ang mga buwis. Kakalkulahin ang mga diskwento at bayad sa pagpapadala sa checkout."
+    },
+    "footer": {
+      "payment": "Mga paraan ng pagbabayad"
+    },
+    "featured_blog": {
+      "onboarding_title": "Post sa blog",
+      "onboarding_content": "Bigyan ang iyong mga customer ng buod ng iyong blog post.",
+      "view_all": "Tingnan ang lahat"
+    },
+    "video": {
+      "load_video": "I-load ang video: {{ description }}"
+    },
+    "header": {
+      "cart_count": {
+        "one": "{{ count }} bagay",
+        "other": "{{ count }} mga gamit"
+      },
+      "announcement": "Paunawa",
+      "menu": "Menu"
+    },
+    "slideshow": {
+      "pause_slideshow": "I-pause ang slideshow",
+      "previous_slideshow": "Nakaraang slide",
+      "load_slide": "I-load ang slide",
+      "next_slideshow": "Susunod na slide",
+      "play_slideshow": "I-play ang slideshow",
+      "carousel": "Carousel"
+    },
+    "collection_list": {
+      "view_all": "Tingnan ang lahat"
+    },
+    "featured_collection": {
+      "view_all_label": "Tingnan ang lahat ng produkto sa {{ collection_name }} koleksyon",
+      "view_all": "Tingnan ang lahat"
+    },
+    "collection_template": {
+      "title": "Koleksyon",
+      "empty": "Walang nahanap na produkto",
+      "use_fewer_filters_html": "Gumamit ng mas kaunting filter o <a class=\"{{ class }}\" href=\"{{ link }}\">alisin ang lahat</a>"
+    },
+    "announcements": {
+      "carousel": "Carousel",
+      "announcement_bar": "Bar ng anunsyo",
+      "announcement": "Paunawa"
     }
   }
 }
