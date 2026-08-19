@@ -1109,7 +1109,63 @@
             "options_instructions_invalid": "Ang mga tinukoy na tagubilin ay hindi tumutugma sa inaasahang pattern.",
             "pickup_points_unavailable": "Hindi muna magagamit ang mga pickup point sa ngayon.",
             "wrong_number_of_delivery_lines": "Dapat tukuyin ang isang delivery line para sa bawat grupo ng mga paninda.",
-            "only_one_delivery_line_allowed": "Dapat ay mayroon lamang isang linya ng paghahatid ang cart."
+            "only_one_delivery_line_allowed": "Dapat ay mayroon lamang isang linya ng paghahatid ang cart.",
+            "must_fulfill_from_same_location_constraint_not_satisfied": "Hindi natutugunan ang mga kinakailangan sa fulfillment dahil hindi maibibigay ang mga item mula sa iisang lokasyon.",
+            "out_of_stock_at_origin_location": "Walang stock sa pinagmulang lokasyon.",
+            "fulfillment_constraints_not_satisfied": "Hindi natugunan ang isa o higit pang mga kondisyon sa pagtupad.",
+            "origin_location_id_not_allowed": "Hindi sinusuportahan ng mga hiniling na paraan ng paghahatid ang origin location ID.",
+            "mixed_destination_countries": "Hindi posible ang delivery dahil ang mga ruta ng paghahatid ay sumasaklaw sa maraming bansa.",
+            "invalid_origin_location_id": "Hindi mahanap ang lokasyong tumutugma sa origin location ID.",
+            "local_pickup_no_delivery_strategy_available": "Walang nakitang available na paraan ng paghahatid para sa local pickup.",
+            "auto_fulfill_required": "Kinakailangan ang auto-fulfill kapag hiniling ang paraan ng paghahatid na RETAIL.",
+            "must_fulfill_from_constraint_not_satisfied": "Hindi natutugunan ang mga limitasyon sa fulfillment dahil hindi maibibigay ang mga item mula sa mga kinakailangang lokasyon.",
+            "invalid_signature": "Hindi wastong lagda para sa diskwento.",
+            "origin_location_id_required": "Kinakailangan ang isang origin location ID kapag hiniling ang paraan ng paghahatid na RETAIL.",
+            "delivery_strategy_conditions_not_satisfied": "May mga available na delivery strategy para sa lokasyong ito, ngunit hindi natutugunan ang mga kondisyon ng mga ito.",
+            "auto_fulfill_not_allowed": "Ang session na ito ay walang pahintulot na baguhin ang nakatakdang proseso ng fulfillment.",
+            "prefetch_shipping_rates_used": "Ang mga pre-fetched na shipping rate ay hindi dapat magbalik ng mga rate."
+          },
+          "discount": {
+            "custom_discount_not_honoured": "Hindi kinilala ang ibinigay na espesyal na diskwento.",
+            "unsupported_expectation": "Ang ibinigay na linya ng diskwento ay naglalaman ng isang inaasahang kondisyon na hindi ma-interpret ng patakaran.",
+            "additional_requested_discount_code_discarded": "{{code}} ay balido ngunit hindi maaaring gamitin. Suriin ang mga tuntunin ng diskwento.",
+            "discounts_not_allowed_for_b2b": "Hindi pinapayagan ang mga diskwento sa mga B2B store.",
+            "discount_code_not_honoured": "%{discount_rejection_message}",
+            "mixed_destination_countries": "Walang mga diskwento dahil ang mga linya ng paghahatid ay sumasaklaw sa maraming bansa.",
+            "additional_requested_discount_discarded": "Ang iyong diskwento ay balido ngunit hindi maaaring gamitin. Suriin ang mga tuntunin ng diskwento.",
+            "allocations_mismatch": "Nagbago ang iyong discount code. Suriin ang iyong cart at subukang muli.",
+            "discount_title_too_long": "Ang pamagat ng diskwento ay hindi maaaring lumampas sa 255 karakter."
+          },
+          "payment": {
+            "positive_amount_expected": "Ang halagang babayaran ay dapat na higit sa 0.",
+            "credit_card_update_failed": "Nabigo ang pag-update ng credit card.",
+            "manual_payments_not_allowed_for_b2b": "Hindi pinapayagan ang mga manual na pagbabayad sa mga B2B store.",
+            "gateway_not_supported": "Hindi sinusuportahan ng payment gateway ang pag-save ng paraan ng pagbabayad.",
+            "invalid_address_type": "Hindi wasto ang ibinigay na uri ng address para sa paraan ng pagbabayad na ito.",
+            "total_amount_mismatch": "Ang kabuuang halagang dapat bayaran ay hindi tumutugma sa kabuuan ng mga halaga ng pagbabayad.",
+            "credit_card_last_name_required": "Hindi maaaring maging nil ang 'apelyido'.",
+            "unexpected_retail_attributions": "Hindi inaasahang naibigay ang mga atribusyon sa retail para sa pagbabayad gamit ang credit card.",
+            "missing_session_id": "Nawawala ang impormasyon ng session ng credit card.",
+            "missing_retail_attributions": "Kinakailangan ang mga retail attribution para sa mga pagbabayad gamit ang credit card na manu-manong ipinasok.",
+            "subscription_terms_not_accepted": "Hindi tinanggap ang mga tuntunin ng subscription.",
+            "invalid_card_source": "Walang pahintulot ang session na ito na gamitin ang card source na ito."
+          },
+          "tax": {
+            "unresolvable_tax_terms": "Hindi mapagkakasunduan ang mga iminungkahing tuntunin sa kasalukuyang konteksto ng negosasyon.",
+            "delivery_tax_exemption_not_supported": "Hindi kasalukuyang sinusuportahan ang mga tax exemption para sa mga delivery line.",
+            "proposed_allocations_required": "Nawawala ang field na 'proposed allocations'.",
+            "merchandise_discount_terms_must_be_defined": "Dapat tukuyin ang mga tuntunin sa diskwento ng paninda.",
+            "value_required": "Nawawala ang field na 'value'.",
+            "mixed_tax_inclusivity_not_supported": "Ang mga linya ng buwis ay dapat na pawang may kasamang buwis o pawang hindi kasama ang buwis.",
+            "merchandise_terms_must_be_defined": "Dapat bigyang-kahulugan ang mga tuntunin sa paninda.",
+            "delivery_terms_must_be_defined": "Dapat tukuyin ang mga tuntunin sa paghahatid.",
+            "line_splits_not_supported": "Ang field na 'merchandise lines' ay dapat hatiin sa paraang ang bawat isa ay magkakaroon ng iisang line component sa proposal ng nagbebenta.",
+            "tax_exemption_not_supported": "Hindi sinusuportahan ang mga eksempsyon sa buwis para sa kasalukuyang sesyon ng negosasyon.",
+            "delivery_discount_terms_must_be_defined": "Dapat tukuyin ang mga tuntunin para sa diskwento sa paghahatid.",
+            "allocated_required": "Nawawala ang field na 'allocated'.",
+            "new_tax_must_be_accepted": "Nagbago ang mga buwis na kaugnay ng iyong order. Suriin ito at subukang muli.",
+            "delivery_price_is_abstract": "Ang kaugnay na presyo ng paghahatid ay abstrakto.",
+            "tax_inclusivity_mismatch": "Makipag-negosyong muli gamit ang tiyak na halaga ng totalTaxAndDutyAmount o totalAmountIncludedInTarget."
           }
         },
         "continue_button_label": "Magpatuloy",
@@ -3788,7 +3844,8 @@
       "email": "Email",
       "title": "Gumawa ng account",
       "first_name": "Pangalan",
-      "password": "Password"
+      "password": "Password",
+      "submit": "Lumikha"
     },
     "login_page": {
       "password": "Password",
@@ -3801,6 +3858,13 @@
       "email": "Email",
       "create_account": "Gumawa ng account",
       "alternate_provider_separator": "o"
+    },
+    "reset_password": {
+      "password_confirm": "Kumpirmahin ang password",
+      "subtext": "Maglagay ng bagong password",
+      "submit": "I-reset ang password",
+      "title": "I-reset ang password ng account",
+      "password": "Password"
     }
   },
   "pagefly": {
@@ -3819,7 +3883,33 @@
         "other": "{{ count }} mga komento",
         "one": "{{ count }} komento"
       },
-      "success": "Matagumpay na na-post ang iyong komento! Salamat!"
+      "success": "Matagumpay na na-post ang iyong komento! Salamat!",
+      "title": "Mag-iwan ng komento",
+      "email": "Email",
+      "name": "Pangalan",
+      "message": "Mensahe",
+      "moderated": "Pakitandaan na kailangang aprubahan ang mga komento bago ang mga ito mai-publish.",
+      "post": "Mag-post ng komento"
+    },
+    "products": {
+      "product": {
+        "view_details": "Tingnan ang mga detalye",
+        "unavailable": "Hindi magagamit",
+        "add_to_cart": "Idagdag sa cart",
+        "back_to_collection": "Back to {{ title }}",
+        "on_sale": "Sale",
+        "regular_price": "Karaniwang presyo",
+        "quantity": "Dami",
+        "sold_out": "Ubos na"
+      }
+    },
+    "article": {
+      "tags": "Mga Tag:",
+      "posted_in": "Ipinost sa",
+      "all_topics": "Lahat ng paksa",
+      "by_author": "ni {{ author }}",
+      "back_to_blog": "Back to {{ title }}",
+      "read_more": "Magbasa pa"
     }
   },
   "templates": {
@@ -3902,6 +3992,38 @@
     "cart": {
       "view_empty_cart": "Tingnan ang cart",
       "view": "Tingnan ang cart ({{ count }} )"
+    }
+  },
+  "gift_cards": {
+    "issued": {
+      "copy_code_success": "Matagumpay na nakopya ang code",
+      "title": "Narito ang sa iyo {{ value }} balanse ng gift card para sa {{ shop }}!",
+      "expiration_date": "Magtatapos ang bisa {{ expires_on }}",
+      "how_to_use_gift_card": "Gamitin ang gift card code online o ang QR code sa tindahan.",
+      "subtext": "Ang iyong gift card",
+      "add_to_apple_wallet": "Idagdag sa Apple Wallet",
+      "gift_card_code": "Code ng gift card",
+      "expired": "Nag-expire na",
+      "copy_code": "Kopyahin ang gift card code",
+      "shop_link": "Bisitahin ang online store",
+      "qr_image_alt": "QR code — i-scan para gamitin ang gift card"
+    }
+  },
+  "recipient": {
+    "form": {
+      "email": "Email",
+      "name_label": "Pangalan ng tatanggap (opsyonal)",
+      "collapsed": "Naka-collapse na form para sa tatanggap ng gift card",
+      "message": "Mensahe",
+      "send_on_label": "Ipadala sa (opsyonal)",
+      "message_label": "Mensahe (opsyonal)",
+      "email_label_optional_for_no_js_behavior": "Email ng tatanggap (opsyonal)",
+      "send_on": "Taon-Buwan-Araw",
+      "checkbox": "Gusto kong ipadala ito bilang regalo.",
+      "name": "Pangalan",
+      "email_label": "Email ng tatanggap",
+      "max_characters": "{{ max_chars }} pinakamataas na bilang ng mga karakter",
+      "expanded": "Pinalawak na form para sa tatanggap ng gift card"
     }
   }
 }
