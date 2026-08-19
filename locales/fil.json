@@ -1127,7 +1127,22 @@
         "optional_block_label": "Harangan (opsyonal)",
         "state_label": "Estado",
         "prefecture_label": "Prepektura",
-        "prefecture_placeholder": "Prepektura"
+        "prefecture_placeholder": "Prepektura",
+        "pincode_placeholder": "PIN code",
+        "different_shipping_address_text": "Gumamit ng one-time address para sa order na ito",
+        "ship_to_company": "Ipadala sa {{companyName}}",
+        "optional_postcode_label": "Postcode (opsyonal)",
+        "different_shipping_address_label": "Ipadala sa ibang address",
+        "pincode_label": "PIN code",
+        "company_contact_info": "{{companyName}} · {{contact}}",
+        "postal_code_placeholder": "Postal code",
+        "change_company_location_link_label": "Baguhin ang lokasyon ng kumpanya",
+        "change_location_link_label": "Baguhin ang lokasyon",
+        "postcode_label": "Postal code",
+        "civic_number_warning": "Maglagay ng numero ng bahay kung mayroon ka nito.",
+        "optional_pincode_label": "PIN code (opsyonal)",
+        "postcode_placeholder": "Postal code",
+        "optional_last_name_label": "Apelyido (opsyonal)"
       },
       "notice_banner": {
         "subscription_changed": "Nagbago ang isa sa iyong mga subscription.",
@@ -1179,6 +1194,45 @@
         "return_to_cart_link_text": "Bumalik sa cart",
         "all_violations_email_link": "email",
         "editable_shipping_address_violations_message_footer": "Upang permanenteng i-update ang address para sa lokasyong ito, {{emailLink}}Ang mga sumusunod ay mga halimbawa ng mga karaniwang uri ng mga dokumentong maaaring kailanganin: *   Katibayan ng pagkakakilanlan (halimbawa: pasaporte, driver's license, o national ID) *   Katibayan ng tirahan (halimbawa: utility bill o bank statement) *   Katibayan ng kita (halimbawa: payslip o tax return)"
+      },
+      "delivery_options": {
+        "pickup": "Pagkuha",
+        "pick_up_next_day": "Handa nang kunin sa susunod na araw",
+        "digital_product": "Produktong digital",
+        "pick_up_in_one_hour": "Karaniwang handa sa loob ng isang oras",
+        "pickup_point_method_definition": "Ipadala sa pickup point",
+        "company_location_no_address_banner": "Ang mga order na ipapadala sa mga lokasyong walang address ay isusumite para sa pagsusuri.",
+        "pick_up": "Pulutin",
+        "pick_up_in_twenty_four_hours": "Karaniwang handa sa loob ng 24 oras",
+        "pick_up_immediately": "Handa na para sa pickup ngayon",
+        "retail_method_definition": "Pagpapadala ng mga produktong retail",
+        "shipping_address": "Address na pagpapadalhan",
+        "pickup_store": "Pagkuha sa tindahan",
+        "pickup_point": "Pickup point",
+        "pickup_point_map_title": "Mapa ng pickup point",
+        "pick_up_in_five_or_more_days": "Karaniwang handa sa loob ng mahigit 5 araw",
+        "pick_up_in_zero_to_two_hours": "Handa nang kunin sa loob ng 2 oras",
+        "free_total_label": "Libre",
+        "pick_up_locations": "Mga lokasyon ng pagkuha",
+        "pick_up_in_two_to_four_hours": "Handa nang kunin sa loob ng 4 oras",
+        "subscription_pickup_information": "Ito ang magiging lugar ng pagkuha para sa lahat ng susunod na order ng iyong subscription.",
+        "pick_up_in_four_hours": "Karaniwang handa sa loob ng 4 oras",
+        "pick_up_in_two_hours": "Karaniwang handa sa loob ng 2 oras",
+        "none_method_definition": "Walang shipping",
+        "ship_to_address": "Address na pagpapadalhan",
+        "pick_up_from_store": "Kunin sa tindahan",
+        "pick_up_in_two_to_four_days": "Karaniwang handa sa loob ng 2-4 na araw",
+        "ship": "Barko"
+      },
+      "customer_account": {
+        "not_user_label": "Hindi %{first_name}?",
+        "sign_in_link_label": "Mag-sign in",
+        "sign_out_link_label": "Mag-sign out",
+        "have_an_account_label": "May account ka ba?",
+        "invalid_address": "Hindi wasto ang napiling address. %{update_address_link} o pumili ng ibang address.",
+        "incomplete_address": "Hindi kumpleto ang napiling address. %{update_address_link} o pumili ng ibang address.",
+        "save_my_information_label": "I-save ang impormasyong ito para sa susunod",
+        "rollup_label": "Account"
       }
     },
     "sentence": {
@@ -1809,6 +1863,78 @@
         "replace_method_with_new_method_description": "Iyong {{currentPaymentMethodName}} buburahin at papalitan ng sa iyo {{newPaymentMethodName}}Ang mga sumusunod ay mga halimbawa ng mga karaniwang uri ng mga dokumentong maaaring kailanganin: *   Katibayan ng pagkakakilanlan (halimbawa: pasaporte, driver's license, o national ID) *   Katibayan ng tirahan (halimbawa: utility bill o bank statement) *   Katibayan ng kita (halimbawa: payslip o tax return)",
         "delete_and_replace_button": "Burahin at palitan"
       }
+    },
+    "sign_in": {
+      "step_one": {
+        "consent_agreement": "Sa pagpapatuloy, sumasang-ayon ka sa %{terms}",
+        "page_title": "Mag-sign in - %{shop_name}",
+        "input_field_label": "Email",
+        "or": "o",
+        "last_used_pill": "Huling ginamit",
+        "subheading": "Ilagay ang iyong email at padadalhan ka namin ng verification code.",
+        "heading": "Mag-sign in",
+        "subheading_with_sign_in_options": "Mag-sign in o gumawa ng account",
+        "button": "Magpatuloy"
+      },
+      "step_two": {
+        "change_email": "Pagbabago",
+        "button": "Isumite",
+        "page_title": "Ilagay ang code - %{shop_name}",
+        "subheading": "Ipinadala sa %{email}",
+        "restart_link": "Mag-sign in gamit ang ibang email",
+        "input_field_label": "6-digit na code",
+        "heading": "Ilagay ang code"
+      },
+      "brand_logo_alt_text": "%{shop_name} Logo",
+      "error": {
+        "invalid": {
+          "invalid_email": "Maglagay ng wastong email address",
+          "invalid_code": "Ilagay ang tamang 6-digit na code"
+        }
+      },
+      "processing": "Pinoproseso…"
+    },
+    "subscriptions": {
+      "update_payment_instrument": {
+        "loading": "Naglo-load ng mga paraan ng pagbabayad",
+        "cancel": "Kanselahin",
+        "use_new_payment_method": "+ Gumamit ng bagong paraan ng pagbabayad",
+        "current_method": "Kasalukuyan",
+        "title": "Palitan ang paraan ng pagbabayad",
+        "success": "Na-update na ang paraan ng pagbabayad",
+        "select_new_payment_method": "Pumili ng bagong paraan ng pagbabayad",
+        "save": "I-save",
+        "no_payment_methods_available": "Walang available na paraan ng pagbabayad"
+      }
+    },
+    "intents": {
+      "subscription_replace_payment_method": {
+        "success": "Na-update na ang paraan ng pagbabayad",
+        "title": "Palitan ang paraan ng pagbabayad",
+        "invalid_subscription_contract": "Hindi mahanap ang subscription",
+        "edit_current_payment_method": "Baguhin ang kasalukuyang paraan ng pagbabayad",
+        "loading": "Inilo-load ang modal para sa pagpapalit ng paraan ng pagbabayad",
+        "expiry_date": "Petsa ng Pagkapaso {{expiryDate}}",
+        "replace_with": "Palitan ng",
+        "card_number": "Numero ng card",
+        "add_new_payment_method": "Magdagdag ng bago",
+        "close_button": "Isara",
+        "edit_selected_payment_method": "I-edit ang napiling paraan ng pagbabayad",
+        "save_button": "I-save"
+      }
+    },
+    "knowledge_base": {
+      "self_serve_returns": {
+        "enabled": "Maaaring mag-request at mamahala ng mga return ang mga customer nang sila mismo.",
+        "disabled": "Kailangang makipag-ugnayan ng mga customer sa merchant upang humiling ng pagbabalik ng produkto."
+      }
+    },
+    "shop_ads": {
+      "subtitle": "Mabibili sa loob ng limitadong panahon",
+      "title": "Iba pang mga produktong maaaring magustuhan mo",
+      "previous_button": "Nakaraan",
+      "next_button": "Susunod",
+      "button": "Mag-explore sa Shop"
     }
   },
   "sections": {
@@ -1886,7 +2012,9 @@
     "announcements": {
       "carousel": "Carousel",
       "announcement_bar": "Bar ng anunsyo",
-      "announcement": "Paunawa"
+      "announcement": "Paunawa",
+      "previous_announcement": "Nakaraang anunsyo",
+      "next_announcement": "Susunod na anunsyo"
     }
   },
   "products": {
