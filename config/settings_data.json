@@ -200,7 +200,7 @@
           "redirect_widget": true,
           "popup_widget": true,
           "api_widget": true,
-          "load_templates": "",
+          "load_templates": "index",
           "block_in_preview": false,
           "custom_css": "// css code"
         }
