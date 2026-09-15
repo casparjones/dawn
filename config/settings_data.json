@@ -194,12 +194,12 @@
         "type": "shopify://apps/geolizr/blocks/geolizr/aef0b9c9-52b7-4101-afe7-e3014ff137aa",
         "disabled": false,
         "settings": {
-          "currency_widget": true,
+          "currency_widget": false,
           "currency_widget_flag_style": "new_flags",
-          "notification_widget": true,
+          "notification_widget": false,
           "redirect_widget": true,
-          "popup_widget": true,
-          "api_widget": true,
+          "popup_widget": false,
+          "api_widget": false,
           "load_templates": "",
           "block_in_preview": false,
           "custom_css": "// css code"
