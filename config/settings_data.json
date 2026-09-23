@@ -204,6 +204,11 @@
           "block_in_preview": false,
           "custom_css": "// css code"
         }
+      },
+      "7241659924025436803": {
+        "type": "shopify://apps/mp-size-chart/blocks/app-embed/305100b1-3599-492a-a54d-54f196ff1f94",
+        "disabled": false,
+        "settings": {}
       }
     },
     "color_schemes": {
