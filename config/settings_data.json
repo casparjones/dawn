@@ -205,7 +205,7 @@
           "redirect_widget": true,
           "popup_widget": true,
           "api_widget": true,
-          "geo_provider": "worker",
+          "geo_provider": "proxy",
           "load_templates": "",
           "block_in_preview": false,
           "custom_css": "// css code"
